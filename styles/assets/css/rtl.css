@@ -1,0 +1,831 @@
+body {
+    text-align: right;
+}
+.form-control {
+    text-align: right;
+}
+.sp-after {
+    margin-left: 45px;
+    margin-right: unset;
+}
+.sp-after::after {
+    left: -45px;
+    right: auto;
+}
+.sp-before {
+    margin-right: 45px;
+    margin-left: unset;
+}
+.sp-before::before {
+    right: -45px;
+    left: auto;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+.navbar-area .main-nav .navbar .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .dropdown-menu {
+    right: 100%;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a::before {
+    left: unset;
+    right: 0;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    right: 100%;
+    top: 20px;
+    left: auto;
+}
+  
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    right: 100%;
+    left: auto;
+}
+.main-nav nav .side-nav .side-item .search-box-2 .search-btn {
+    left: 5px;
+    right: auto;
+}
+.main-nav nav .side-nav {
+    padding: 0;
+}
+.main-nav nav .side-nav .side-item {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.sticky-nav .menu-icon {
+    left: 0;
+    right: auto;
+}
+.default-btn::before {
+    left: unset;
+    right: 0;
+}
+.default-btn::after {
+    right: unset;
+    left: 0;
+}
+.default-btn:hover::before {
+    right: auto;
+    left: 0;
+}
+.default-btn:hover::after {
+    left: auto;
+    right: 0;
+}
+.search-overlay .search-form form button {
+    left: 5px;
+    right: auto;
+}
+.search-overlay .search-form form .input-search {
+    padding: 3px 25px 0 0px;
+}
+.banner-shape-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+}
+.banner-img {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    right: auto;
+}
+.banner-img img {
+    max-width: 750px;
+}
+.banner-content .banner-btn .call-btn {
+    margin-right: 20px;
+    margin-left: unset;
+}
+.brand-slider {
+    margin-right: auto;
+}
+.banner-content .title {
+    padding-left: 20px;
+    padding-right: unset;
+}
+.banner-content .title i {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.banner-content-two .play-on-btn {
+    margin-right: 20px;
+    margin-left: unset;
+}
+.banner-img-3 {
+    right: auto;
+    left: 0;
+}
+.banner-img-3 img {
+    max-width: 720px;
+}
+.banner-content-three .play-two-btn {
+    margin-right: 20px;
+    margin-left: unset;
+}
+.inner-banner .inner-title .inner-list li {
+    margin-left: 10px;
+    margin-right: unset;
+}
+.about-content {
+    margin-right: 70px;
+    margin-left: unset;
+}
+.about-content .about-btn .play-btn {
+    margin-right: 20px;
+    margin-left: unset;
+    padding-right: 70px;
+    padding-left: unset;
+}
+.about-content .about-btn .play-btn i {
+    left: auto;
+    right: 0;
+}
+.about-btn-two .contact-us-btn {
+    margin-right: 20px;
+    margin-left: unset;
+}
+.work-item-list ul li h3 span {
+    margin-right: 15px;
+    margin-right: unset;
+}
+.work-item-list ul li p {
+    margin-bottom: 0px;
+    margin-right: 0;
+}
+.work-item-list-2 {
+    text-align: left;
+}
+.work-item-list-2 ul li p {
+    margin-bottom: 0px;
+    margin-left: 0;
+}
+.single-counter i {
+    left: 0;
+    margin-left: 15px;
+    margin-right: unset;
+}
+.counter-card::before {
+    left: -275px;
+    right: auto;
+}
+.mission-content {
+    margin-right: auto;
+    margin-left: unset;
+}
+.seo-img {
+    margin-right: 50px;
+    margin-left: unset;
+}
+.seo-form .seo-form-area .default-btn {
+    margin-right: 20px;
+    margin-left: unset;
+}
+.seo-form .seo-form-area .seo-form-option {
+    padding: 7px 40px 7px 0;
+}
+.seo-form .seo-form-area .form-group .form-control.form-border {
+    border-left: 1px solid #ebebeb;
+    border-right: none;
+}
+.seo-form .seo-form-area .form-group i {
+    right: 0;
+    left: auto;
+}
+.seo-form .seo-form-area .form-group .form-control {
+    padding: 10px 25px 10px 20px;
+}
+.testimonial-list {
+    margin-right: auto;
+    margin-left: unset;
+}
+.testimonial-slider {
+    margin-right: 70px;
+    margin-left: unset;
+}
+.testimonial-item .content img {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.testimonial-slider .owl-nav {
+    left: 100px;
+    right: unset;
+}
+.testimonial-slider-area {
+    padding: 170px 195px 154px 70px;
+}
+.testimonial-item-2 .content img {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.testimonial-slider-area .owl-nav .owl-prev {
+    left: 35% !important;
+}
+.testimonial-slider-area .owl-nav .owl-next {
+    right: 50% !important;
+}
+.work-item-list-2 {
+    margin-left: 30px;
+}
+.work-item-list-2 ul li h3 span {
+    margin-left: 15px;
+    margin-right: unset;
+}
+.inner-banner .inner-title .inner-list li i {
+    top: 4px;
+    margin-left: 5px;
+    margin-right: unset;
+}
+
+.service-widget-list ul li {
+    margin-left: 30px;
+    margin-right: unset;
+}
+.service-widget-list ul li:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.courses-card {
+    padding: 30px 30px 30px 100px;
+}
+.courses-card .instructor img {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.courses-card .images {
+    left: 0;
+    right: auto;
+    border-radius: 0;
+    border-bottom-right-radius: 70px;
+}
+.courses-card .images .rate {
+    left: 130px;
+    right: auto;
+}
+.courses-card ul li {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.single-counter .content {
+    text-align: right;
+}
+.history-list ul li {
+    margin-right: unset;
+    margin-left: 100px;
+}
+.history-list ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.blog-btn {
+    float: left;
+}
+.blog-card .content ul li {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.blog-card .content ul li i {
+    margin-left: 5px;
+    margin-right: unset;
+}
+.blog-widget .search-widget .search-form button {
+    right: auto;
+    left: 0;
+}
+.blog-widget .widget-popular-post .item .thumb {
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+.blog-widget .widget_categories ul li a span {
+    float: left;
+}
+.blog-article .article-content .content-text::before {
+    right: 0;
+    left: auto;
+}
+.blog-article .article-content .content-text p {
+    margin-right: 75px;
+    margin-left: unset;
+}
+.blog-article .article-content .blockquote span {
+    margin-right: 30px;
+    margin-left: unset;
+}
+.blog-article .article-content .blockquote span::before {
+    right: 10px;
+    left: auto;
+}
+.blog-article .blog-article-share .social-icon {
+    float: left;
+}
+.blog-article .article-author ul li {
+    padding-right: 150px;
+    padding-left: unset;
+}
+.blog-article .article-author .author-social-link {
+    left: 40px;
+    right: auto;
+}
+.blog-article .article-author ul li img {
+    right: 0;
+    left: auto;
+}
+.blog-article .comments-wrap ul li {
+    padding-right: 150px;
+    padding-left: unset;
+}
+.blog-article .comments-wrap ul li img {
+    right: 30px;
+    left: auto;
+}
+.blog-article .comments-wrap ul li a {
+    left: 30px;
+    right: auto;
+}
+.contact-form .form-group i {
+    right: 15px;
+    left: auto;
+}
+.contact-form .form-group .form-control {
+    padding: 10px 40px 10px 20px;
+}
+.newsletter-form .default-btn {
+    left: 0;
+    right: unset;
+}
+.footer-social-icon .social-link {
+    float: left;
+}
+.footer-widget .footer-list-two li i {
+    margin-left: 5px;
+    margin-right: unset;
+    right: 0;
+    left: auto;
+}
+.footer-widget .footer-list-two li {
+    padding-right: 23px;
+    padding-left: unset;
+}
+.side-nav-responsive .dot-menu {
+    right: auto;
+    left: 60px;
+}
+#toTop {
+    left: 20px;
+    right: auto;
+}
+.contact-widget ul li .content {
+    margin-right: 95px;
+    margin-left: unset;
+}
+.contact-widget ul li i {
+    left: auto;
+    right: 30px;
+}
+.service-widget-two ul li .content {
+    margin-right: 95px;
+    margin-left: unset;
+}
+.service-widget-two ul li i {
+    left: auto;
+    right: 30px;
+}
+.faq-accordion .accordion {
+    padding-left: unset;
+    padding-right: 0;
+}
+.faq-accordion .accordion .accordion-title i {
+    left: 15px;
+    right: auto;
+}
+.faq-accordion .accordion .accordion-title {
+    padding: 20px 20px 17px 60px;
+}
+.copy-right-list ul li {
+    margin-left: 15px;
+    margin-right: unset;
+}
+.copy-right-list ul li::before {
+    left: -10px;
+    right: auto;
+}
+.account-wrap ul li span {
+    float: left;
+}
+.course-details-area .course-rating img {
+    right: 0;
+    left: auto;
+}
+.course-details-area .course-rating {
+    padding-right: 60px;
+    padding-left: unset;
+}
+.course-details-area .course-list {
+    padding-right: 10px;
+    padding-left: unset;
+}
+.course-details-area .course-list li i {
+    right: 0;
+    left: auto;
+}
+.course-details-area .course-list li {
+    padding-right: 35px;
+    padding-left: unset;
+}
+.course-details-area .curriculum-content ul li .meet-time {
+    right: auto;
+    left: 30px;
+}
+.course-details-area .curriculum-content ul li .meet-time .min {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.course-details-area .review-content .rating-bar-content .single-bar .percent {
+    left: 0;
+    right: auto;
+}
+.course-details-area .review-content .course-reviews-content .course-reviews li {
+    padding-right: 100px;
+    padding-left: unset;
+}
+.course-details-area .review-content .course-reviews-content .course-reviews li img {
+    left: auto;
+    right: 0;
+}
+.testimonial-widget-item .content img {
+    margin-left: 20px;
+    margin-right: unset;
+}
+.user-all-form .contact-form .forget {
+    float: left;
+}
+.coming-soon-area .coming-soon-content .newsletter-form button {
+    left: 0;
+    right: auto;
+}
+.coming-soon-area .coming-soon-content .newsletter-form .input-newsletter {
+    padding-right: 15px;
+    padding-left: unset;
+    text-align: right;
+}
+.about-widget-content .about-video .video-btn span {
+    margin-left: unset;
+    margin-right: 15px;
+}
+.service-list-content ul li i {
+    margin-right: unset;
+    margin-left: 10px;
+}
+.about-widget-content .about-widget-list ul li i {
+    right: 0;
+    left: auto;
+}
+.about-widget-content .about-widget-list ul li p {
+    margin-right: 45px;
+    margin-left: unset;
+}
+.about-widget-content .about-widget-list ul li span {
+    margin-left: unset;
+    margin-right: 45px;
+}
+.copy-right-list {
+    float: left;
+}
+.copy-right-text.text-left {
+    text-align: right !important;
+}
+.switch-box {
+    left: 120px !important;
+    right: auto !important;
+}
+  
+.buy-now-btn {
+    left: 20px;
+    right: auto;
+}
+/*
+Responsive CSS
+============================*/
+
+@media only screen and (max-width: 767px) {
+    .side-nav-responsive .dot-menu {
+        right: auto;
+        left: 60px;
+    }
+    .mean-container a.meanmenu-reveal {
+        left: 15px !important;
+        right: auto !important;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 90%;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right;
+    }
+    .mobile-nav .logo {
+        right: 15px !important;
+        left: auto !important;
+    }
+    .banner-img {
+        position: inherit;
+        left: auto;
+        top: 0;
+        right: auto;
+    }
+    .banner-img img {
+        max-width: 100%;
+    }
+    .banner-content .banner-btn .get-btn {
+        margin: 5px;
+    }
+    .banner-content .banner-btn .call-btn {
+       margin: 5px;
+    }
+    .banner-img-3 img {
+        max-width: 100%;
+    }
+    .about-content {
+        margin-right: 0;
+        margin-left: unset;
+    }
+    .seo-form .seo-form-area .seo-form-option {
+        padding: 7px 15px 7px 15px;
+    }
+    .seo-form .seo-form-area .form-group .form-control.form-border {
+        border-right: none;
+        border-left: none;
+    }
+    .seo-img {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .service-widget-list ul li {
+        margin-left: 0;
+        margin-right: unset;
+    }
+    .blog-btn {
+        float: none;
+    }
+    .mission-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-social-icon .social-link {
+        float: none;
+    }
+    .testimonial-slider {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .work-item-list ul li p {
+        margin-right: 0;
+    }
+    .testimonial-slider .owl-nav {
+        left: 0;
+        right: 0;
+    }
+    .courses-card {
+        padding: 30px 20px;
+    }
+    .courses-card .images {
+        left: 0;
+        right: auto;
+        border-radius: 0;
+    }
+
+    .work-item-list-2 {
+        margin-left: 0;
+    }
+   
+    .testimonial-slider-area {
+        padding: 40px 30px;
+    }
+    .testimonial-slider-area .owl-nav .owl-prev {
+        left: 40% !important;
+    }
+    .testimonial-slider-area .owl-nav .owl-next {
+        right: 38% !important;
+    }
+    .testimonial-list {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .history-list ul li {
+        margin: 0 15px  10px;
+    }
+
+    .blog-article .article-author ul li {
+        padding-right: 0;
+        padding-left: unset;
+    }
+    .blog-article .article-author .author-social-link {
+        left: 0px;
+        right: auto;
+    }
+    .blog-article .comments-wrap .title {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .blog-article .comments-wrap ul li {
+        padding-right: 30px;
+        padding-left: unset;
+    }
+    .blog-article .comments-wrap ul li a {
+        left: 0;
+        right: auto;
+    }
+    .course-details-area .course-rating {
+        padding-right: 0;
+        padding-left: unset;
+    }
+    .course-details-area .review-content .course-reviews-content .course-reviews li {
+        padding-right: 0;
+        padding-left: unset;
+    }
+    .course-details-area .review-content .course-reviews-content .course-reviews li img {
+        position: inherit;
+        left: auto;
+        right: 0;
+    }
+    .user-all-form .contact-form .forget {
+        float: none;
+    }
+    .copy-right-text.text-left {
+        text-align: center !important;
+    }
+    .copy-right-list {
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .testimonial-slider .owl-nav {
+        left: 100px;
+        right: auto;
+    }
+    .testimonial-slider-area .owl-nav .owl-prev {
+        left: 40% !important;
+    }
+    .testimonial-slider-area .owl-nav .owl-next {
+        right: 45% !important;
+    }
+    .course-details-area .course-details-content .course-rating {
+        padding-left: 0;
+        text-align: none;
+        padding-right: 60px;
+    }
+    .user-all-form .contact-form .forget {
+        float: left;
+    }
+    
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+  
+    .mean-container a.meanmenu-reveal {
+        left: 15px !important;
+        right: auto !important;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 90%;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right;
+    }
+    .mobile-nav .logo {
+        right: 15px !important;
+        left: auto !important;
+    }
+    .banner-img {
+        position: inherit;
+        left: auto;
+        top: 0;
+        right: auto;
+    }
+    .banner-img img {
+        max-width: 100%;
+    }
+    .blog-btn {
+        float: none;
+    }
+    .work-item-list ul li p {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .mission-content {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .testimonial-slider {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .testimonial-slider-area {
+        padding: 40px 70px;
+        margin-bottom: 50px;
+    }
+    .testimonial-list {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .copy-right-list {
+        float: none;
+    }
+    .work-item-list-2 {
+        margin-left: 0;
+        max-width: 520px;
+    }
+    .service-widget-list ul li {
+        margin-left: 0;
+        margin-right: unset;
+    }
+
+}
+@media (min-width: 768px) {
+    .offset-md-3 {
+        margin-left: 25%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .banner-shape-right img {
+        max-width: 370px;
+    }
+    .banner-img {
+        top: 200px;
+    }
+    .banner-img img {
+        max-width: 535px;
+    }
+    .banner-img-3 img {
+        max-width: 540px;
+    }
+    .seo-form .seo-form-area .default-btn {
+        margin-right: 0;
+        margin-left: unset;
+    }
+    .testimonial-slider {
+        margin-right: 0;
+        margin-left: unset;
+    }
+    .testimonial-slider-area {
+        padding: 40px 30px;
+        margin-right: 30px;
+        margin-left: unset;
+    }
+    .testimonial-content .testimonial-shape2 {
+        top: 38%;
+    }
+    .banner-bottom-shape .shape-one {
+        bottom: 105px;
+    }
+    .about-content-two .about-list {
+        padding: 10px 10px 10px 15px;
+    }
+    .mission-content .mission-list {
+        padding: 10px 10px 10px 8px;
+    }
+
+}
+
+@media only screen and (min-width : 1800px) {
+    .banner-img img {
+        max-width: 1200px;
+    }
+    .serve-content {
+        margin-right: auto;
+        margin-left: unset;
+    }
+    .banner-img-3 img {
+        max-width: 980px;
+    }
+    .testimonial-slider-area {
+        padding: 230px 200px 87px 87px;
+    }
+}
