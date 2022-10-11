@@ -1,5 +1,6 @@
 import React from "react";
 import SearchOverlay from "./SearchOverlay";
+import { NavbarData } from "../../../StaticData/NavbarData";
 
 export default function Navbar() {
   return (
@@ -37,183 +38,31 @@ export default function Navbar() {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav m-auto">
-                  <li className="nav-item">
-                    <a href="/" className="nav-link active">
-                      Home
-                      {/* <i className="bx bx-plus"></i> */}
-                    </a>
-                    {/* <ul className="dropdown-menu">
+                  {NavbarData.map((data, i) => (
+                    <>
                       <li className="nav-item">
-                        <a href="index.html" className="nav-link active">
-                          SEO Agency
+                        <a href={data.url} className="nav-link">
+                          {data.name} {data.icon && data.icon}
                         </a>
+                        {data.child.length > 0 ? (
+                          <ul className="dropdown-menu">
+                            {data.child.length > 0
+                              ? data.child.map((d) => (
+                                  <li className="nav-item">
+                                    <a href={data.url} className="nav-link">
+                                      {d.name}
+                                    </a>
+                                  </li>
+                                ))
+                              : ""}
+                          </ul>
+                        ) : (
+                          ""
+                        )}
                       </li>
-                      <li className="nav-item">
-                        <a href="index-2.html" className="nav-link">
-                          {" "}
-                          AI Startup{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="index-3.html" className="nav-link">
-                          Machine Learning
-                        </a>
-                      </li>
-                    </ul> */}
-                  </li>
-                  <li className="nav-item">
-                    <a href="about" className="nav-link">
-                      {" "}
-                      About{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Pages
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="team.html" className="nav-link">
-                          {" "}
-                          Team{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="pricing.html" className="nav-link">
-                          Pricing Table
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="faq.html" className="nav-link">
-                          {" "}
-                          FAQ{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="#" className="nav-link">
-                          Courses
-                          <i className="bx bx-plus"></i>
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <a href="courses.html" className="nav-link">
-                              {" "}
-                              Courses{" "}
-                            </a>
-                          </li>
-                          <li className="nav-item">
-                            <a href="course-details.html" className="nav-link">
-                              Course Details
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="nav-item">
-                        <a href="testimonials.html" className="nav-link">
-                          Testimonials
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="#" className="nav-link">
-                          Case study
-                          <i className="bx bx-plus"></i>
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <a href="case-study.html" className="nav-link">
-                              Case study
-                            </a>
-                          </li>
-                          <li className="nav-item">
-                            <a href="case-details.html" className="nav-link">
-                              Case study Details
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="nav-item">
-                        <a href="404.html" className="nav-link">
-                          {" "}
-                          404 page{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="sign-in.html" className="nav-link">
-                          {" "}
-                          Sign In{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="sign-up.html" className="nav-link">
-                          {" "}
-                          Sign Up{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="terms-condition.html" className="nav-link">
-                          Terms & Conditions
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="privacy-policy.html" className="nav-link">
-                          Privacy Policy
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="coming-soon.html" className="nav-link">
-                          Coming Soon
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Services
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="services.html" className="nav-link">
-                          {" "}
-                          Services{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="service-details.html" className="nav-link">
-                          Service Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <a href="#" className="nav-link">
-                      Blog
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <a href="blog.html" className="nav-link">
-                          {" "}
-                          Blog{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="blog-details.html" className="nav-link">
-                          Blog Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a href="contact.html" className="nav-link">
-                      {" "}
-                      Contact{" "}
-                    </a>
-                  </li>
+                    </>
+                  ))}
                 </ul>
-
                 <div className="side-nav d-in-line align-items-center">
                   <div className="side-item">
                     <div className="search-box">
@@ -231,7 +80,7 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <a href="#" className="nav-menu-btn">
+                      <a href="contact" className="nav-menu-btn">
                         Contact us
                         <i className="bx bx-plus"></i>
                       </a>
@@ -272,7 +121,7 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <a href="#" className="nav-menu-btn border-radius">
+                      <a href="contact" className="nav-menu-btn border-radius">
                         Contact us
                         <i className="bx bx-plus"></i>
                       </a>
