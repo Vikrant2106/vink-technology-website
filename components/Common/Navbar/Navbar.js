@@ -49,7 +49,7 @@ export default function Navbar() {
                             {data.child.length > 0
                               ? data.child.map((d) => (
                                   <li className="nav-item">
-                                    <a href={data.url} className="nav-link">
+                                    <a href={d.url} className="nav-link">
                                       {d.name}
                                     </a>
                                   </li>

@@ -1,0 +1,9 @@
+.slide_button {
+  position: absolute;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+}

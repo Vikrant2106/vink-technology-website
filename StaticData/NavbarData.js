@@ -22,7 +22,7 @@ export const NavbarData = [
       {
         name: "Service",
         icon: "",
-        url: "service",
+        url: "Services",
         child: [],
         isActive: "active",
       },
