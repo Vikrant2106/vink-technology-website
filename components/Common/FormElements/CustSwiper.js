@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Scrollbar } from "swiper";
 import styles from "./SendQuery.module.css";
 
 // Import Swiper styles
@@ -25,9 +25,13 @@ export default function CustSwiper({ slides, slug }) {
           type: "bullets",
         }}
         speed={1200}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Scrollbar]}
         className="mySwiper"
         slidesPerView={1}
+        scrollbar={{
+          draggable: false,
+        }}
+        allowTouchMove={false}
         navigation={{
           nextEl: ".next",
           prevEl: ".prev",
