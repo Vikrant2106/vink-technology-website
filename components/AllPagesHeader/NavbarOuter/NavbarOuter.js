@@ -1,6 +1,9 @@
 import React from "react";
 import SearchOverlay from "../../Common/Navbar/SearchOverlay";
 import { NavbarData } from "../../../StaticData/NavbarData";
+import Image from "next/image";
+import Logo1 from "../../../public/img/logo/logo1.png";
+import Logo2 from "../../../public/img/logo/logo2.png";
 
 export default function NavbarOuter() {
   return (
@@ -11,8 +14,8 @@ export default function NavbarOuter() {
         {/* <!-- Menu For Mobile Device --> */}
         <div class="mobile-nav">
           <a href="/" class="logo">
-            <img src="/img/logo/logo1.png" class="logo-one" alt="Logo" />
-            <img src="/img/logo/logo2.png" class="logo-two" alt="Logo" />
+            <Image src={Logo1} class="logo-one" alt="Logo" />
+            <Image src={Logo2} class="logo-two" alt="Logo" />
           </a>
         </div>
 
@@ -21,7 +24,7 @@ export default function NavbarOuter() {
           <div class="container-fluid">
             <nav class="container-max-2 navbar navbar-expand-md navbar-light ">
               <a class="navbar-brand" href="/">
-                <img src="/img/logo/logo2.png" alt="Logo" />
+                <Image src={Logo2} alt="Logo" />
               </a>
 
               <div

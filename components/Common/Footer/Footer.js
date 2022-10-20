@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import Logo1 from "../../../public/img/logo/logo1.png";
+import Logo2 from "../../../public/img/logo/logo1.png";
 
 export default function Footer() {
   return (
@@ -9,16 +12,8 @@ export default function Footer() {
             <div class="row align-items-center">
               <div class="col-lg-6 col-sm-6">
                 <div class="footer-img">
-                  <img
-                    src="/img/logo/logo1.png"
-                    class="footer-img1"
-                    alt="Images"
-                  />
-                  <img
-                    src="/img/logo/logo2.png"
-                    class="footer-img2"
-                    alt="Images"
-                  />
+                  <Image src={Logo1} class="footer-img1" alt="Images" />
+                  {/* <Image src={Logo2} class="footer-img2" alt="Images" /> */}
                 </div>
               </div>
 

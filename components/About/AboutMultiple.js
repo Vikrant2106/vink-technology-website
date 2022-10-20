@@ -1,4 +1,51 @@
 import React from "react";
+import Image from "next/image";
+import BannerShape1 from "../../public/img/inner-banner/banner-shape1.png";
+import BannerShape2 from "../../public/img/inner-banner/banner-shape2.png";
+import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
+// import BannerShape4 from "../../public/img/inner-banner/banner-shape4.png";
+import AboutImage1 from "../../public/img/about/about-img4.png";
+import CounterShape from "../../public/img/counter/counter-shape.png";
+import WorkImage from "../../public/img/work-img.png";
+import HistoryImg from "../../public/img/history-img.png";
+import TeamImg7 from "../../public/img/team/team-img7.jpg";
+import TeamImg8 from "../../public/img/team/team-img8.jpg";
+import TeamImg9 from "../../public/img/team/team-img9.jpg";
+import TeamImg10 from "../../public/img/team/team-img10.jpg";
+import TeamImg11 from "../../public/img/team/team-img11.jpg";
+import TeamImg12 from "../../public/img/team/team-img12.jpg";
+
+import Shape13 from "../../public/img/shape/shape13.png";
+import Shape12 from "../../public/img/shape/shape12.png";
+import Shape11 from "../../public/img/shape/shape11.png";
+import Shape10 from "../../public/img/shape/shape10.png";
+import Shape9 from "../../public/img/shape/shape9.png";
+import Shape14 from "../../public/img/shape/shape14.png";
+import Shape7 from "../../public/img/shape/shape7.png";
+
+import Testimonial1 from "../../public/img/testimonial/testimonial1.png";
+import Testimonial2 from "../../public/img/testimonial/testimonial2.png";
+import Testimonial3 from "../../public/img/testimonial/testimonial3.png";
+import Testimonial4 from "../../public/img/testimonial/testimonial4.png";
+import Testimonial5 from "../../public/img/testimonial/testimonial5.png";
+
+import TestimonialImg1 from "../../public/img/testimonial/testimonial-img1.png";
+import TestimonialImg2 from "../../public/img/testimonial/testimonial-img2.png";
+import TestimonialImg3 from "../../public/img/testimonial/testimonial-img3.png";
+
+import BrandLogo1 from "../../public/img/brand/brand-logo1.png";
+import BrandLogo2 from "../../public/img/brand/brand-logo2.png";
+import BrandLogo3 from "../../public/img/brand/brand-logo3.png";
+import BrandLogo4 from "../../public/img/brand/brand-logo4.png";
+import BrandLogo5 from "../../public/img/brand/brand-logo5.png";
+import BrandLogo6 from "../../public/img/brand/brand-logo6.png";
+
+import BrandStyle1 from "../../public/img/brand/brand-style1.png";
+import BrandStyle2 from "../../public/img/brand/brand-style2.png";
+import BrandStyle3 from "../../public/img/brand/brand-style3.png";
+import BrandStyle4 from "../../public/img/brand/brand-style4.png";
+import BrandStyle5 from "../../public/img/brand/brand-style5.png";
+import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 
 export default function AboutMultiple() {
   return (
@@ -22,19 +69,19 @@ export default function AboutMultiple() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots">
-            <img src="img/shape/dots-shape.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
         </div>
       </div>
@@ -46,7 +93,7 @@ export default function AboutMultiple() {
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="about-widget-img">
-                <img src="img/about/about-img4.png" alt="" />
+                <Image src={AboutImage1} alt="" />
               </div>
             </div>
 
@@ -148,7 +195,7 @@ export default function AboutMultiple() {
         </div>
 
         <div class="counter-shape-top">
-          <img src="img/counter/counter-shape.png" alt="Images" />
+          <Image src={CounterShape} alt="Images" />
         </div>
       </div>
       {/* <!-- Counter Area End --> */}
@@ -297,7 +344,7 @@ export default function AboutMultiple() {
 
             <div class="col-lg-4">
               <div class="work-img-2">
-                <img src="img/work-img.png" alt="Images" />
+                <Image src={WorkImage} alt="Images" />
               </div>
             </div>
 
@@ -412,7 +459,7 @@ export default function AboutMultiple() {
 
             <div class="col-lg-6">
               <div class="history-img">
-                <img src="img/history-img.png" alt="Images" />
+                <Image src={HistoryImg} alt="Images" />
               </div>
             </div>
           </div>
@@ -433,7 +480,7 @@ export default function AboutMultiple() {
           <div class="team-slider-two owl-carousel owl-theme">
             <div class="team-card active">
               <a href="#">
-                <img src="img/team/team-img7.jpg" alt="Images" />
+                <Image src={TeamImg7} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -467,7 +514,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated">
               <a href="#">
-                <img src="img/team/team-img8.jpg" alt="Images" />
+                <Image src={TeamImg8} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -501,7 +548,7 @@ export default function AboutMultiple() {
 
             <div class="team-card">
               <a href="#">
-                <img src="img/team/team-img9.jpg" alt="Images" />
+                <Image src={TeamImg9} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -535,7 +582,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated-2">
               <a href="#">
-                <img src="img/team/team-img10.jpg" alt="Images" />
+                <Image src={TeamImg10} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -569,7 +616,7 @@ export default function AboutMultiple() {
 
             <div class="team-card active">
               <a href="#">
-                <img src="img/team/team-img11.jpg" alt="Images" />
+                <Image src={TeamImg11} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -603,7 +650,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated-2">
               <a href="#">
-                <img src="img/team/team-img12.jpg" alt="Images" />
+                <Image src={TeamImg12} alt="Images" />
               </a>
               <div class="content">
                 <h3>
@@ -639,31 +686,31 @@ export default function AboutMultiple() {
 
         <div class="team-two-shape">
           <div class="shape1">
-            <img src="img/shape/shape13.png" alt="Images" />
+            <Image src={Shape13} alt="Images" />
           </div>
 
           <div class="shape2">
-            <img src="img/shape/shape11.png" alt="Images" />
+            <Image src={Shape11} alt="Images" />
           </div>
 
           <div class="shape3">
-            <img src="img/shape/shape10.png" alt="Images" />
+            <Image src={Shape10} alt="Images" />
           </div>
 
           <div class="shape4">
-            <img src="img/shape/shape9.png" alt="Images" />
+            <Image src={Shape9} alt="Images" />
           </div>
 
           <div class="shape5">
-            <img src="img/shape/shape12.png" alt="Images" />
+            <Image src={Shape12} alt="Images" />
           </div>
 
           <div class="shape6">
-            <img src="img/shape/shape7.png" alt="Images" />
+            <Image src={Shape7} alt="Images" />
           </div>
 
           <div class="shape7">
-            <img src="img/shape/shape14.png" alt="Images" />
+            <Image src={Shape14} alt="Images" />
           </div>
         </div>
       </div>
@@ -676,19 +723,19 @@ export default function AboutMultiple() {
             <div class="col-lg-6">
               <div class="testimonial-list">
                 <div class="list-img-1">
-                  <img src="img/testimonial/testimonial1.png" alt="Images" />
+                  <Image src={Testimonial1} alt="Images" />
                 </div>
                 <div class="list-img-2">
-                  <img src="img/testimonial/testimonial2.png" alt="Images" />
+                  <Image src={Testimonial2} alt="Images" />
                 </div>
                 <div class="list-img-3">
-                  <img src="img/testimonial/testimonial3.png" alt="Images" />
+                  <Image src={Testimonial3} alt="Images" />
                 </div>
                 <div class="list-img-4">
-                  <img src="img/testimonial/testimonial4.png" alt="Images" />
+                  <Image src={Testimonial4} alt="Images" />
                 </div>
                 <div class="list-img-5">
-                  <img src="img/testimonial/testimonial5.png" alt="Images" />
+                  <Image src={Testimonial5} alt="Images" />
                 </div>
               </div>
             </div>
@@ -704,10 +751,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <img
-                      src="img/testimonial/testimonial-img1.png"
-                      alt="Images"
-                    />
+                    <Image src={TestimonialImg1} alt="Images" />
                     <div class="content-title">
                       <h3>David McLean</h3>
                       <span>CEO & Manager</span>
@@ -721,10 +765,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <img
-                      src="img/testimonial/testimonial-img2.png"
-                      alt="Images"
-                    />
+                    <Image src={TestimonialImg2} alt="Images" />
                     <div class="content-title">
                       <h3>Jermin Jekson</h3>
                       <span>Marketing Manager</span>
@@ -738,10 +779,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <img
-                      src="img/testimonial/testimonial-img3.png"
-                      alt="Images"
-                    />
+                    <Image src={TestimonialImg3} alt="Images" />
                     <div class="content-title">
                       <h3>Julfiker Jeain</h3>
                       <span>CEO At Ostino</span>
@@ -761,76 +799,28 @@ export default function AboutMultiple() {
           <div class="container-max">
             <div class="brand-logo-slider owl-carousel owl-theme">
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo1.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style1.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo1} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle1} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo2.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style2.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo2} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle2} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo3.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style3.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo3} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle3} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo4.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style4.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo4} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle4} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo5.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style5.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo5} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle5} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo6.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style6.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo6} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle6} class="brand-logo2" alt="Images" />
               </div>
             </div>
           </div>

@@ -1,4 +1,13 @@
 import React from "react";
+import Image from "next/image";
+
+import HomeOneShape from "../../public/img/home1/home-one-shape.png";
+import HomeOneShape1 from "../../public/img/home1/home-one-shape1.png";
+import HomeOneShape2 from "../../public/img/home1/home-one-shape2.png";
+import HomeOneShape3 from "../../public/img/home1/home-one-shape3.png";
+import HomeOneShape4 from "../../public/img/home1/home-one-shape4.png";
+import HomeOneShape5 from "../../public/img/home1/home-one-shape5.png";
+import Home1 from "../../public/img/home1/home1.png";
 
 export default function Hero() {
   return (
@@ -38,26 +47,26 @@ export default function Hero() {
           </div>
         </div>
         <div class="banner-shape-right">
-          <img src="img/home1/home-one-shape.png" alt="Images" />
+          <Image src={HomeOneShape} alt="Images" />
         </div>
         <div class="banner-img">
-          <img src="img/home1/home1.png" alt="Images" />
+          <Image src={Home1} alt="Images" />
         </div>
         <div class="banner-shape">
           <div class="shape1">
-            <img src="img/home1/home-one-shape3.png" alt="Images" />
+            <Image src={HomeOneShape3} alt="Images" />
           </div>
           <div class="shape2">
-            <img src="img/home1/home-one-shape1.png" alt="Images" />
+            <Image src={HomeOneShape1} alt="Images" />
           </div>
           <div class="shape3">
-            <img src="img/home1/home-one-shape2.png" alt="Images" />
+            <Image src={HomeOneShape2} alt="Images" />
           </div>
           <div class="shape4">
-            <img src="img/home1/home-one-shape4.png" alt="Images" />
+            <Image src={HomeOneShape4} alt="Images" />
           </div>
           <div class="shape5">
-            <img src="img/home1/home-one-shape5.png" alt="Images" />
+            <Image src={HomeOneShape5} alt="Images" />
           </div>
         </div>
       </div>

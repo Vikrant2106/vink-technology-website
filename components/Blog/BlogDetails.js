@@ -1,5 +1,23 @@
 import React from "react";
 
+import Image from "next/image";
+
+import BannerShape1 from "../../public/img/inner-banner/banner-shape1.png";
+import BannerShape2 from "../../public/img/inner-banner/banner-shape2.png";
+import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
+import DotShape from "../../public/img/shape/dots-shape.png";
+
+import BlogDetailsImg from "../../public/img/blog/blog-details.jpg";
+import BlogDetailsImg2 from "../../public/img/blog/blog-details2.jpg";
+import BlogDetailsImg3 from "../../public/img/blog/blog-details3.jpg";
+
+import BlogProfile1 from "../../public/img/blog/blog-profile1.png";
+import BlogShape from "../../public/img/blog/blog-shape.png";
+import BlogShape2 from "../../public/img/blog/blog-shape2.png";
+import BlogDots from "../../public/img/blog/blog-dots.png";
+
+import BlogProfile2 from "../../public/img/blog/blog-profile2.png";
+
 export default function BlogDetails() {
   return (
     <>
@@ -26,19 +44,19 @@ export default function BlogDetails() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="/img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="/img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="/img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <img src="/img/shape/dots-shape.png" alt="Images" />
+            <Image src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -51,7 +69,7 @@ export default function BlogDetails() {
             <div class="col-lg-8">
               <div class="blog-article">
                 <div class="blog-article-img">
-                  <img src="/img/blog/blog-details.jpg" alt="Images" />
+                  <Image src={BlogDetailsImg} alt="Images" />
                 </div>
                 <div class="article-content">
                   <h2>SEO Best Practice for Web Traffic</h2>
@@ -101,10 +119,10 @@ export default function BlogDetails() {
                   <div class="content-img">
                     <div class="row">
                       <div class="col-6">
-                        <img src="/img/blog/blog-details2.jpg" alt="Images" />
+                        <Image src={BlogDetailsImg2} alt="Images" />
                       </div>
                       <div class="col-6">
-                        <img src="/img/blog/blog-details3.jpg" alt="Images" />
+                        <Image src={BlogDetailsImg3} alt="Images" />
                       </div>
                     </div>
                   </div>
@@ -174,7 +192,7 @@ export default function BlogDetails() {
                 <div class="article-author">
                   <ul>
                     <li>
-                      <img src="/img/blog/blog-profile1.png" alt="Image" />
+                      <Image src={BlogProfile1} alt="Image" />
                       <h3>Devit Killer</h3>
                       <span>Author, Writer</span>
                       <p>
@@ -215,13 +233,13 @@ export default function BlogDetails() {
                   </div>
                   <div class="author-shape">
                     <div class="shape1">
-                      <img src="/img/blog/blog-shape.png" alt="Images" />
+                      <Image src={BlogShape} alt="Images" />
                     </div>
                     <div class="shape2">
-                      <img src="/img/blog/blog-shape2.png" alt="Images" />
+                      <Image src={BlogShape2} alt="Images" />
                     </div>
                     <div class="shape-dots">
-                      <img src="/img/blog/blog-dots.png" alt="Images" />
+                      <Image src={BlogDots} alt="Images" />
                     </div>
                   </div>
                 </div>
@@ -261,7 +279,7 @@ export default function BlogDetails() {
                   <h3 class="title">Comments (02)</h3>
                   <ul>
                     <li>
-                      <img src="/img/blog/blog-profile1.png" alt="Image" />
+                      <Image src={BlogProfile1} alt="Image" />
                       <h3>Devit Killer</h3>
                       <span>Jnauary 12, 2020</span>
                       <p>
@@ -273,7 +291,7 @@ export default function BlogDetails() {
                     </li>
 
                     <li class="ml-30">
-                      <img src="/img/blog/blog-profile2.png" alt="Image" />
+                      <Image src={BlogProfile2} alt="Image" />
                       <h3>Morah Jein </h3>
                       <span>July 12, 2020</span>
                       <p>
@@ -508,89 +526,6 @@ export default function BlogDetails() {
         </div>
       </div>
       {/* <!-- Blog Details Area End --> */}
-
-      {/* <!-- Brand Logo Area --> */}
-      <div class="brand-logo-area">
-        <div class="container-fluid">
-          <div class="container-max">
-            <div class="brand-logo-slider owl-carousel owl-theme">
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo1.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style1.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo2.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style2.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo3.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style3.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo4.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style4.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo5.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style5.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo6.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style6.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Brand Logo Area End --> */}
     </>
   );
 }

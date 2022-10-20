@@ -1,5 +1,11 @@
 import React from "react";
 
+import Image from "next/image";
+
+import ProgressIcon1 from "../../public/img/progress-icon/progress-icon1.png";
+import ProgressIcon2 from "../../public/img/progress-icon/progress-icon2.png";
+import ProgressIcon3 from "../../public/img/progress-icon/progress-icon3.png";
+
 export default function Progress() {
   return (
     <>
@@ -14,7 +20,7 @@ export default function Progress() {
           <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
               <div class="progress-card pr-bg-color-1">
-                <img src="img/progress-icon/progress-icon1.png" alt="Images" />
+                <Image src={ProgressIcon1} alt="Images" />
                 <h3>28,998</h3>
                 <p>RANKING KEYWORDS</p>
               </div>
@@ -22,7 +28,7 @@ export default function Progress() {
 
             <div class="col-lg-4 col-sm-6">
               <div class="progress-card pr-bg-color-2">
-                <img src="img/progress-icon/progress-icon2.png" alt="Images" />
+                <Image src={ProgressIcon2} alt="Images" />
                 <h3>600%</h3>
                 <p>ANNUAL ORGANIC TRAFFIC</p>
               </div>
@@ -30,7 +36,7 @@ export default function Progress() {
 
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div class="progress-card pr-bg-color-3">
-                <img src="img/progress-icon/progress-icon3.png" alt="Images" />
+                <Image src={ProgressIcon3} alt="Images" />
                 <h3>50,234</h3>
                 <p>RANKING KEYWORDS</p>
               </div>

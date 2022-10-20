@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+
+import Shape4 from "../../public/img/shape/shape4.png";
+import Shape5 from "../../public/img/shape/shape5.png";
+import Shape6 from "../../public/img/shape/shape6.png";
+import Shape7 from "../../public/img/shape/shape7.png";
+import Shape8 from "../../public/img/shape/shape8.png";
 
 export default function PricingPlan() {
   return (
@@ -121,22 +128,22 @@ export default function PricingPlan() {
 
         <div class="pricing-shape">
           <div class="shape1">
-            <img src="img/shape/shape7.png" alt="Images" />
+            <Image src={Shape7} alt="Images" />
           </div>
           <div class="shape2">
-            <img src="img/shape/shape4.png" alt="Images" />
+            <Image src={Shape4} alt="Images" />
           </div>
           <div class="shape3">
-            <img src="img/shape/shape5.png" alt="Images" />
+            <Image src={Shape5} alt="Images" />
           </div>
           <div class="shape4">
-            <img src="img/shape/shape6.png" alt="Images" />
+            <Image src={Shape6} alt="Images" />
           </div>
           <div class="shape5">
-            <img src="img/shape/shape4.png" alt="Images" />
+            <Image src={Shape4} alt="Images" />
           </div>
           <div class="shape6">
-            <img src="img/shape/shape8.png" alt="Images" />
+            <Image src={Shape8} alt="Images" />
           </div>
         </div>
       </div>

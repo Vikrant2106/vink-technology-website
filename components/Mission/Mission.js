@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+
+import Shape13 from "../../public/img/shape/shape13.png";
+import Shape9 from "../../public/img/shape/shape9.png";
+import Shape11 from "../../public/img/shape/shape11.png";
+import Shape12 from "../../public/img/shape/shape12.png";
+import MissionImg from "../../public/img/mission-img.png";
 
 export default function Mission() {
   return (
@@ -74,23 +81,23 @@ export default function Mission() {
 
             <div class="col-lg-6">
               <div class="mission-img">
-                <img src="/img/mission-img.png" alt="Images" />
+                <Image src={MissionImg} alt="Images" />
               </div>
             </div>
           </div>
         </div>
         <div class="mission-shape">
           <div class="shape1">
-            <img src="/img/shape/shape13.png" alt="Images" />
+            <Image src={Shape13} alt="Images" />
           </div>
           <div class="shape2">
-            <img src="/img/shape/shape11.png" alt="Images" />
+            <Image src={Shape11} alt="Images" />
           </div>
           <div class="shape3">
-            <img src="/img/shape/shape12.png" alt="Images" />
+            <Image src={Shape12} alt="Images" />
           </div>
           <div class="shape4">
-            <img src="/img/shape/shape9.png" alt="Images" />
+            <Image src={Shape9} alt="Images" />
           </div>
         </div>
       </div>

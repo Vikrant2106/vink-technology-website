@@ -1,5 +1,9 @@
 import React from "react";
 
+import Image from "next/image";
+
+import ContactImg from "../../public/img/contact-img.png";
+
 export default function Slide1({ slug }) {
   return (
     <>
@@ -7,7 +11,7 @@ export default function Slide1({ slug }) {
         <div className="row">
           <div className="col-md-6">
             <div class="contact-img">
-              <img src="/img/contact-img.png" alt="Images" />
+              <Image src={ContactImg} alt="Images" />
             </div>
           </div>
 

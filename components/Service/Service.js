@@ -1,4 +1,18 @@
 import React from "react";
+import Image from "next/image";
+
+import ServiceIcon1 from "../../public/img/service/service-icon1.png";
+import ServiceIcon2 from "../../public/img/service/service-icon2.png";
+import ServiceIcon3 from "../../public/img/service/service-icon3.png";
+import ServiceIcon4 from "../../public/img/service/service-icon4.png";
+import ServiceIcon5 from "../../public/img/service/service-icon5.png";
+import ServiceIcon6 from "../../public/img/service/service-icon6.png";
+import ServiceShape from "../../public/img/service/service-shape.png";
+import Dots from "../../public/img/service/dots.png";
+
+import Shape4 from "../../public/img/shape/shape4.png";
+import Shape2 from "../../public/img/shape/shape2.png";
+import ServiceBg from "../../public/img/service/service-bg.png";
 
 export default function Service() {
   return (
@@ -16,7 +30,7 @@ export default function Service() {
               <div class="service-card-into">
                 <div class="service-card">
                   <a href="service-details.html">
-                    <img src="img/service/service-icon1.png" alt="Images" />
+                    <Image src={ServiceIcon1} alt="Images" />
                   </a>
                   <h3>
                     <a href="service-details.html">App Development</a>
@@ -27,11 +41,11 @@ export default function Service() {
                     quaerat voluptatem
                   </p>
                   <div class="service-card-shape">
-                    <img src="img/service/service-shape.png" alt="Images" />
+                    <Image src={ServiceShape} alt="Images" />
                   </div>
                 </div>
                 <div class="service-dots">
-                  <img src="img/service/dots.png" alt="Images" />
+                  <Image src={Dots} alt="Images" />
                 </div>
               </div>
             </div>
@@ -39,7 +53,7 @@ export default function Service() {
             <div class="col-lg-4">
               <div class="service-card">
                 <a href="service-details.html">
-                  <img src="img/service/service-icon2.png" alt="Images" />
+                  <Image src={ServiceIcon2} alt="Images" />
                 </a>
                 <h3>
                   <a href="service-details.html">Social Media Marketing</a>
@@ -50,13 +64,13 @@ export default function Service() {
                   voluptatem
                 </p>
                 <div class="service-card-shape">
-                  <img src="img/service/service-shape.png" alt="Images" />
+                  <Image src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <a href="service-details.html">
-                  <img src="img/service/service-icon3.png" alt="Images" />
+                  <Image src={ServiceIcon3} alt="Images" />
                 </a>
                 <h3>
                   <a href="service-details.html">Content Marketing</a>
@@ -67,7 +81,7 @@ export default function Service() {
                   voluptatem
                 </p>
                 <div class="service-card-shape">
-                  <img src="img/service/service-shape.png" alt="Images" />
+                  <Image src={ServiceShape} alt="Images" />
                 </div>
               </div>
             </div>
@@ -75,7 +89,7 @@ export default function Service() {
             <div class="col-lg-4">
               <div class="service-card">
                 <a href="service-details.html">
-                  <img src="img/service/service-icon4.png" alt="Images" />
+                  <Image src={ServiceIcon4} alt="Images" />
                 </a>
                 <h3>
                   <a href="service-details.html">SEO Optimization</a>
@@ -86,13 +100,13 @@ export default function Service() {
                   voluptatem
                 </p>
                 <div class="service-card-shape">
-                  <img src="img/service/service-shape.png" alt="Images" />
+                  <Image src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <a href="service-details.html">
-                  <img src="img/service/service-icon5.png" alt="Images" />
+                  <Image src={ServiceIcon5} alt="Images" />
                 </a>
                 <h3>
                   <a href="service-details.html">Web Development</a>
@@ -103,13 +117,13 @@ export default function Service() {
                   voluptatem
                 </p>
                 <div class="service-card-shape">
-                  <img src="img/service/service-shape.png" alt="Images" />
+                  <Image src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <a href="service-details.html">
-                  <img src="img/service/service-icon6.png" alt="Images" />
+                  <Image src={ServiceIcon6} alt="Images" />
                 </a>
                 <h3>
                   <a href="service-details.html">PPC Advertising</a>
@@ -120,7 +134,7 @@ export default function Service() {
                   voluptatem
                 </p>
                 <div class="service-card-shape">
-                  <img src="img/service/service-shape.png" alt="Images" />
+                  <Image src={ServiceShape} alt="Images" />
                 </div>
               </div>
             </div>
@@ -129,13 +143,13 @@ export default function Service() {
 
         <div class="service-shape">
           <div class="service-bg">
-            <img src="img/service/service-bg.png" alt="Images" />
+            <Image src={ServiceBg} alt="Images" />
           </div>
           <div class="shape1">
-            <img src="img/shape/shape4.png" alt="Images" />
+            <Image src={Shape4} alt="Images" />
           </div>
           <div class="shape2">
-            <img src="img/shape/shape2.png" alt="Images" />
+            <Image src={Shape2} alt="Images" />
           </div>
         </div>
       </div>

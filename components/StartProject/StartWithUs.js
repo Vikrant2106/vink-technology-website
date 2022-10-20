@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+
+import DataTable from "../../public/img/data-table-img.png";
 
 export default function StartWithUs() {
   return (
@@ -18,7 +21,7 @@ export default function StartWithUs() {
 
             <div class="col-lg-6">
               <div class="data-table-img">
-                <img src="/img/data-table-img.png" alt="Images" />
+                <Image src={DataTable} alt="Images" />
               </div>
             </div>
           </div>

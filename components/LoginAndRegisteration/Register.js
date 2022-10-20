@@ -1,5 +1,12 @@
 import React from "react";
+import Image from "next/image";
 
+import Shape1 from "../../public/img/inner-banner/banner-shape1.png";
+import Shape2 from "../../public/img/inner-banner/banner-shape2.png";
+import Shape3 from "../../public/img/inner-banner/banner-shape3.png";
+
+import DotShape from "../../public/img/shape/dots-shape.png";
+import FaqImage from "../../public/img/faq-img.png";
 export default function Register() {
   return (
     <>
@@ -22,19 +29,19 @@ export default function Register() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={Shape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={Shape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={Shape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <img src="img/shape/dots-shape.png" alt="Images" />
+            <Image src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -50,7 +57,7 @@ export default function Register() {
           <div class="row align-items-center pt-45">
             <div class="col-lg-5">
               <div class="user-all-img">
-                <img src="img/faq-img.png" alt="Images" />
+                <Image src={FaqImage} alt="Images" />
               </div>
             </div>
 
@@ -123,89 +130,6 @@ export default function Register() {
         </div>
       </div>
       {/* <!-- Sign In Area End --> */}
-
-      {/* <!-- Brand Logo Area --> */}
-      <div class="brand-logo-area  pt-100">
-        <div class="container-fluid">
-          <div class="container-max">
-            <div class="brand-logo-slider owl-carousel owl-theme">
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo1.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style1.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo2.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style2.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo3.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style3.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo4.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style4.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo5.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style5.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo6.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style6.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Brand Logo Area End --> */}
     </>
   );
 }

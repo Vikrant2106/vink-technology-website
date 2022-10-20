@@ -616,7 +616,7 @@
     position: relative;
   }
   .work-area::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -634,7 +634,7 @@
     position: relative;
   }
   .work-area-two::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -721,16 +721,16 @@
   }
   .team-card .content {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .team-rotated {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-rotated-2 {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-area-two {
@@ -838,7 +838,7 @@
     height: 140px;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 15px #f1f1f1;
-            box-shadow: 0 0 15px #f1f1f1;
+    box-shadow: 0 0 15px #f1f1f1;
     border-radius: 50px 30px 50px 20px;
   }
   .testimonial-text h3 {
@@ -1055,7 +1055,8 @@
   .footer-social-icon .social-link {
     float: none;
   }
-  .footer-widget.ps-5, .footer-widget.px-5 {
+  .footer-widget.ps-5,
+  .footer-widget.px-5 {
     padding-left: 0 !important;
   }
   .copy-right-area .copy-right-text p {
@@ -1774,7 +1775,7 @@
     position: relative;
   }
   .work-area::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1792,7 +1793,7 @@
     position: relative;
   }
   .work-area-two::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1891,16 +1892,16 @@
   }
   .team-card .content {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .team-rotated {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-rotated-2 {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-area-two {
@@ -2083,7 +2084,8 @@
   .footer-social-icon .social-link {
     float: none;
   }
-  .footer-widget.ps-5, .footer-widget.px-5 {
+  .footer-widget.ps-5,
+  .footer-widget.px-5 {
     padding-left: 0 !important;
   }
   .copy-right-area .copy-right-text p {

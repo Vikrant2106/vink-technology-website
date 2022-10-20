@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+
+import WorkImg from "../../public/img/work-img.png";
 
 export default function WorkingProcessNew() {
   return (
@@ -50,7 +53,7 @@ export default function WorkingProcessNew() {
 
             <div class="col-lg-4">
               <div class="work-img-2">
-                <img src="/img/work-img.png" alt="Images" />
+                <Image src={WorkImg} alt="Images" />
               </div>
             </div>
 

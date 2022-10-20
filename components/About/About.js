@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import AboutImage from "../../public/img/about/about-img1.png";
+import AboutShape1 from "../../public/img/about/about-shape1.png";
+import Shape1 from "../../public/img/shape/shape1.png";
+import Shape2 from "../../public/img/shape/shape2.png";
+import Shape3 from "../../public/img/shape/shape3.png";
+import Shape4 from "../../public/img/shape/shape4.png";
 
 export default function About() {
   return (
@@ -9,7 +16,7 @@ export default function About() {
             <div class="row">
               <div class="col-lg-6">
                 <div class="about-img">
-                  <img src="img/about/about-img1.png" alt="Images" />
+                  <Image src={AboutImage} layout="fill" alt="Images" />
                 </div>
               </div>
               <div class="col-lg-6">
@@ -57,19 +64,19 @@ export default function About() {
         </div>
         <div class="about-shape">
           <div class="shape-1">
-            <img src="img/about/about-shape1.png" alt="Images" />
+            <Image src={AboutShape1} layout="fill" alt="Images" />
           </div>
           <div class="shape-2">
-            <img src="img/shape/shape1.png" alt="Images" />
+            <Image src={Shape1} layout="fill" alt="Images" />
           </div>
           <div class="shape-3">
-            <img src="img/shape/shape2.png" alt="Images" />
+            <Image src={Shape2} layout="fill" alt="Images" />
           </div>
           <div class="shape-4">
-            <img src="img/shape/shape3.png" alt="Images" />
+            <Image src={Shape3} layout="fill" alt="Images" />
           </div>
           <div class="shape-5">
-            <img src="img/shape/shape4.png" alt="Images" />
+            <Image src={Shape4} layout="fill" alt="Images" />
           </div>
         </div>
       </div>

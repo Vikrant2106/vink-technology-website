@@ -1,5 +1,19 @@
 import React from "react";
 
+import Image from "next/image";
+
+import TeamImg1 from "../../public/img/team/team-img1.jpg";
+import TeamImg2 from "../../public/img/team/team-img2.jpg";
+import TeamImg3 from "../../public/img/team/team-img3.jpg";
+import TeamImg4 from "../../public/img/team/team-img4.jpg";
+import TeamImg5 from "../../public/img/team/team-img5.jpg";
+import TeamImg6 from "../../public/img/team/team-img6.jpg";
+
+import TeamShape from "../../public/img/shape/team-shape.png";
+import Shape7 from "../../public/img/shape/shape7.png";
+import Shape6 from "../../public/img/shape/shape6.png";
+import Shape2 from "../../public/img/shape/shape2.png";
+
 export default function Specilist() {
   return (
     <>
@@ -19,7 +33,7 @@ export default function Specilist() {
           <div class="team-slider owl-carousel owl-theme pt-45">
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before">
-                <img src="img/team/team-img1.jpg" alt="Images" />
+                <Image src={TeamImg1} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -53,7 +67,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before-2">
-                <img src="img/team/team-img2.jpg" alt="Images" />
+                <Image src={TeamImg2} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -87,7 +101,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before-3">
-                <img src="img/team/team-img3.jpg" alt="Images" />
+                <Image src={TeamImg3} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -121,7 +135,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before">
-                <img src="img/team/team-img4.jpg" alt="Images" />
+                <Image src={TeamImg4} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -155,7 +169,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before-2">
-                <img src="img/team/team-img5.jpg" alt="Images" />
+                <Image src={TeamImg5} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -189,7 +203,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <a href="team.html" class="team-img team-bg-before-3">
-                <img src="img/team/team-img6.jpg" alt="Images" />
+                <Image src={TeamImg6} alt="Images" />
               </a>
               <div class="team-content">
                 <h3>
@@ -225,16 +239,16 @@ export default function Specilist() {
 
         <div class="team-shape">
           <div class="team-shape1">
-            <img src="img/shape/team-shape.png" alt="Images" />
+            <Image src={TeamShape} alt="Images" />
           </div>
           <div class="team-shape2">
-            <img src="img/shape/shape7.png" alt="Images" />
+            <Image src={Shape7} alt="Images" />
           </div>
           <div class="team-shape3">
-            <img src="img/shape/shape6.png" alt="Images" />
+            <Image src={Shape6} alt="Images" />
           </div>
           <div class="team-shape4">
-            <img src="img/shape/shape2.png" alt="Images" />
+            <Image src={Shape2} alt="Images" />
           </div>
         </div>
       </div>

@@ -1,4 +1,12 @@
 import React from "react";
+import Image from "next/image";
+
+import BannerShape1 from "../../public/img/inner-banner/banner-shape1.png";
+import BannerShape2 from "../../public/img/inner-banner/banner-shape2.png";
+import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
+
+import DotsShape from "../../public/img/shape/dots-shape.png";
+import ContactImg from "../../public/img/contact-img.png";
 
 export default function Contact() {
   return (
@@ -22,19 +30,19 @@ export default function Contact() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots">
-            <img src="img/shape/dots-shape.png" alt="Images" />
+            <Image src={DotsShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -98,7 +106,7 @@ export default function Contact() {
           <div class="row">
             <div class="col-lg-5">
               <div class="contact-img">
-                <img src="img/contact-img.png" alt="Images" />
+                <Image src={ContactImg} alt="Images" />
               </div>
             </div>
 

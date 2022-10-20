@@ -1,4 +1,27 @@
 import React from "react";
+import Image from "next/image";
+
+import BannerShape1 from "../../public/img/inner-banner/banner-shape1.png";
+import BannerShape2 from "../../public/img/inner-banner/banner-shape2.png";
+import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
+import DotShape from "../../public/img/shape/dots-shape.png";
+
+import ServiceDetailsImg1 from "../../public/img/service/service-details.jpg";
+import ServiceDetailsImg from "../../public/img/service/service-details-img2.png";
+
+import BrandLogo1 from "../../public/img/brand/brand-logo1.png";
+import BrandLogo2 from "../../public/img/brand/brand-logo2.png";
+import BrandLogo3 from "../../public/img/brand/brand-logo3.png";
+import BrandLogo4 from "../../public/img/brand/brand-logo4.png";
+import BrandLogo5 from "../../public/img/brand/brand-logo5.png";
+import BrandLogo6 from "../../public/img/brand/brand-logo6.png";
+
+import BrandStyle1 from "../../public/img/brand/brand-style1.png";
+import BrandStyle2 from "../../public/img/brand/brand-style2.png";
+import BrandStyle3 from "../../public/img/brand/brand-style3.png";
+import BrandStyle4 from "../../public/img/brand/brand-style4.png";
+import BrandStyle5 from "../../public/img/brand/brand-style5.png";
+import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 
 export default function ServiceDetails() {
   return (
@@ -22,19 +45,19 @@ export default function ServiceDetails() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="/img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="/img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="/img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <img src="/img/shape/dots-shape.png" alt="Images" />
+            <Image src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -47,7 +70,7 @@ export default function ServiceDetails() {
             <div class="col-lg-8">
               <div class="service-left">
                 <div class="service-content">
-                  <img src="/img/service/service-details.jpg" alt="Images" />
+                  <Image src={ServiceDetailsImg1} alt="Images" />
                   <h2>Content Marketing</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -103,10 +126,7 @@ export default function ServiceDetails() {
                   <div class="row">
                     <div class="col-lg-7">
                       <div class="content-widget-img">
-                        <img
-                          src="img/service/service-details-img2.png"
-                          alt="Images"
-                        />
+                        <Image src={ServiceDetailsImg} alt="Images" />
                       </div>
                     </div>
 
@@ -265,76 +285,28 @@ export default function ServiceDetails() {
           <div class="container-max">
             <div class="brand-logo-slider owl-carousel owl-theme">
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo1.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style1.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo1} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle1} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo2.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style2.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo2} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle2} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo3.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style3.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo3} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle3} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo4.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style4.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo4} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle4} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo5.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style5.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo5} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle5} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <img
-                  src="img/brand/brand-logo6.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="img/brand/brand-style6.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
+                <Image src={BrandLogo6} class="brand-logo1" alt="Images" />
+                <Image src={BrandStyle6} class="brand-logo2" alt="Images" />
               </div>
             </div>
           </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+
+import SeoRank from "../../public/img/seo-rank.png";
 
 export default function SeoScore() {
   return (
@@ -50,7 +53,7 @@ export default function SeoScore() {
 
               <div class="col-lg-4">
                 <div class="seo-img">
-                  <img src="img/seo-rank.png" alt="Images" />
+                  <Image src={SeoRank} alt="Images" />
                 </div>
               </div>
             </div>

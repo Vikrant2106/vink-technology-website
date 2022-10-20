@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+
+import WorkShape from "../../public/img/shape/work-shape.png";
 
 export default function WorkingProcess() {
   return (
@@ -49,7 +52,7 @@ export default function WorkingProcess() {
         </div>
 
         <div class="work-shape">
-          <img src="img/shape/work-shape.png" alt="Images" />
+          <Image src={WorkShape} alt="Images" />
         </div>
       </div>
     </>

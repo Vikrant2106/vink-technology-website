@@ -1,4 +1,36 @@
 import React from "react";
+import Image from "next/image";
+
+import BannerShape1 from "../../public/img/inner-banner/banner-shape1.png";
+import BannerShape2 from "../../public/img/inner-banner/banner-shape2.png";
+import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
+import DotShape from "../../public/img/shape/dots-shape.png";
+
+import Blog1 from "../../public/img/blog/blog1.png";
+import Blog2 from "../../public/img/blog/blog2.png";
+import Blog3 from "../../public/img/blog/blog3.png";
+import Blog7 from "../../public/img/blog/blog7.png";
+import Blog8 from "../../public/img/blog/blog8.png";
+import Blog9 from "../../public/img/blog/blog9.png";
+
+import Shape1 from "../../public/img/shape/shape1.png";
+import Shape4 from "../../public/img/shape/shape4.png";
+import Shape5 from "../../public/img/shape/shape5.png";
+import Shape6 from "../../public/img/shape/shape6.png";
+
+import BrandLogo1 from "../../public/img/brand/brand-logo1.png";
+import BrandLogo2 from "../../public/img/brand/brand-logo2.png";
+import BrandLogo3 from "../../public/img/brand/brand-logo3.png";
+import BrandLogo4 from "../../public/img/brand/brand-logo4.png";
+import BrandLogo5 from "../../public/img/brand/brand-logo5.png";
+import BrandLogo6 from "../../public/img/brand/brand-logo6.png";
+
+import BrandStyle1 from "../../public/img/brand/brand-style1.png";
+import BrandStyle2 from "../../public/img/brand/brand-style2.png";
+import BrandStyle3 from "../../public/img/brand/brand-style3.png";
+import BrandStyle4 from "../../public/img/brand/brand-style4.png";
+import BrandStyle5 from "../../public/img/brand/brand-style5.png";
+import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 
 export default function BlogMultiple() {
   return (
@@ -22,19 +54,19 @@ export default function BlogMultiple() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <img src="/img/inner-banner/banner-shape1.png" alt="Images" />
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <img src="/img/inner-banner/banner-shape2.png" alt="Images" />
+            <Image src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <img src="/img/inner-banner/banner-shape3.png" alt="Images" />
+            <Image src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <img src="/img/shape/dots-shape.png" alt="Images" />
+            <Image src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -56,7 +88,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog1.png" alt="Images" />
+                  <Image src={Blog1} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -81,7 +113,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog2.png" alt="Images" />
+                  <Image src={Blog2} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -106,7 +138,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog3.png" alt="Images" />
+                  <Image src={Blog3} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -131,7 +163,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog7.png" alt="Images" />
+                  <Image src={Blog7} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -156,7 +188,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog8.png" alt="Images" />
+                  <Image src={Blog8} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -181,7 +213,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <a href="blog-details.html">
-                  <img src="/img/blog/blog9.png" alt="Images" />
+                  <Image src={Blog9} alt="Images" />
                 </a>
                 <div class="content">
                   <ul>
@@ -232,103 +264,20 @@ export default function BlogMultiple() {
 
         <div class="blog-shape">
           <div class="shape1">
-            <img src="/img/shape/shape1.png" alt="Images" />
+            <Image src={Shape1} alt="Images" />
           </div>
           <div class="shape2">
-            <img src="/img/shape/shape5.png" alt="Images" />
+            <Image src={Shape5} alt="Images" />
           </div>
           <div class="shape3">
-            <img src="/img/shape/shape4.png" alt="Images" />
+            <Image src={Shape4} alt="Images" />
           </div>
           <div class="shape4">
-            <img src="/img/shape/shape6.png" alt="Images" />
+            <Image src={Shape6} alt="Images" />
           </div>
         </div>
       </div>
       {/* <!-- Blog Area End --> */}
-
-      {/* <!-- Brand Logo Area --> */}
-      <div class="brand-logo-area">
-        <div class="container-fluid">
-          <div class="container-max">
-            <div class="brand-logo-slider owl-carousel owl-theme">
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo1.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style1.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo2.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style2.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo3.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style3.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo4.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style4.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo5.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style5.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-              <div class="brand-logo-item">
-                <img
-                  src="/img/brand/brand-logo6.png"
-                  class="brand-logo1"
-                  alt="Images"
-                />
-                <img
-                  src="/img/brand/brand-style6.png"
-                  class="brand-logo2"
-                  alt="Images"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Brand Logo Area End --> */}
     </>
   );
 }
