@@ -14,12 +14,12 @@ export default function NavbarOuter() {
       <div class="navbar-area">
         {/* <!-- Menu For Mobile Device --> */}
         <div class="mobile-nav">
-          <Link href="/" class="logo">
-            <a class="logo">
-              <Image src={Logo1} class="logo-one" alt="Logo" />
-              <Image src={Logo2} class="logo-two" alt="Logo" />
-            </a>
-          </Link>
+          <a href="/" class="logo">
+            {/* <Image src={Logo1} class="logo-one" alt="Logo" />
+              <Image src={Logo2} class="logo-two" alt="Logo" /> */}
+            <img src="/img/logo/logo1.png" className="logo-one" alt="Logo" />
+            <img src="/img/logo/logo2.png" className="logo-two" alt="Logo" />
+          </a>
         </div>
 
         {/* <!-- Menu For Desktop Device --> */}
@@ -71,7 +71,7 @@ export default function NavbarOuter() {
 
                   <div class="side-item">
                     <div class="user-btn">
-                      <Link href="/">
+                      <Link href="#">
                         <i class="flaticon-contact"></i>
                       </Link>
                     </div>
