@@ -7,6 +7,7 @@ import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
 import DotShape from "../../public/img/shape/dots-shape.png";
 
 import FaqImg from "../../public/img/faq-img.png";
+import Link from "next/link";
 
 export default function Faq() {
   return (
@@ -18,7 +19,7 @@ export default function Faq() {
             <h3>FAQ</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -61,10 +62,12 @@ export default function Faq() {
               <div class="faq-accordion">
                 <ul class="accordion">
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      How Can a Bigenner Start SEO?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        How Can a Bigenner Start SEO?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -76,10 +79,12 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      How Can a I SEO My Website?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        How Can a I SEO My Website?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -91,10 +96,12 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      Top 10 SEO Ranking Factors?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        Top 10 SEO Ranking Factors?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -106,10 +113,15 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title active" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      Best SEO Practices for Keyword Density?
-                    </a>
+                    <Link
+                      class="accordion-title active"
+                      href="javascript:void(0)"
+                    >
+                      <a class="accordion-title active">
+                        <i class="bx bx-chevron-down"></i>
+                        Best SEO Practices for Keyword Density?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content show">
                       <p>
@@ -127,10 +139,12 @@ export default function Faq() {
               <div class="faq-accordion">
                 <ul class="accordion">
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      What is the Web Development?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        What is the Web Development?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -142,10 +156,12 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      How Can a Beginner Start Web Development?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        How Can a Beginner Start Web Development?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -157,10 +173,12 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      What is the App Development?
-                    </a>
+                    <Link class="accordion-title" href="javascript:void(0)">
+                      <a class="accordion-title">
+                        <i class="bx bx-chevron-down"></i>
+                        What is the App Development?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content">
                       <p>
@@ -172,10 +190,15 @@ export default function Faq() {
                   </li>
 
                   <li class="accordion-item">
-                    <a class="accordion-title active" href="javascript:void(0)">
-                      <i class="bx bx-chevron-down"></i>
-                      How Can a Beginner Start App Development?
-                    </a>
+                    <Link
+                      class="accordion-title active"
+                      href="javascript:void(0)"
+                    >
+                      <a class="accordion-title active">
+                        <i class="bx bx-chevron-down"></i>
+                        How Can a Beginner Start App Development?
+                      </a>
+                    </Link>
 
                     <div class="accordion-content show">
                       <p>

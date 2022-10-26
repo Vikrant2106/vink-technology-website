@@ -46,6 +46,7 @@ import BrandStyle3 from "../../public/img/brand/brand-style3.png";
 import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
+import Link from "next/link";
 
 export default function AboutMultiple() {
   return (
@@ -57,7 +58,7 @@ export default function AboutMultiple() {
             <h3>About Us</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="/sdf123">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -145,13 +146,15 @@ export default function AboutMultiple() {
                 </div>
 
                 <div class="about-video">
-                  <a
+                  <Link
                     href="https://www.youtube.com/watch?v=07d2dXHYb94&t=6s"
                     class="video-btn popup-btn"
                   >
-                    <i class="flaticon-forward"></i>
-                    <span>Play Video</span>
-                  </a>
+                    <a class="video-btn popup-btn">
+                      <i class="flaticon-forward"></i>
+                      <span>Play Video</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -450,10 +453,12 @@ export default function AboutMultiple() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam quis nostrud exercitation{" "}
                 </p>
-                <a href="#" class="default-btn">
-                  Learn more
-                  <i class="bx bx-plus"></i>
-                </a>
+                <Link href="/learn" class="default-btn">
+                  <a class="default-btn">
+                    Learn more
+                    <i class="bx bx-plus"></i>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -479,204 +484,204 @@ export default function AboutMultiple() {
 
           <div class="team-slider-two owl-carousel owl-theme">
             <div class="team-card active">
-              <a href="#">
+              <Link href="/img">
                 <Image src={TeamImg7} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Cristiono Kopper</a>
+                  <Link href="team.html">Cristiono Kopper</Link>
                 </h3>
                 <span>Web Developer</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/sdf" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/sdfd" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/as" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/a" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-card team-rotated">
-              <a href="#">
+              <Link href="/s">
                 <Image src={TeamImg8} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Jermin Jekson</a>
+                  <Link href="team.html">Jermin Jekson</Link>
                 </h3>
                 <span>Marketing Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/d" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/p" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/e" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/w1" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-card">
-              <a href="#">
+              <Link href="/q">
                 <Image src={TeamImg9} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Hobler Jeain</a>
+                  <Link href="team.html">Hobler Jeain</Link>
                 </h3>
                 <span>General Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/n" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/w2" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/we" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/qwe" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-card team-rotated-2">
-              <a href="#">
+              <Link href="/wert">
                 <Image src={TeamImg10} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Julfiker Jeain</a>
+                  <Link href="team.html">Julfiker Jeain</Link>
                 </h3>
                 <span>CEO At Ostino</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/2d" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/sdfgh" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/csdg" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/vcsdg" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-card active">
-              <a href="#">
+              <Link href="/ader">
                 <Image src={TeamImg11} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Hobler Jeain</a>
+                  <Link href="team.html">Hobler Jeain</Link>
                 </h3>
                 <span>General Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/asdww" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/aa" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/aaa" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/aaaa" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-card team-rotated-2">
-              <a href="#">
+              <Link href="/ss">
                 <Image src={TeamImg12} alt="Images" />
-              </a>
+              </Link>
               <div class="content">
                 <h3>
-                  <a href="team.html">Julfiker Jeain</a>
+                  <Link href="team.html">Julfiker Jeain</Link>
                 </h3>
                 <span>CEO At Ostino</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/sss" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/ssss" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/sssaaa" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/ssaa" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -17,6 +17,7 @@ import BlogShape2 from "../../public/img/blog/blog-shape2.png";
 import BlogDots from "../../public/img/blog/blog-dots.png";
 
 import BlogProfile2 from "../../public/img/blog/blog-profile2.png";
+import Link from "next/link";
 
 export default function BlogDetails() {
   return (
@@ -142,16 +143,16 @@ export default function BlogDetails() {
                         <ul>
                           <li>Tags:</li>
                           <li>
-                            <a href="#">#SEO</a>
+                            <Link href="/a">SEO</Link>
                           </li>
                           <li>
-                            <a href="#">#Business</a>
+                            <Link href="/aa">#Business</Link>
                           </li>
                           <li>
-                            <a href="#">#Internet</a>
+                            <Link href="/aaa">#Internet</Link>
                           </li>
                           <li>
-                            <a href="#">#Property</a>
+                            <Link href="/aaaa">#Property</Link>
                           </li>
                         </ul>
                       </div>
@@ -160,29 +161,29 @@ export default function BlogDetails() {
                     <div class="col-lg-5 col-sm-6 col-md-5">
                       <ul class="social-icon">
                         <li>
-                          <a href="#">
+                          <Link href="/s">
                             <i class="bx bxl-facebook"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="/ss">
                             <i class="bx bxl-twitter"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="/sss">
                             <i class="bx bxl-instagram"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="/ssss">
                             <i class="bx bxl-linkedin"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="/sa">
                             <i class="bx bxl-youtube"></i>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -205,29 +206,29 @@ export default function BlogDetails() {
                   <div class="author-social-link">
                     <ul class="social-icon">
                       <li>
-                        <a href="#">
+                        <Link href="/saa">
                           <i class="bx bxl-facebook"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ssaa">
                           <i class="bx bxl-twitter"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ssa">
                           <i class="bx bxl-instagram"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/sssa">
                           <i class="bx bxl-linkedin"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ssssa">
                           <i class="bx bxl-youtube"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -249,27 +250,31 @@ export default function BlogDetails() {
                     <div class="col-lg-6 col-sm-6">
                       <div class="article-post-share">
                         <span>
-                          Jun 12, 2020 / <a href="#">SEO</a>
+                          Jun 12, 2020 / <Link href="/trw">SEO</Link>
                         </span>
-                        <a href="#">
-                          <h3>
-                            Successful digital marketer does first to ensure
-                            they get
-                          </h3>
-                        </a>
+                        <Link href="/d">
+                          <a>
+                            <h3>
+                              Successful digital marketer does first to ensure
+                              they get
+                            </h3>
+                          </a>
+                        </Link>
                       </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                       <div class="article-post-share">
                         <span>
-                          April 19, 2020 / <a href="#">Web</a>
+                          April 19, 2020 / <Link href="/dd">Web</Link>
                         </span>
-                        <a href="#">
-                          <h3 class="active">
-                            Marketer who knows how to execute their campaigns
-                          </h3>
-                        </a>
+                        <Link href="/ddd">
+                          <a>
+                            <h3 class="active">
+                              Marketer who knows how to execute their campaigns
+                            </h3>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -285,9 +290,9 @@ export default function BlogDetails() {
                       <p>
                         Software hack from an initial feasibility study,
                         continuing through l implna business you have to be But
-                        we know there's a better
+                        we know theres a better
                       </p>
-                      <a href="#"> Reply</a>
+                      <Link href="/f"> Reply</Link>
                     </li>
 
                     <li class="ml-30">
@@ -297,9 +302,9 @@ export default function BlogDetails() {
                       <p>
                         Software hack from an initial feasibility study,
                         continuing through l implna business you have to be But
-                        we know there's a better
+                        we know theres a better
                       </p>
-                      <a href="#"> Reply</a>
+                      <Link href="/ff"> Reply</Link>
                     </li>
                   </ul>
                 </div>
@@ -415,44 +420,56 @@ export default function BlogDetails() {
                 <div class="blog-widget">
                   <h3 class="title">Recent Posts</h3>
                   <div class="widget-popular-post">
-                    <article class="item">
-                      <a href="blog-details.html" class="thumb">
-                        <span class="full-image cover bg1" role="img"></span>
-                      </a>
-                      <div class="info">
-                        <span>Jnauary 12, 2020</span>
-                        <h4 class="title-text">
-                          <a href="blog-details.html">A Guide to Google SEO</a>
-                        </h4>
-                        <p>Jhon hack from an iitial feaity study</p>
-                      </div>
-                    </article>
+                    <Link class="item" href="blog-details.html">
+                      <a>
+                        <Link href="blog-details.html" class="thumb">
+                          <span class="full-image cover bg1" role="img"></span>
+                        </Link>
+                        <div class="info">
+                          <span>January 12, 2020</span>
 
-                    <article class="item">
-                      <a href="blog-details.html" class="thumb">
-                        <span class="full-image cover bg2" role="img"></span>
-                      </a>
-                      <div class="info">
-                        <span>June 30, 2020</span>
-                        <h4 class="title-text">
-                          <a href="blog-details.html">15 SEO Best Practices</a>
-                        </h4>
-                        <p>Jhon hack from an iitial feaity study</p>
-                      </div>
-                    </article>
+                          <Link href="blog-details.html">
+                            <h4 class="title-text"> A Guide to Google SEO</h4>
+                          </Link>
 
-                    <article class="item">
-                      <a href="blog-details.html" class="thumb">
-                        <span class="full-image cover bg3" role="img"></span>
+                          <p>Jhon hack from an iitial feaity study</p>
+                        </div>
                       </a>
-                      <div class="info">
-                        <span>April 09, 2020</span>
-                        <h4 class="title-text">
-                          <a href="blog-details.html">Website Architecture</a>
-                        </h4>
-                        <p>Jhon hack from an iitial feaity study</p>
-                      </div>
-                    </article>
+                    </Link>
+
+                    <Link href="blog-details.html" class="item">
+                      <a>
+                        <Link href="blog-details.html" class="thumb">
+                          <span class="full-image cover bg2" role="img"></span>
+                        </Link>
+                        <div class="info">
+                          <span>June 30, 2020</span>
+
+                          <Link href="blog-details.html">
+                            <h4 class="title-text"> 15 SEO Best Practices </h4>
+                          </Link>
+
+                          <p>Jhon hack from an iitial feaity study</p>
+                        </div>
+                      </a>
+                    </Link>
+
+                    <Link class="item" href="blog-details.html">
+                      <a>
+                        <Link href="blog-details.html" class="thumb">
+                          <span class="full-image cover bg3" role="img"></span>
+                        </Link>
+                        <div class="info">
+                          <span>April 09, 2020</span>
+
+                          <Link href="blog-details.html">
+                            <h4 class="title-text"> Website Architecture</h4>
+                          </Link>
+
+                          <p>Jhon hack from an iitial feaity study</p>
+                        </div>
+                      </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -461,34 +478,47 @@ export default function BlogDetails() {
                   <div class="widget_categories">
                     <ul>
                       <li>
-                        <a href="#">
-                          Design <span>(1)</span>
-                        </a>
+                        <Link href="/g">
+                          <a>
+                            Design <span>(1)</span>
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Lifestyle <span>(4)</span>
-                        </a>
+                        <Link href="/gg">
+                          <a>
+                            Lifestyle <span>(4)</span>
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Camping <span>(3)</span>
-                        </a>
+                        <Link href="/ggg">
+                          <a>
+                            Camping <span>(3)</span>
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Support <span>(2)</span>
-                        </a>
+                        <Link href="/gggg">
+                          <a>
+                            {" "}
+                            Support <span>(2)</span>
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Device <span>(6)</span>
-                        </a>
+                        <Link href="/ggggg">
+                          <a>
+                            Device <span>(6)</span>
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Internet <span>(18)</span>
-                        </a>
+                        <Link href="/ga">
+                          <a>
+                            Internet <span>(18)</span>
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -498,25 +528,25 @@ export default function BlogDetails() {
                   <h3 class="title">News Tags</h3>
                   <ul class="blog-widget-tag">
                     <li>
-                      <a href="#">#SEO</a>
+                      <Link href="/gs">#SEO</Link>
                     </li>
                     <li>
-                      <a href="#">#Internet</a>
+                      <Link href="/gs">#Internet</Link>
                     </li>
                     <li>
-                      <a href="#">#Web</a>
+                      <Link href="/gqs">#Web</Link>
                     </li>
                     <li>
-                      <a href="#">#Sass</a>
+                      <Link href="/gfgf">#Sass</Link>
                     </li>
                     <li>
-                      <a href="#">#It & Support</a>
+                      <Link href="/dfg">#It & Support</Link>
                     </li>
                     <li>
-                      <a href="#">#Tik</a>
+                      <Link href="/rwer">#Tik</Link>
                     </li>
                     <li>
-                      <a href="#">#Tips</a>
+                      <Link href="/dfgdsd">#Tips</Link>
                     </li>
                   </ul>
                 </div>

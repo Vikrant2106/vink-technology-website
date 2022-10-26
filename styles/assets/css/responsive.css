@@ -2178,7 +2178,7 @@
   .navbar-light .navbar-brand img {
     max-width: 130px;
   }
-  .banner-shape-right img {
+  .banner-shape-right span img {
     max-width: 330px;
   }
   .banner-img {
@@ -2372,7 +2372,7 @@
     top: 0;
     right: 0;
   }
-  .banner-shape-right img {
+  .banner-shape-right span img {
     max-width: 100%;
   }
   .banner-content {

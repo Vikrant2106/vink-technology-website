@@ -6,6 +6,7 @@ import Shape1 from "../../public/img/shape/shape1.png";
 import Shape2 from "../../public/img/shape/shape2.png";
 import Shape3 from "../../public/img/shape/shape3.png";
 import Shape4 from "../../public/img/shape/shape4.png";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -16,7 +17,12 @@ export default function About() {
             <div class="row">
               <div class="col-lg-6">
                 <div class="about-img">
-                  <Image src={AboutImage} layout="fill" alt="Images" />
+                  {/* <Image src={AboutImage} layout="fill" alt="Images" /> */}
+                  <img
+                    src="/img/about/about-img1.png"
+                    layout="fill"
+                    alt="Images"
+                  />
                 </div>
               </div>
               <div class="col-lg-6">
@@ -40,22 +46,26 @@ export default function About() {
                   </p>
 
                   <div class="about-btn">
-                    <a href="#" class="default-btn">
-                      Learn more
-                      <i class="bx bx-plus"></i>
-                    </a>
+                    <Link href="/" class="default-btn">
+                      <a class="default-btn">
+                        Learn more
+                        <i class="bx bx-plus"></i>
+                      </a>
+                    </Link>
 
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=07d2dXHYb94"
                       class="play-btn popup-btn"
                     >
-                      <i class="flaticon-play-button"></i>
-                      <span>
-                        {" "}
-                        Watch 1min <br />
-                        Play demo
-                      </span>
-                    </a>
+                      <a class="play-btn popup-btn">
+                        <i class="flaticon-play-button"></i>
+                        <span>
+                          {" "}
+                          Watch 1min <br />
+                          Play demo
+                        </span>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

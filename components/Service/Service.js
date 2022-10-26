@@ -13,8 +13,9 @@ import Dots from "../../public/img/service/dots.png";
 import Shape4 from "../../public/img/shape/shape4.png";
 import Shape2 from "../../public/img/shape/shape2.png";
 import ServiceBg from "../../public/img/service/service-bg.png";
+import Link from "next/link";
 
-export default function Service() {
+function Service() {
   return (
     <>
       <div class="service-area pt-100 pb-70">
@@ -29,11 +30,11 @@ export default function Service() {
             <div class="col-lg-4">
               <div class="service-card-into">
                 <div class="service-card">
-                  <a href="service-details.html">
+                  <Link href="service-details.html">
                     <Image src={ServiceIcon1} alt="Images" />
-                  </a>
+                  </Link>
                   <h3>
-                    <a href="service-details.html">App Development</a>
+                    <Link href="service-details.html">App Development</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, aut odiut perspiciatis unde
@@ -52,11 +53,13 @@ export default function Service() {
 
             <div class="col-lg-4">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon2} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Social Media Marketing</a>
+                  <Link href="service-details.html">
+                    Social Media Marketing
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -69,11 +72,11 @@ export default function Service() {
               </div>
 
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon3} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Content Marketing</a>
+                  <Link href="service-details.html">Content Marketing</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -88,11 +91,11 @@ export default function Service() {
 
             <div class="col-lg-4">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon4} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">SEO Optimization</a>
+                  <Link href="service-details.html">SEO Optimization</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -105,11 +108,11 @@ export default function Service() {
               </div>
 
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon5} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Web Development</a>
+                  <Link href="service-details.html">Web Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -122,11 +125,11 @@ export default function Service() {
               </div>
 
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon6} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">PPC Advertising</a>
+                  <Link href="service-details.html">PPC Advertising</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -156,3 +159,5 @@ export default function Service() {
     </>
   );
 }
+
+export default Service;

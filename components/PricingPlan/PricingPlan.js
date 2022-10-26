@@ -6,6 +6,7 @@ import Shape5 from "../../public/img/shape/shape5.png";
 import Shape6 from "../../public/img/shape/shape6.png";
 import Shape7 from "../../public/img/shape/shape7.png";
 import Shape8 from "../../public/img/shape/shape8.png";
+import Link from "next/link";
 
 export default function PricingPlan() {
   return (
@@ -47,10 +48,9 @@ export default function PricingPlan() {
                         <del>3 Press Releases</del>
                       </li>
                     </ul>
-                    <a href="#" class="purchase-btn button-bg1">
-                      {" "}
-                      PURCHASE NOW{" "}
-                    </a>
+                    <Link href="/asdfs" class="purchase-btn button-bg1">
+                      PURCHASE NOW
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -81,10 +81,9 @@ export default function PricingPlan() {
                         <del>3 Press Releases</del>
                       </li>
                     </ul>
-                    <a href="#" class="purchase-btn button-bg2">
-                      {" "}
-                      PURCHASE NOW{" "}
-                    </a>
+                    <Link href="/aasd" class="purchase-btn button-bg2">
+                      PURCHASE NOW
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -115,10 +114,9 @@ export default function PricingPlan() {
                         <i class="bx bx-check"></i> 3 Press Releases
                       </li>
                     </ul>
-                    <a href="#" class="purchase-btn button-bg3">
-                      {" "}
-                      PURCHASE NOW{" "}
-                    </a>
+                    <Link href="/a" class="purchase-btn button-bg3">
+                      PURCHASE NOW
+                    </Link>
                   </div>
                 </div>
               </div>

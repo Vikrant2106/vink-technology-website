@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Logo1 from "../../../public/img/logo/logo1.png";
 import Logo2 from "../../../public/img/logo/logo1.png";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -13,7 +14,6 @@ export default function Footer() {
               <div class="col-lg-6 col-sm-6">
                 <div class="footer-img">
                   <Image src={Logo1} class="footer-img1" alt="Images" />
-                  {/* <Image src={Logo2} class="footer-img2" alt="Images" /> */}
                 </div>
               </div>
 
@@ -21,29 +21,29 @@ export default function Footer() {
                 <div class="footer-social-icon">
                   <ul class="social-link">
                     <li>
-                      <a href="#" target="_blank">
+                      <Link href="/facebook" target="_blank">
                         <i class="bx bxl-facebook"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <Link href="/twitter" target="_blank">
                         <i class="bx bxl-twitter"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <Link href="/instagram" target="_blank">
                         <i class="bx bxl-instagram"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <Link href="/" target="_blank">
                         <i class="bx bxl-pinterest-alt"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <Link href="/youtube" target="_blank">
                         <i class="bx bxl-youtube"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -58,19 +58,19 @@ export default function Footer() {
                   <h3>Services</h3>
                   <ul class="footer-list">
                     <li>
-                      <a href="#">International SEO</a>
+                      <Link href="/SEO">International SEO</Link>
                     </li>
                     <li>
-                      <a href="#">Enterprise SEO</a>
+                      <Link href="/SEO">Enterprise SEO</Link>
                     </li>
                     <li>
-                      <a href="#">SEO for Small Business</a>
+                      <Link href="/SSEO">SEO for Small Business</Link>
                     </li>
                     <li>
-                      <a href="#">SEO for Local Services</a>
+                      <Link href="/LSEO">SEO for Local Services</Link>
                     </li>
                     <li>
-                      <a href="#">National SEO</a>
+                      <Link href="/NSEO">National SEO</Link>
                     </li>
                   </ul>
                 </div>
@@ -81,19 +81,19 @@ export default function Footer() {
                   <h3>Company</h3>
                   <ul class="footer-list">
                     <li>
-                      <a href="#">About the Company</a>
+                      <Link href="/about">About the Company</Link>
                     </li>
                     <li>
-                      <a href="#">For Customers</a>
+                      <Link href="/cutomer">For Customers</Link>
                     </li>
                     <li>
-                      <a href="#">SEO Blog & News</a>
+                      <Link href="/seotag">SEO Blog & News</Link>
                     </li>
                     <li>
-                      <a href="#">Careers & Reviews</a>
+                      <Link href="/carrier">Careers & Reviews</Link>
                     </li>
                     <li>
-                      <a href="#">Sitemap</a>
+                      <Link href="/sitemap">Sitemap</Link>
                     </li>
                   </ul>
                 </div>
@@ -104,19 +104,19 @@ export default function Footer() {
                   <h3>Learning</h3>
                   <ul class="footer-list">
                     <li>
-                      <a href="#">About the Company</a>
+                      <Link href="/about">About the Company</Link>
                     </li>
                     <li>
-                      <a href="#">International SEO</a>
+                      <Link href="/ISEO">International SEO</Link>
                     </li>
                     <li>
-                      <a href="#">National SEO</a>
+                      <Link href="/NSEO">National SEO</Link>
                     </li>
                     <li>
-                      <a href="#">Careers & Reviews</a>
+                      <Link href="/carrier">Careers & Reviews</Link>
                     </li>
                     <li>
-                      <a href="#">Sitemap</a>
+                      <Link href="/sitemap">Sitemap</Link>
                     </li>
                   </ul>
                 </div>
@@ -155,9 +155,13 @@ export default function Footer() {
             <div class="copy-right-text text-center">
               <p>
                 Copyright @2022 All Rights Reserved by{"  "}
-                <a href="https://www.vvintech.com/" target="_blank">
+                <Link
+                  rel="noreferrer"
+                  href="https://www.vvintech.com/"
+                  target="_blank"
+                >
                   Vink Technology Pvt ltd.
-                </a>
+                </Link>
               </p>
             </div>
           </div>

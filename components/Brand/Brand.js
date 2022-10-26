@@ -7,6 +7,7 @@ import Brand3 from "../../public/img/brand/brand3.png";
 import Brand4 from "../../public/img/brand/brand4.png";
 import Brand5 from "../../public/img/brand/brand5.png";
 import Brand6 from "../../public/img/brand/brand6.png";
+import Link from "next/link";
 
 export default function Brand() {
   return (
@@ -17,50 +18,51 @@ export default function Brand() {
           <div class="brand-max">
             <div class="brand-title">
               <h3>
-                Over <a href="#">150.000</a> supporter all ovet the world
+                Over <Link href="/sdfs">150.000</Link> supporter all ovet the
+                world
               </h3>
             </div>
             <div class="brand-slider owl-carousel owl-theme">
               <div class="brand-item">
-                <a href="#">
+                <Link href="/sdf">
                   <Image src={Brand1} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/ad">
                   <Image src={Brand2} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/23">
                   <Image src={Brand3} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/sde">
                   <Image src={Brand4} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/ds">
                   <Image src={Brand5} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/as">
                   <Image src={Brand6} alt="Images" />
-                </a>
+                </Link>
               </div>
 
               <div class="brand-item">
-                <a href="#">
+                <Link href="/ds">
                   <Image src={Brand2} alt="Images" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

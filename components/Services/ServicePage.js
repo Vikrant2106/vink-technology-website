@@ -28,6 +28,7 @@ import BrandStyle3 from "../../public/img/brand/brand-style3.png";
 import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
+import Link from "next/link";
 
 export default function ServicePage() {
   return (
@@ -39,7 +40,7 @@ export default function ServicePage() {
             <h3>Services</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -80,11 +81,11 @@ export default function ServicePage() {
           <div class="row pt-45">
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon1} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">App Development</a>
+                  <Link href="service-details.html">App Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -99,11 +100,13 @@ export default function ServicePage() {
 
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon2} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Social Media Marketing</a>
+                  <Link href="service-details.html">
+                    Social Media Marketing
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -118,11 +121,11 @@ export default function ServicePage() {
 
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon3} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Content Marketing</a>
+                  <Link href="service-details.html">Content Marketing</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -137,11 +140,11 @@ export default function ServicePage() {
 
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon4} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">SEO Optimization</a>
+                  <Link href="service-details.html">SEO Optimization</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -156,11 +159,11 @@ export default function ServicePage() {
 
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon5} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">Web Development</a>
+                  <Link href="service-details.html">Web Development</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -175,11 +178,11 @@ export default function ServicePage() {
 
             <div class="col-lg-4 col-md-6">
               <div class="service-card">
-                <a href="service-details.html">
+                <Link href="service-details.html">
                   <Image src={ServiceIcon6} alt="Images" />
-                </a>
+                </Link>
                 <h3>
-                  <a href="service-details.html">PPC Advertising</a>
+                  <Link href="service-details.html">PPC Advertising</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -193,26 +196,26 @@ export default function ServicePage() {
             </div>
             <div class="col-lg-12 col-md-12">
               <div class="pagination-area text-center">
-                <a href="#" class="prev page-numbers">
+                <Link href="/" class="prev page-numbers">
                   <i class="bx bx-chevron-left"></i>
-                </a>
+                </Link>
 
                 <span class="page-numbers current" aria-current="page">
                   1
                 </span>
-                <a href="#" class="page-numbers">
+                <Link href="/" class="page-numbers">
                   2
-                </a>
-                <a href="#" class="page-numbers">
+                </Link>
+                <Link href="/" class="page-numbers">
                   3
-                </a>
-                <a href="#" class="page-numbers">
+                </Link>
+                <Link href="/" class="page-numbers">
                   4
-                </a>
+                </Link>
 
-                <a href="#" class="next page-numbers">
+                <Link href="/" class="next page-numbers">
                   <i class="bx bx-chevron-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

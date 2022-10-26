@@ -1,9 +1,8 @@
-import React from "react";
 import Header from "../../components/AllPagesHeader/Header/Header";
 import Footer from "../../components/Common/Footer/Footer";
 import ServiceDetails from "../../components/Services/ServiceDetails";
 
-export default function ServiceSlug() {
+function ServiceSlug() {
   return (
     <>
       <Header />
@@ -12,3 +11,5 @@ export default function ServiceSlug() {
     </>
   );
 }
+
+export default ServiceSlug;

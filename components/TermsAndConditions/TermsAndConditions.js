@@ -19,6 +19,7 @@ import BrandStyle3 from "../../public/img/brand/brand-style3.png";
 import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
+import Link from "next/link";
 
 export default function TermsAndConditions() {
   return (
@@ -30,7 +31,7 @@ export default function TermsAndConditions() {
             <h3>Terms & Conditions</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>

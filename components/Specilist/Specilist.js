@@ -13,6 +13,7 @@ import TeamShape from "../../public/img/shape/team-shape.png";
 import Shape7 from "../../public/img/shape/shape7.png";
 import Shape6 from "../../public/img/shape/shape6.png";
 import Shape2 from "../../public/img/shape/shape2.png";
+import Link from "next/link";
 
 export default function Specilist() {
   return (
@@ -32,204 +33,204 @@ export default function Specilist() {
           </div>
           <div class="team-slider owl-carousel owl-theme pt-45">
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before">
+              <Link href="team.html" class="team-img team-bg-before">
                 <Image src={TeamImg1} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Hobler Jeain</a>
+                  <Link href="team.html">Hobler Jeain</Link>
                 </h3>
                 <span>General Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before-2">
+              <Link href="team.html" class="team-img team-bg-before-2">
                 <Image src={TeamImg2} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Jermin Jekson</a>
+                  <Link href="team.html">Jermin Jekson</Link>
                 </h3>
                 <span>Marketing Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before-3">
+              <Link href="team.html" class="team-img team-bg-before-3">
                 <Image src={TeamImg3} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Cristiono Kopper</a>
+                  <Link href="team.html">Cristiono Kopper</Link>
                 </h3>
                 <span>Web Developer</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before">
+              <Link href="team.html" class="team-img team-bg-before">
                 <Image src={TeamImg4} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Julfiker Jeain</a>
+                  <Link href="team.html">Julfiker Jeain</Link>
                 </h3>
                 <span>CEO At Ostino</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before-2">
+              <Link href="team.html" class="team-img team-bg-before-2">
                 <Image src={TeamImg5} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Rickey poltin</a>
+                  <Link href="team.html">Rickey poltin</Link>
                 </h3>
                 <span>Area Manager</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="team-item">
-              <a href="team.html" class="team-img team-bg-before-3">
+              <Link href="team.html" class="team-img team-bg-before-3">
                 <Image src={TeamImg6} alt="Images" />
-              </a>
+              </Link>
               <div class="team-content">
                 <h3>
-                  <a href="team.html">Jeck Keplin</a>
+                  <Link href="team.html">Jeck Keplin</Link>
                 </h3>
                 <span>Web Developer</span>
                 <ul class="social-link">
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-facebook"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-pinterest-alt"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <Link href="/" target="_blank">
                       <i class="bx bxl-youtube"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -7,6 +7,7 @@ import BannerShape3 from "../../public/img/inner-banner/banner-shape3.png";
 
 import DotsShape from "../../public/img/shape/dots-shape.png";
 import ContactImg from "../../public/img/contact-img.png";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -18,7 +19,7 @@ export default function Contact() {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -63,10 +64,12 @@ export default function Contact() {
                 <h3>Office Location</h3>
                 <p>54 Hegmann Uninuo Apt. 890, New </p>
                 <p> York, NY 10018, United States.</p>
-                <a href="#" class="contact-card-btn">
-                  Direction
-                  <i class="bx bx-plus plus-btn"></i>
-                </a>
+                <Link href="/direction" class="contact-card-btn">
+                  <a class="contact-card-btn">
+                    Direction
+                    <i class="bx bx-plus plus-btn"></i>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -76,10 +79,12 @@ export default function Contact() {
                 <h3>Contact</h3>
                 <p>Email.info@Zinka.com </p>
                 <p> Mobile: (+44) - 45789 - 5789 </p>
-                <a href="#" class="contact-card-btn">
-                  Learn More
-                  <i class="bx bx-plus plus-btn"></i>
-                </a>
+                <Link href="/learn" class="contact-card-btn">
+                  <a class="contact-card-btn">
+                    Learn More
+                    <i class="bx bx-plus plus-btn"></i>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -89,10 +94,12 @@ export default function Contact() {
                 <h3>Hours of Operation</h3>
                 <p>Monday - Friday: 09:00 - 20:00</p>
                 <p>Sunday & Saturday: 10:30 - 22:00</p>
-                <a href="#" class="contact-card-btn">
-                  Support
-                  <i class="bx bx-plus plus-btn"></i>
-                </a>
+                <Link href="/support" class="contact-card-btn">
+                  <a class="contact-card-btn">
+                    Support
+                    <i class="bx bx-plus plus-btn"></i>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

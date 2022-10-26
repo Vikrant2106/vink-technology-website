@@ -31,6 +31,7 @@ import BrandStyle3 from "../../public/img/brand/brand-style3.png";
 import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
+import Link from "next/link";
 
 export default function BlogMultiple() {
   return (
@@ -42,7 +43,7 @@ export default function BlogMultiple() {
             <h3>Blog</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -87,9 +88,9 @@ export default function BlogMultiple() {
           <div class="row pt-45">
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog1} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -98,13 +99,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">Marketing</a>
+                      <Link href="/">Marketing</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       The Home of Technology is in Front of You
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -112,9 +113,9 @@ export default function BlogMultiple() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog2} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -123,13 +124,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">SEO</a>
+                      <Link href="/">SEO</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       SEO Best Practices Mobile Friendliness
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -137,9 +138,9 @@ export default function BlogMultiple() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog3} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -148,13 +149,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">SEO & Marketing</a>
+                      <Link href="/">SEO & Marketing</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       15 SEO Practices Website Architecture
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -162,9 +163,9 @@ export default function BlogMultiple() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog7} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -173,13 +174,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">SEO</a>
+                      <Link href="/">SEO</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       SEO Best Practice for Web Traffic
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -187,9 +188,9 @@ export default function BlogMultiple() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog8} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -198,13 +199,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">Marketing</a>
+                      <Link href="/">Marketing</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       Best Guidelines for a Digital Marketing
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -212,9 +213,9 @@ export default function BlogMultiple() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog9} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -223,13 +224,13 @@ export default function BlogMultiple() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">Web</a>
+                      <Link href="/">Web</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       Web Architecture Best Practices & Guides
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -237,26 +238,26 @@ export default function BlogMultiple() {
 
             <div class="col-lg-12 col-md-12">
               <div class="pagination-area text-center">
-                <a href="#" class="prev page-numbers">
+                <Link href="/a" class="prev page-numbers">
                   <i class="bx bx-chevron-left"></i>
-                </a>
+                </Link>
 
                 <span class="page-numbers current" aria-current="page">
                   1
                 </span>
-                <a href="#" class="page-numbers">
+                <Link href="/aa" class="page-numbers">
                   2
-                </a>
-                <a href="#" class="page-numbers">
+                </Link>
+                <Link href="/aaa" class="page-numbers">
                   3
-                </a>
-                <a href="#" class="page-numbers">
+                </Link>
+                <Link href="/as" class="page-numbers">
                   4
-                </a>
+                </Link>
 
-                <a href="#" class="next page-numbers">
+                <Link href="/s" class="next page-numbers">
                   <i class="bx bx-chevron-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -6,12 +6,12 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>Vink Technology Private Limited</title>
           <meta charset="UTF-8" />
-          <meta
+          {/* <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
-          />
-          <title>Vink Technology Private Limited</title>
+          /> */}
 
           <meta name="robots" content="index, follow" />
           <meta name="author" content="vvintech.com" />

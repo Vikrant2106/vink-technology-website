@@ -8,6 +8,7 @@ import Shape1 from "../../public/img/shape/shape1.png";
 import Shape5 from "../../public/img/shape/shape5.png";
 import Shape4 from "../../public/img/shape/shape4.png";
 import Shape6 from "../../public/img/shape/shape6.png";
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -33,18 +34,20 @@ export default function Blog() {
 
             <div class="col-lg-4">
               <div class="blog-btn">
-                <a href="blog.html" class="default-btn">
-                  See all news
-                  <i class="bx bx-plus"></i>
-                </a>
+                <Link href="blog.html" class="default-btn">
+                  <a class="default-btn">
+                    See all news
+                    <i class="bx bx-plus"></i>
+                  </a>
+                </Link>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog1} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -53,13 +56,13 @@ export default function Blog() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">Marketing</a>
+                      <Link href="/">Marketing</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       The Home of Technology is in Front of You
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -67,9 +70,9 @@ export default function Blog() {
 
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog2} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -78,13 +81,13 @@ export default function Blog() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">SEO</a>
+                      <Link href="/">SEO</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       SEO Best Practices Mobile Friendliness
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -92,9 +95,9 @@ export default function Blog() {
 
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
               <div class="blog-card">
-                <a href="blog-details.html">
+                <Link href="blog-details.html">
                   <Image src={Blog3} alt="Images" />
-                </a>
+                </Link>
                 <div class="content">
                   <ul>
                     <li>
@@ -103,13 +106,13 @@ export default function Blog() {
                     </li>
                     <li>
                       <i class="bx bx-purchase-tag-alt"></i>
-                      <a href="#">SEO & Marketing</a>
+                      <Link href="/">SEO & Marketing</Link>
                     </li>
                   </ul>
                   <h3>
-                    <a href="blog-details.html">
+                    <Link href="blog-details.html">
                       15 SEO Practices Website Architecture
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>

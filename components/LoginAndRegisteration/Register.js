@@ -7,6 +7,7 @@ import Shape3 from "../../public/img/inner-banner/banner-shape3.png";
 
 import DotShape from "../../public/img/shape/dots-shape.png";
 import FaqImage from "../../public/img/faq-img.png";
+import Link from "next/link";
 export default function Register() {
   return (
     <>
@@ -17,7 +18,7 @@ export default function Register() {
             <h3>Sign Up</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -118,7 +119,7 @@ export default function Register() {
                       <div class="col-12">
                         <p class="account-desc">
                           Already have an account?
-                          <a href="sign-in.html">Sign In</a>
+                          <Link href="sign-in.html">Sign In</Link>
                         </p>
                       </div>
                     </div>

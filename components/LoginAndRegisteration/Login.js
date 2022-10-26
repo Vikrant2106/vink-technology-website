@@ -7,6 +7,7 @@ import Shape3 from "../../public/img/inner-banner/banner-shape3.png";
 
 import DotShape from "../../public/img/shape/dots-shape.png";
 import FaqImage from "../../public/img/faq-img.png";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -18,7 +19,7 @@ export default function Login() {
             <h3>Sign In</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -101,9 +102,9 @@ export default function Login() {
                       </div>
 
                       <div class="col-lg-6 col-sm-6">
-                        <a class="forget" href="#">
+                        <Link class="forget" href="/">
                           Forgot my password?
-                        </a>
+                        </Link>
                       </div>
 
                       <div class="col-lg-12 col-md-12 text-center">
@@ -116,7 +117,7 @@ export default function Login() {
                       <div class="col-12">
                         <p class="account-desc">
                           Not a member?
-                          <a href="sign-up.html">Sign Up</a>
+                          <Link href="sign-up.html">Sign Up</Link>
                         </p>
                       </div>
                     </div>

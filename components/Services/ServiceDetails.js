@@ -22,6 +22,7 @@ import BrandStyle3 from "../../public/img/brand/brand-style3.png";
 import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
+import Link from "next/link";
 
 export default function ServiceDetails() {
   return (
@@ -33,7 +34,7 @@ export default function ServiceDetails() {
             <h3>Content Marketing</h3>
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link href="index.html">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
@@ -201,19 +202,19 @@ export default function ServiceDetails() {
                   <h3>Other Services</h3>
                   <ul>
                     <li>
-                      <a href="#">AI & ML Development</a>
+                      <Link href="/">AI & ML Development</Link>
                     </li>
                     <li>
-                      <a href="#">Data Visualization</a>
+                      <Link href="/">Data Visualization</Link>
                     </li>
                     <li>
-                      <a href="#">Data Science</a>
+                      <Link href="/">Data Science</Link>
                     </li>
                     <li>
-                      <a href="#">Content Marketing</a>
+                      <Link href="/">Content Marketing</Link>
                     </li>
                     <li>
-                      <a href="#">SEO & Internet</a>
+                      <Link href="/">SEO & Internet</Link>
                     </li>
                   </ul>
                 </div>
@@ -226,7 +227,7 @@ export default function ServiceDetails() {
                       <div class="content">
                         <h3>Phone: </h3>
                         <span>
-                          <a href="tel:+564325677896">+56432 567 7896</a>
+                          <Link href="tel:+564325677896">+56432 567 7896</Link>
                         </span>
                       </div>
                     </li>
@@ -235,7 +236,9 @@ export default function ServiceDetails() {
                       <div class="content">
                         <h3>Email:</h3>
                         <span>
-                          <a href="mailto:hello@zinka.com">hello@zinka.com</a>
+                          <Link href="mailto:hello@zinka.com">
+                            hello@zinka.com
+                          </Link>
                         </span>
                       </div>
                     </li>
@@ -257,7 +260,7 @@ export default function ServiceDetails() {
                       <div class="content">
                         <h3>01:</h3>
                         <span>
-                          <a href="#">PDF Download</a>
+                          <Link href="/">PDF Download</Link>
                         </span>
                       </div>
                     </li>
@@ -266,7 +269,7 @@ export default function ServiceDetails() {
                       <div class="content">
                         <h3>02:</h3>
                         <span>
-                          <a href="#">Services Details.txt</a>
+                          <Link href="/">Services Details.txt</Link>
                         </span>
                       </div>
                     </li>

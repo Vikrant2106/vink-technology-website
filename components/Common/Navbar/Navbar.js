@@ -5,6 +5,7 @@ import { NavbarData } from "../../../StaticData/NavbarData";
 import Image from "next/image";
 import Logo1 from "../../../public/img/logo/logo1.png";
 import Logo2 from "../../../public/img/logo/logo2.png";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -14,20 +15,18 @@ export default function Navbar() {
       <div className="navbar-area">
         {/* <!-- Menu For Mobile Device --> */}
         <div className="mobile-nav">
-          <a href="index.html" className="logo">
+          <Link href="index.html" className="logo">
             <Image src={Logo1} className="logo-one" alt="Logo" />
-            {/* <Image src={Logo2} className="logo-two" alt="Logo" /> */}
-          </a>
+          </Link>
         </div>
 
         {/* <!-- Menu For Desktop Device --> */}
         <div className="main-nav">
           <div className="container-fluid">
             <nav className="container-max-2 navbar navbar-expand-md navbar-light">
-              <a className="navbar-brand" href="/">
+              <Link className="navbar-brand" href="/jh">
                 <Image src={Logo1} className="logo-one" alt="Logo" />
-                {/* <Image src={Logo2} className="logo-two" alt="Logo" /> */}
-              </a>
+              </Link>
 
               <div
                 className="collapse navbar-collapse mean-menu"
@@ -37,17 +36,21 @@ export default function Navbar() {
                   {NavbarData.map((data, i) => (
                     <>
                       <li className="nav-item">
-                        <a href={data.url} className="nav-link">
-                          {data.name} {data.icon && data.icon}
-                        </a>
+                        <Link href={data.url} className="nav-link">
+                          <a className="nav-link">
+                            {data.name}
+                            {data.icon && data.icon}
+                          </a>
+                        </Link>
+
                         {data.child.length > 0 ? (
                           <ul className="dropdown-menu">
                             {data.child.length > 0
-                              ? data.child.map((d) => (
-                                  <li className="nav-item">
-                                    <a href={d.url} className="nav-link">
+                              ? data.child.map((d, kk) => (
+                                  <li className="nav-item" key={kk}>
+                                    <Link href={d.url} className="nav-link">
                                       {d.name}
-                                    </a>
+                                    </Link>
                                   </li>
                                 ))
                               : ""}
@@ -68,18 +71,20 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="user-btn">
-                      <a href="#">
+                      <Link href="#">
                         <i className="flaticon-contact"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <a href="contact" className="nav-menu-btn">
-                        Contact us
-                        <i className="bx bx-plus"></i>
-                      </a>
+                      <Link href="contact" className="nav-menu-btn">
+                        <a className="nav-menu-btn">
+                          Contact us
+                          <i className="bx bx-plus"></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -109,18 +114,23 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="user-btn">
-                      <a href="#">
+                      <Link href="/flat">
                         <i className="flaticon-contact"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <a href="contact" className="nav-menu-btn border-radius">
-                        Contact us
-                        <i className="bx bx-plus"></i>
-                      </a>
+                      <Link
+                        href="contact"
+                        className="nav-menu-btn border-radius"
+                      >
+                        <a className="nav-menu-btn border-radius">
+                          Contact us
+                          <i className="bx bx-plus"></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -8,6 +8,7 @@ import HomeOneShape3 from "../../public/img/home1/home-one-shape3.png";
 import HomeOneShape4 from "../../public/img/home1/home-one-shape4.png";
 import HomeOneShape5 from "../../public/img/home1/home-one-shape5.png";
 import Home1 from "../../public/img/home1/home1.png";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -33,44 +34,64 @@ export default function Hero() {
                 </p>
 
                 <div class="banner-btn">
-                  <a href="#" class="get-btn">
-                    Get started
-                    <i class="bx bx-plus"></i>
-                  </a>
-                  <a href="tel:+123-098-456-098" class="call-btn">
-                    <i class="bx bx-plus"></i>
-                    +123-098-456-098
-                  </a>
+                  <Link href="/" class="get-btn">
+                    <a class="get-btn">
+                      Get started
+                      <i class="bx bx-plus"></i>
+                    </a>
+                  </Link>
+                  <Link href="/" class="call-btn">
+                    <a href="tel:+123-098-456-098" class="call-btn">
+                      <i class="bx bx-plus"></i>
+                      +123-098-456-098
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="banner-shape-right">
-          <Image src={HomeOneShape} alt="Images" />
+          <img src="/img/home1/home-one-shape.png" alt="Landscape picture" />
+          {/* <Image
+            class="banner-shape-right-img"
+            src={HomeOneShape}
+            alt="Images"
+          /> */}
         </div>
         <div class="banner-img">
-          <Image src={Home1} alt="Images" />
+          {/* <Image src={Home1} alt="Images" /> */}
+
+          <img src="/img/home1/home1.png" alt="Landscape picture" />
         </div>
         <div class="banner-shape">
           <div class="shape1">
-            <Image src={HomeOneShape3} alt="Images" />
+            {/* <Image src={HomeOneShape3} alt="Images" /> */}
+
+            <img src="/img/home1/home-one-shape3.png" alt="Landscape picture" />
           </div>
           <div class="shape2">
-            <Image src={HomeOneShape1} alt="Images" />
+            {/* <Image src={HomeOneShape1} alt="Images" /> */}
+
+            <img src="/img/home1/home-one-shape1.png" alt="Landscape picture" />
           </div>
           <div class="shape3">
-            <Image src={HomeOneShape2} alt="Images" />
+            {/* <Image src={HomeOneShape2} alt="Images" /> */}
+
+            <img src="/img/home1/home-one-shape2.png" alt="Landscape picture" />
           </div>
           <div class="shape4">
-            <Image src={HomeOneShape4} alt="Images" />
+            {/* <Image src={HomeOneShape4} alt="Images" /> */}
+
+            <img src="/img/home1/home-one-shape4.png" alt="Landscape picture" />
           </div>
           <div class="shape5">
-            <Image src={HomeOneShape5} alt="Images" />
+            {/* <Image src={HomeOneShape5} alt="Images" /> */}
+
+            <img src="/img/home1/home-one-shape5.png" alt="Landscape picture" />
           </div>
         </div>
       </div>
-      {/* <!-- Banner Area End --> */}
     </>
   );
 }

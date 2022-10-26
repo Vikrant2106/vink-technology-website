@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import DataTable from "../../public/img/data-table-img.png";
+import Link from "next/link";
 
 export default function StartWithUs() {
   return (
@@ -13,9 +14,11 @@ export default function StartWithUs() {
             <div class="col-lg-6">
               <div class="data-table-content">
                 <h2>We Like to Start Your Project With Us</h2>
-                <a href="contact" class="default-btn">
-                  Get started <i class="bx bx-plus"></i>
-                </a>
+                <Link href="contact">
+                  <a class="default-btn">
+                    Get started <i class="bx bx-plus"></i>
+                  </a>
+                </Link>
               </div>
             </div>
 
