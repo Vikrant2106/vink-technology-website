@@ -15,9 +15,14 @@ export default function Navbar() {
       <div className="navbar-area">
         {/* <!-- Menu For Mobile Device --> */}
         <div className="mobile-nav">
-          <Link href="index.html" className="logo">
-            <Image src={Logo1} className="logo-one" alt="Logo" />
-          </Link>
+          <a href="index.html" className="logo">
+            {/* <Image src={Logo1} className="logo-one" alt="Logo" /> */}
+            {/* <Image src={Logo2} className="logo-two" alt="Logo" /> */}
+            <a>
+              <img src="/img/logo/logo1.png" className="logo-one" alt="Logo" />
+              <img src="/img/logo/logo2.png" className="logo-two" alt="Logo" />
+            </a>
+          </a>
         </div>
 
         {/* <!-- Menu For Desktop Device --> */}
@@ -114,7 +119,7 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="user-btn">
-                      <Link href="/flat">
+                      <Link href="#">
                         <i className="flaticon-contact"></i>
                       </Link>
                     </div>
