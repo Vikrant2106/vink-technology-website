@@ -14,9 +14,10 @@ function Error404() {
                 The page you are looking for might have been removed had its
                 name changed or is temporarily unavailable.
               </p>
-              <Link href="/">
-                <a class="default-btn-two">Return To Home Page</a>
-              </Link>
+
+              <a href="/" class="default-btn-two">
+                Return To Home Page
+              </a>
             </div>
           </div>
         </div>
