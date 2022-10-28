@@ -19,18 +19,19 @@ export default function Hero() {
           <div class="container-max-2">
             <div class="col-lg-7">
               <div class="banner-content">
-                <div class="title">
+                {/* <div class="title">
                   <i class="flaticon-idea"></i>
                   <span>The Generator</span>
-                </div>
+                </div> */}
 
                 <h1>
                   Possible to Link <b>Actual Customer</b>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor avida. Risus commodo viverra maecenas
-                  accumsan lacus vel facilisis.
+                  accumsan lacus vel facilisis. */}
+                  The best way to predict the future is to create it.
                 </p>
 
                 <div class="banner-btn">
@@ -41,9 +42,9 @@ export default function Hero() {
                     </a>
                   </Link>
                   <Link href="/" class="call-btn">
-                    <a href="tel:+123-098-456-098" class="call-btn">
+                    <a href="tel:+91 9716500323" class="call-btn">
                       <i class="bx bx-plus"></i>
-                      +123-098-456-098
+                      9716500323
                     </a>
                   </Link>
                 </div>

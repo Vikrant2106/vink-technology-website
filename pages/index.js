@@ -31,7 +31,7 @@ export default function Home() {
       <Service />
       <WorkingProcess />
       <WorkingProcessNew />
-      <PricingPlan />
+      {/* <PricingPlan /> */}
       <Specilist />
       <Blog />
       <Mission />
