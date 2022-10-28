@@ -34,12 +34,13 @@ function Service() {
                     <Image src={ServiceIcon1} alt="Images" />
                   </Link>
                   <h3>
-                    <Link href="service-details.html">App Development</Link>
+                    <Link href="service-details.html">
+                      Mobile and Web App Development
+                    </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut perspiciatis unde
-                    omnis iste natus odit aut fugitsed quia consequuntur alquam
-                    quaerat voluptatem
+                    Your business required to have Mobile Apps to reach out wide
+                    range of customers in market globally and internationally.
                   </p>
                   <div class="service-card-shape">
                     <Image src={ServiceShape} alt="Images" />
@@ -58,7 +59,7 @@ function Service() {
                 </Link>
                 <h3>
                   <Link href="service-details.html">
-                    Social Media Marketing
+                    Custom Software Development
                   </Link>
                 </h3>
                 <p>
@@ -76,7 +77,7 @@ function Service() {
                   <Image src={ServiceIcon3} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">Content Marketing</Link>
+                  <Link href="service-details.html">Reporting Services</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -95,7 +96,9 @@ function Service() {
                   <Image src={ServiceIcon4} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">SEO Optimization</Link>
+                  <Link href="service-details.html">
+                    User Interface & User Experience Design
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -112,7 +115,9 @@ function Service() {
                   <Image src={ServiceIcon5} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">Web Development</Link>
+                  <Link href="service-details.html">
+                    IT Technology Consulting
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -129,7 +134,9 @@ function Service() {
                   <Image src={ServiceIcon6} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">PPC Advertising</Link>
+                  <Link href="service-details.html">
+                    Software as a Service (SaaS)
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis

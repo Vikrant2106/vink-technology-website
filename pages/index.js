@@ -23,18 +23,21 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Brand />
+      {/* <Brand /> */}
       <About />
+      <Service />
+      <WorkingProcessNew />
+      <Mission />
+
       <Area />
       <Progress />
-      <SeoScore />
-      <Service />
-      <WorkingProcess />
-      <WorkingProcessNew />
+      {/* <SeoScore /> */}
+
+      {/* <WorkingProcess /> */}
+
       {/* <PricingPlan /> */}
-      <Specilist />
-      <Blog />
-      <Mission />
+      {/* <Specilist /> */}
+      {/* <Blog /> */}
       <StartWithUs />
       <Footer />
     </>

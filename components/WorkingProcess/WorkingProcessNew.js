@@ -20,7 +20,7 @@ export default function WorkingProcessNew() {
                 <ul>
                   <li class="text-right">
                     <h3>
-                      Frame the Problem <span>1</span>
+                      We analyse your processes & requirements <span>1</span>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
@@ -30,7 +30,8 @@ export default function WorkingProcessNew() {
 
                   <li class="text-right">
                     <h3>
-                      Collect the Raw Data <span>2</span>
+                      We assess possibilities of automation on requirements{" "}
+                      <span>2</span>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
@@ -40,7 +41,8 @@ export default function WorkingProcessNew() {
 
                   <li class="text-right">
                     <h3>
-                      Process the Data <span>3</span>
+                      We choose and recommend the best technologies suited to
+                      the solution <span>3</span>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
@@ -62,7 +64,8 @@ export default function WorkingProcessNew() {
                 <ul>
                   <li>
                     <h3>
-                      <span>4</span>Explore the Data
+                      <span>4</span>We then create a prototype/visual interface
+                      of the solution
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
@@ -72,7 +75,7 @@ export default function WorkingProcessNew() {
 
                   <li>
                     <h3>
-                      <span>5</span>Perform Analysis
+                      <span>5</span>We deliver a solution that works for you
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
@@ -82,7 +85,8 @@ export default function WorkingProcessNew() {
 
                   <li>
                     <h3>
-                      <span>6</span>Communicate Results
+                      <span>6</span>We provide support and help maintain the
+                      project
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia

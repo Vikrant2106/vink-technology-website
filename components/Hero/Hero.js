@@ -25,17 +25,20 @@ export default function Hero() {
                 </div> */}
 
                 <h1>
-                  Possible to Link <b>Actual Customer</b>
+                  We listen. We innovate. We make it happen
+                  {/* <b>We listen. We innovate. We make it happen.</b> */}
                 </h1>
                 <p>
                   {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor avida. Risus commodo viverra maecenas
                   accumsan lacus vel facilisis. */}
-                  The best way to predict the future is to create it.
+                  Vink offers custom software development and process
+                  outsourcing of the highest quality standards to clients across
+                  the globe.
                 </p>
 
                 <div class="banner-btn">
-                  <Link href="/" class="get-btn">
+                  {/* <Link href="/" class="get-btn">
                     <a class="get-btn">
                       Get started
                       <i class="bx bx-plus"></i>
@@ -46,7 +49,7 @@ export default function Hero() {
                       <i class="bx bx-plus"></i>
                       9716500323
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -54,41 +57,24 @@ export default function Hero() {
         </div>
         <div class="banner-shape-right">
           <img src="/img/home1/home-one-shape.png" alt="Landscape picture" />
-          {/* <Image
-            class="banner-shape-right-img"
-            src={HomeOneShape}
-            alt="Images"
-          /> */}
         </div>
         <div class="banner-img">
-          {/* <Image src={Home1} alt="Images" /> */}
-
           <img src="/img/home1/home1.png" alt="Landscape picture" />
         </div>
         <div class="banner-shape">
           <div class="shape1">
-            {/* <Image src={HomeOneShape3} alt="Images" /> */}
-
             <img src="/img/home1/home-one-shape3.png" alt="Landscape picture" />
           </div>
           <div class="shape2">
-            {/* <Image src={HomeOneShape1} alt="Images" /> */}
-
             <img src="/img/home1/home-one-shape1.png" alt="Landscape picture" />
           </div>
           <div class="shape3">
-            {/* <Image src={HomeOneShape2} alt="Images" /> */}
-
             <img src="/img/home1/home-one-shape2.png" alt="Landscape picture" />
           </div>
           <div class="shape4">
-            {/* <Image src={HomeOneShape4} alt="Images" /> */}
-
             <img src="/img/home1/home-one-shape4.png" alt="Landscape picture" />
           </div>
           <div class="shape5">
-            {/* <Image src={HomeOneShape5} alt="Images" /> */}
-
             <img src="/img/home1/home-one-shape5.png" alt="Landscape picture" />
           </div>
         </div>
