@@ -34,15 +34,15 @@ export default function About() {
                     </h2>
                   </div>
                   <h3>
-                    We have 30 yearsOur strategy includes consistently evolving,
-                    to ensure we’re producing exceptional SEO for business.
+                    We are a global leading Information Technology company
+                    providing various Services, Products and Solutions to a wide
+                    range of industries.
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas vitae tempor nisl. Etiam magna augue, tempus eget
-                    suscipit et, maximus hendrerit nunc. Nunc elementum non
-                    ipsum vitae molestie. Donec vestibulum lobortis congue.
-                    Mauris sed tincidunt leo Suspendisse accumsan .
+                    At Vink Technology, We are continually undergoing a
+                    transformation and reorientation in response to the rapidly
+                    evolving needs of our clients.Vink has formed relationships
+                    with various clients around the world.
                   </p>
 
                   <div class="about-btn">
