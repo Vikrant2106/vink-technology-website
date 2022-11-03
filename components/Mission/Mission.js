@@ -19,14 +19,14 @@ export default function Mission() {
                 <div class="section-title">
                   <span class="sp-before sp-after">Mission</span>
                   <h2 class="h2-color2">
-                    We Serve As Possible That You Expected
+                    We serve all IT Solutions at your door steps.
                   </h2>
                 </div>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna tetur
                   adipisicing saliqua.
-                </p>
+                </p> */}
                 <div class="row">
                   <div class="col-lg-4 col-sm-6 pr-0">
                     <div class="mission-list">

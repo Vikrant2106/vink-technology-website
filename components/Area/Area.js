@@ -10,7 +10,7 @@ export default function Area() {
               <div class="single-counter">
                 <i class="flaticon-confetti"></i>
                 <div class="content">
-                  <h3>10 +</h3>
+                  <h3>2 +</h3>
                   <p>GLORIOUS YEARS</p>
                 </div>
               </div>
@@ -20,7 +20,7 @@ export default function Area() {
               <div class="single-counter">
                 <i class="flaticon-project"></i>
                 <div class="content">
-                  <h3>670 +</h3>
+                  <h3>50 +</h3>
                   <p>PROJECTS DONE</p>
                 </div>
               </div>
@@ -30,7 +30,7 @@ export default function Area() {
               <div class="single-counter">
                 <i class="flaticon-customers"></i>
                 <div class="content">
-                  <h3>560 +</h3>
+                  <h3>20 +</h3>
                   <p>ACTIVE CLIENTS</p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export default function Area() {
               <div class="single-counter">
                 <i class="flaticon-financial-advisor"></i>
                 <div class="content">
-                  <h3>56 +</h3>
+                  <h3>25 +</h3>
                   <p>TEAM ADVISORS</p>
                 </div>
               </div>

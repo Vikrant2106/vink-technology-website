@@ -11,7 +11,7 @@ export default function Footer() {
         <div class="container">
           <div class="footer-top">
             <div class="row align-items-center">
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-lg- col-sm-6">
                 <div class="footer-img">
                   <Image src={Logo1} class="footer-img1" alt="Images" />
                 </div>
@@ -53,76 +53,56 @@ export default function Footer() {
 
           <div class="footer-midal pt-45 pb-70">
             <div class="row">
-              <div class="col-lg-3 col-sm-5">
+              <div class="col-lg-3 col-sm-12">
                 <div class="footer-widget">
-                  <h3>Services</h3>
+                  <h3>Vink Technology Pvt Ltd.</h3>
                   <ul class="footer-list">
                     <li>
-                      <Link href="/SEO">International SEO</Link>
-                    </li>
-                    <li>
-                      <Link href="/SEO">Enterprise SEO</Link>
-                    </li>
-                    <li>
-                      <Link href="/SSEO">SEO for Small Business</Link>
-                    </li>
-                    <li>
-                      <Link href="/LSEO">SEO for Local Services</Link>
-                    </li>
-                    <li>
-                      <Link href="/NSEO">National SEO</Link>
+                      <a>
+                        WZ-1370, Third Floor
+                        <br /> Nangal Rayal
+                        <br /> New Delhi-110045
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div class="col-lg-2 col-sm-7">
+              <div class="col-lg-2 col-sm-12">
                 <div class="footer-widget">
-                  <h3>Company</h3>
+                  <h3>Useful Links</h3>
                   <ul class="footer-list">
                     <li>
-                      <Link href="/about">About the Company</Link>
+                      <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/cutomer">For Customers</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link href="/seotag">SEO Blog & News</Link>
-                    </li>
-                    <li>
-                      <Link href="/carrier">Careers & Reviews</Link>
-                    </li>
-                    <li>
-                      <Link href="/sitemap">Sitemap</Link>
+                      <Link href="/service">Services</Link>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div class="col-lg-3 col-sm-5">
-                <div class="footer-widget ps-5">
-                  <h3>Learning</h3>
+              <div class="col-lg-3 col-sm-12">
+                <div class="footer-widget">
+                  <h3>Useful Links</h3>
                   <ul class="footer-list">
                     <li>
-                      <Link href="/about">About the Company</Link>
+                      <Link href="/blog">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/ISEO">International SEO</Link>
+                      <Link href="/contact">Contact</Link>
                     </li>
                     <li>
-                      <Link href="/NSEO">National SEO</Link>
-                    </li>
-                    <li>
-                      <Link href="/carrier">Careers & Reviews</Link>
-                    </li>
-                    <li>
-                      <Link href="/sitemap">Sitemap</Link>
+                      <Link href="/contact">Carrier</Link>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-sm-7">
+              <div class="col-lg-4 col-sm-12">
                 <div class="footer-widget">
                   <h3>Newsletter</h3>
                   <p>To get the latest news and latest up- dates from us</p>

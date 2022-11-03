@@ -30,7 +30,7 @@ export default function Home() {
       <Mission />
 
       <Area />
-      <Progress />
+      {/* <Progress /> */}
       {/* <SeoScore /> */}
 
       {/* <WorkingProcess /> */}

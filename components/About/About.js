@@ -53,7 +53,7 @@ export default function About() {
                       </a>
                     </Link>
 
-                    <Link
+                    {/* <Link
                       href="https://www.youtube.com/watch?v=07d2dXHYb94"
                       class="play-btn popup-btn"
                     >
@@ -65,7 +65,7 @@ export default function About() {
                           Play demo
                         </span>
                       </a>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

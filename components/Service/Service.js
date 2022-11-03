@@ -38,10 +38,10 @@ function Service() {
                       Mobile and Web App Development
                     </Link>
                   </h3>
-                  <p>
+                  {/* <p>
                     Your business required to have Mobile Apps to reach out wide
                     range of customers in market globally and internationally.
-                  </p>
+                  </p> */}
                   <div class="service-card-shape">
                     <Image src={ServiceShape} alt="Images" />
                   </div>
@@ -62,11 +62,11 @@ function Service() {
                     Custom Software Development
                   </Link>
                 </h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
                   iste natus odit aut fugitsed quia consequuntur alquam quaerat
                   voluptatem
-                </p>
+                </p> */}
                 <div class="service-card-shape">
                   <Image src={ServiceShape} alt="Images" />
                 </div>
@@ -79,11 +79,11 @@ function Service() {
                 <h3>
                   <Link href="service-details.html">Reporting Services</Link>
                 </h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
                   iste natus odit aut fugitsed quia consequuntur alquam quaerat
                   voluptatem
-                </p>
+                </p> */}
                 <div class="service-card-shape">
                   <Image src={ServiceShape} alt="Images" />
                 </div>
@@ -100,11 +100,11 @@ function Service() {
                     User Interface & User Experience Design
                   </Link>
                 </h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
                   iste natus odit aut fugitsed quia consequuntur alquam quaerat
                   voluptatem
-                </p>
+                </p> */}
                 <div class="service-card-shape">
                   <Image src={ServiceShape} alt="Images" />
                 </div>
@@ -119,11 +119,11 @@ function Service() {
                     IT Technology Consulting
                   </Link>
                 </h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
                   iste natus odit aut fugitsed quia consequuntur alquam quaerat
                   voluptatem
-                </p>
+                </p> */}
                 <div class="service-card-shape">
                   <Image src={ServiceShape} alt="Images" />
                 </div>
@@ -138,11 +138,11 @@ function Service() {
                     Software as a Service (SaaS)
                   </Link>
                 </h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
                   iste natus odit aut fugitsed quia consequuntur alquam quaerat
                   voluptatem
-                </p>
+                </p> */}
                 <div class="service-card-shape">
                   <Image src={ServiceShape} alt="Images" />
                 </div>
