@@ -61,7 +61,7 @@ export default function Footer() {
                       <a>
                         WZ-1370, Third Floor
                         <br /> Nangal Rayal
-                        <br /> New Delhi-110045
+                        <br /> New Delhi-110046
                       </a>
                     </li>
                   </ul>

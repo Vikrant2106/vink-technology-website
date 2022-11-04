@@ -67,7 +67,7 @@ export default function Navbar() {
                   ))}
                 </ul>
                 <div className="side-nav d-in-line align-items-center">
-                  <div className="side-item">
+                  {/* <div className="side-item">
                     <div className="search-box">
                       <i className="flaticon-loupe"></i>
                     </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
                         <i className="flaticon-contact"></i>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="side-item">
                     <div className="nav-add-btn">

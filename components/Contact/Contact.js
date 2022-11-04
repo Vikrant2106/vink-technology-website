@@ -62,14 +62,15 @@ export default function Contact() {
               <div class="contact-card">
                 <i class="flaticon-planet-earth"></i>
                 <h3>Office Location</h3>
-                <p>54 Hegmann Uninuo Apt. 890, New </p>
-                <p> York, NY 10018, United States.</p>
-                <Link href="/direction" class="contact-card-btn">
+                <p> WZ-1370, Third Floor, Nangal Rayal </p>
+                <p> New Delhi-110046.</p>
+
+                {/* <Link href="/direction" class="contact-card-btn">
                   <a class="contact-card-btn">
                     Direction
                     <i class="bx bx-plus plus-btn"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -77,14 +78,14 @@ export default function Contact() {
               <div class="contact-card">
                 <i class="flaticon-email"></i>
                 <h3>Contact</h3>
-                <p>Email.info@Zinka.com </p>
-                <p> Mobile: (+44) - 45789 - 5789 </p>
-                <Link href="/learn" class="contact-card-btn">
+                <p>info@vink.com </p>
+                <p> Mobile: (+91) -9873117660 </p>
+                {/* <Link href="/learn" class="contact-card-btn">
                   <a class="contact-card-btn">
                     Learn More
                     <i class="bx bx-plus plus-btn"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -92,14 +93,14 @@ export default function Contact() {
               <div class="contact-card">
                 <i class="flaticon-clock"></i>
                 <h3>Hours of Operation</h3>
-                <p>Monday - Friday: 09:00 - 20:00</p>
-                <p>Sunday & Saturday: 10:30 - 22:00</p>
-                <Link href="/support" class="contact-card-btn">
+                <p>Monday - Saturday: 10:00 - 19:00</p>
+                <p>Sunday: Closed</p>
+                {/* <Link href="/support" class="contact-card-btn">
                   <a class="contact-card-btn">
                     Support
                     <i class="bx bx-plus plus-btn"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -228,7 +229,7 @@ export default function Contact() {
       {/* <!-- Contact Map --> */}
       <div class="contact-map">
         <div class="container-fluid m-0 p-0">
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1887.3734131639715!2d-96.95588917878352!3d18.89830951964275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e51eb45eacad%3A0x465ac54aa2735573!2zUmluY29uIGRlbCBCb3NxdWUsIOCmleCmsOCnjeCmoeCni-CmrOCmviwg4Kat4KeH4Kaw4Ka-4KaV4KeN4Kaw4KeB4KacLCDgpq7gp4fgppXgp43gprjgpr_gppXgp4s!5e0!3m2!1sbn!2sbd!4v1594641366896!5m2!1sbn!2sbd"
             width="600"
             height="450"
@@ -237,7 +238,7 @@ export default function Contact() {
             allowfullscreen=""
             aria-hidden="false"
             tabindex="0"
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
       {/* <!-- Map Area End --> */}

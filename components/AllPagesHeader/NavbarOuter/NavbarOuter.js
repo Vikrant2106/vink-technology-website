@@ -63,7 +63,7 @@ export default function NavbarOuter() {
                   ))}
                 </ul>
                 <div class="side-nav d-in-line align-items-center">
-                  <div class="side-item">
+                  {/* <div class="side-item">
                     <div class="search-box">
                       <i class="flaticon-loupe"></i>
                     </div>
@@ -75,7 +75,7 @@ export default function NavbarOuter() {
                         <i class="flaticon-contact"></i>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div class="side-item">
                     <div class="nav-add-btn">
@@ -106,7 +106,7 @@ export default function NavbarOuter() {
             <div class="container">
               <div class="side-nav-inner">
                 <div class="side-nav justify-content-center  align-items-center">
-                  <div class="side-item">
+                  {/* <div class="side-item">
                     <div class="search-box">
                       <i class="flaticon-loupe"></i>
                     </div>
@@ -118,7 +118,7 @@ export default function NavbarOuter() {
                         <i class="flaticon-contact"></i>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div class="side-item">
                     <div class="nav-add-btn">

@@ -48,6 +48,8 @@ import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 import Link from "next/link";
 
+import WorkingProcessNew from "../WorkingProcess/WorkingProcessNew";
+
 export default function AboutMultiple() {
   return (
     <>
@@ -105,13 +107,21 @@ export default function AboutMultiple() {
                   <h2>Grow Your Business With Our Agency</h2>
                 </div>
                 <h3>
-                  We have 30 yearsOur strategy includes consistently evolving,
-                  to ensure we’re producing exceptional SEO for business.
+                  {/* We have 30 yearsOur strategy includes consistently evolving,
+                  to ensure we’re producing exceptional SEO for business. */}
+                  Vink Technology is focused on quality business processes
+                  through the contribution of skilled employees for clients
+                  charm and consistent improvement in the entirety of our
+                  exercises including monetary development.
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna tetur
-                  adipisicing saliqua.
+                  adipisicing saliqua. */}
+                  Quality drives all that we do, from innovation to cycles to
+                  human asset rehearses. The soul of greatness, quality, and
+                  client well disposed arrangements give us an upper hand over
+                  numerous different projects.
                 </p>
 
                 <div class="about-widget-list">
@@ -130,7 +140,7 @@ export default function AboutMultiple() {
                       <span>02</span>
                       <p>
                         A different way of thinking, both inside and outside the
-                        box. We do not have to be the best.
+                        box. We mainly focused on the best deliveries.
                       </p>
                     </li>
 
@@ -138,14 +148,14 @@ export default function AboutMultiple() {
                       <i class="bx bx-check"></i>
                       <span>03</span>
                       <p>
-                        We do not have to be the best, we do have to give our
-                        best Ability to learn. Multicultural competence.
+                        We at organisation provides the best Multicultural
+                        competence.
                       </p>
                     </li>
                   </ul>
                 </div>
 
-                <div class="about-video">
+                {/* <div class="about-video">
                   <Link
                     href="https://www.youtube.com/watch?v=07d2dXHYb94&t=6s"
                     class="video-btn popup-btn"
@@ -155,7 +165,7 @@ export default function AboutMultiple() {
                       <span>Play Video</span>
                     </a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -169,7 +179,7 @@ export default function AboutMultiple() {
           <div class="row">
             <div class="col-lg-3 col-sm-6 col-md-3">
               <div class="counter-card">
-                <h3>10 Years</h3>
+                <h3>2+ Years</h3>
                 <p>GLORIOUS YEARS</p>
               </div>
             </div>
@@ -183,7 +193,7 @@ export default function AboutMultiple() {
 
             <div class="col-lg-3 col-sm-6 col-md-3">
               <div class="counter-card">
-                <h3>70+</h3>
+                <h3>25+</h3>
                 <p>TEAM MEMBERS</p>
               </div>
             </div>
@@ -191,7 +201,7 @@ export default function AboutMultiple() {
             <div class="col-lg-3 col-sm-6 col-md-3">
               <div class="counter-card">
                 <h3>25+</h3>
-                <p>SENIOR SCIENTIST</p>
+                <p>ACTIVE CLIENTS</p>
               </div>
             </div>
           </div>
@@ -216,8 +226,7 @@ export default function AboutMultiple() {
               <div class="service-list-content">
                 <h3>Our Mission</h3>
                 <p>
-                  Lorem ipsum dolor sit ametaut odiut perspiciatis unde omnis
-                  iste quuntur alquam quaerat rsit amet
+                  Our Mission is to provide seamless IT Solution to our clients.
                 </p>
                 <ul>
                   <li>
@@ -244,8 +253,10 @@ export default function AboutMultiple() {
               <div class="service-list-content">
                 <h3>Who We Are</h3>
                 <p>
-                  Lorem ipsum dolor sit ametaut odiut perspiciatis unde omnis
-                  iste quuntur alquam quaerat rsit amet
+                  {/* Lorem ipsum dolor sit ametaut odiut perspiciatis unde omnis
+                  iste quuntur alquam quaerat rsit amet */}
+                  We have the best experts with us to provide highly scalable
+                  services.
                 </p>
                 <ul>
                   <li>
@@ -262,7 +273,7 @@ export default function AboutMultiple() {
                   </li>
                   <li>
                     <i class="bx bx-check"></i>
-                    Stay Real Always
+                    Stay calm and composed
                   </li>
                 </ul>
               </div>
@@ -272,25 +283,27 @@ export default function AboutMultiple() {
               <div class="service-list-content">
                 <h3>Our History</h3>
                 <p>
-                  Lorem ipsum dolor sit ametaut odiut perspiciatis unde omnis
-                  iste quuntur alquam quaerat rsit amet
+                  {/* Lorem ipsum dolor sit ametaut odiut perspiciatis unde omnis
+                  iste quuntur alquam quaerat rsit amet */}
+                  We have 2+ years of experience as company and having best IT
+                  team.
                 </p>
                 <ul>
                   <li>
                     <i class="bx bx-check"></i>
-                    Activate Listening
+                    50+ Delivered Projects
                   </li>
                   <li>
                     <i class="bx bx-check"></i>
-                    Better Best Wow!
+                    25+ Team Members
                   </li>
                   <li>
                     <i class="bx bx-check"></i>
-                    Brilliant Minds
+                    2+ SaaS Product Delivered
                   </li>
                   <li>
                     <i class="bx bx-check"></i>
-                    Activate Listening
+                    Best in Industry
                   </li>
                 </ul>
               </div>
@@ -301,94 +314,7 @@ export default function AboutMultiple() {
       {/* <!-- Service List Area End --> */}
 
       {/* <!-- Work Area Two --> */}
-      <div class="work-area-two pt-100 pb-70">
-        <div class="container">
-          <div class="section-title text-center">
-            <span class="sp-before sp-after">Working Process</span>
-            <h2 class="h2-color2">Simple & Clean Work Process</h2>
-          </div>
-
-          <div class="row pt-45">
-            <div class="col-lg-4">
-              <div class="work-item-list">
-                <ul>
-                  <li class="text-right">
-                    <h3>
-                      Frame the Problem <span>1</span>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-
-                  <li class="text-right">
-                    <h3>
-                      Collect the Raw Data <span>2</span>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-
-                  <li class="text-right">
-                    <h3>
-                      Process the Data <span>3</span>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="work-img-2">
-                <Image src={WorkImage} alt="Images" />
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="work-item-list-2">
-                <ul>
-                  <li>
-                    <h3>
-                      <span>4</span>Explore the Data
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-
-                  <li>
-                    <h3>
-                      <span>5</span>Perform Analysis
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-
-                  <li>
-                    <h3>
-                      <span>6</span>Communicate Results
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                      consequuntur{" "}
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <WorkingProcessNew />
       {/* <!-- Work Area Two End --> */}
 
       {/* <!-- History Area --> */}
@@ -403,18 +329,18 @@ export default function AboutMultiple() {
               <li class="active">
                 <i class="bx bx-check"></i>
                 <div class="content">
-                  <h3>2010</h3>
-                  <span>February 20th</span>
+                  <h3>2021</h3>
+                  <span>October 4th</span>
                 </div>
               </li>
               <li>
                 <i class="bx bx-check"></i>
                 <div class="content">
-                  <h3>2012</h3>
+                  <h3>2022</h3>
                   <span>January 14th</span>
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <i class="bx bx-check"></i>
                 <div class="content">
                   <h3>2016</h3>
@@ -434,31 +360,31 @@ export default function AboutMultiple() {
                   <h3>2019</h3>
                   <span>February 01th</span>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
 
-          <div class="row">
+          <div class="row pt-100">
             <div class="col-lg-6">
               <div class="history-content">
                 <h2>Great Success of the Year</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip comodo consequa dolor consectetur
+                  Vink Technology heavily focused on "quality business processes
+                  through the contribution of skilled employees for clients
+                  please and nonstop improvement in the entirety of our product
+                  delivery" . We have an arrangement of thorough quality
+                  confirmation guidelines that assist us with really taking a
+                  look at our advancement to meet and surpass client
+                  assumptions. We put stock in conveying quality work in
+                  time-obliged climate.
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam quis nostrud exercitation{" "}
-                </p>
-                <Link href="/learn" class="default-btn">
+
+                {/* <Link href="/learn" class="default-btn">
                   <a class="default-btn">
                     Learn more
                     <i class="bx bx-plus"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -473,7 +399,7 @@ export default function AboutMultiple() {
       {/* <!-- History Area End --> */}
 
       {/* <!-- Team Area Two --> */}
-      <div class="team-area-two pb-70">
+      {/* <div class="team-area-two pb-70">
         <div class="container">
           <div class="section-title text-center">
             <span class="sp-before sp-after">Team</span>
@@ -718,11 +644,11 @@ export default function AboutMultiple() {
             <Image src={Shape14} alt="Images" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- Team Area Two End --> */}
 
       {/* <!-- Testimonial Area --> */}
-      <div class="testimonial-area testimonial-area-mb ptb-100">
+      {/* <div class="testimonial-area testimonial-area-mb ptb-100">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6">
@@ -795,43 +721,8 @@ export default function AboutMultiple() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- Testimonial Area End --> */}
-
-      {/* <!-- Brand Logo Area --> */}
-      <div class="brand-logo-area  pt-100">
-        <div class="container-fluid">
-          <div class="container-max">
-            <div class="brand-logo-slider owl-carousel owl-theme">
-              <div class="brand-logo-item">
-                <Image src={BrandLogo1} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle1} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo2} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle2} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo3} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle3} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo4} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle4} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo5} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle5} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo6} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle6} class="brand-logo2" alt="Images" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Brand Logo Area End --> */}
     </>
   );
 }

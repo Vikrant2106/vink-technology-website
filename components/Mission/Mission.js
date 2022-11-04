@@ -19,7 +19,9 @@ export default function Mission() {
                 <div class="section-title">
                   <span class="sp-before sp-after">Mission</span>
                   <h2 class="h2-color2">
-                    We serve all IT Solutions at your door steps.
+                    {/* We serve all IT Solutions at your door steps. */}
+                    Our Mission is to provide seamless IT Solution to our
+                    clients.
                   </h2>
                 </div>
                 {/* <p>
