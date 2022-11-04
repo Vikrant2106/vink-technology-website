@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/vinktech/vinktechnology.com/
     - /bin/cp * $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
