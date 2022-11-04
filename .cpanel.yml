@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/vinktech/vinktechnology.com/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
