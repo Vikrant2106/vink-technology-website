@@ -24,14 +24,14 @@ import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 import Link from "next/link";
 
-export default function ServiceDetails() {
+export default function ServiceDetails({ slug }) {
   return (
     <>
       {/* <!-- Inner Banner Area --> */}
       <div class="inner-banner">
         <div class="container">
           <div class="inner-title text-center">
-            <h3>Content Marketing</h3>
+            <h3>{slug}</h3>
             <ul>
               <li>
                 <Link href="index.html">Home</Link>

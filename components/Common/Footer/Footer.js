@@ -19,9 +19,12 @@ export default function Footer() {
 
               <div class="col-lg-6 col-sm-6">
                 <div class="footer-social-icon">
-                  <ul class="social-link">
+                  {/* <ul class="social-link">
                     <li>
-                      <Link href="/facebook" target="_blank">
+                      <Link
+                        href="https://www.facebook.com/profile.php?id=100086482363397"
+                        target="_blank"
+                      >
                         <i class="bx bxl-facebook"></i>
                       </Link>
                     </li>
@@ -45,7 +48,7 @@ export default function Footer() {
                         <i class="bx bxl-youtube"></i>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -79,7 +82,7 @@ export default function Footer() {
                       <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link href="/service">Services</Link>
+                      <Link href="/Services">Services</Link>
                     </li>
                   </ul>
                 </div>

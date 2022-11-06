@@ -78,7 +78,7 @@ export default function Contact() {
               <div class="contact-card">
                 <i class="flaticon-email"></i>
                 <h3>Contact</h3>
-                <p>info@vink.com </p>
+                <p>info@vinktechnology.com </p>
                 <p> Mobile: (+91) -9873117660 </p>
                 {/* <Link href="/learn" class="contact-card-btn">
                   <a class="contact-card-btn">
@@ -239,6 +239,17 @@ export default function Contact() {
             aria-hidden="false"
             tabindex="0"
           ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.683442510202!2d77.10640571514426!3d28.60927199188396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d09936c8e5f%3A0xcecd83a1a3f28594!2sVink%20Technology%20Private%20Limited!5e0!3m2!1sen!2sin!4v1667720387851!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            aria-hidden="false"
+            tabindex="0"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
       {/* <!-- Map Area End --> */}

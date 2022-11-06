@@ -29,15 +29,17 @@ import BrandStyle4 from "../../public/img/brand/brand-style4.png";
 import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 import Link from "next/link";
+import { NavbarData } from "../../StaticData/NavbarData";
+import { ServiceData } from "../../StaticData/ServiceData";
 
-export default function ServicePage() {
+export default function ServicePage({ slug }) {
   return (
     <>
       {/* <!-- Inner Banner Area --> */}
       <div class="inner-banner">
         <div class="container">
           <div class="inner-title text-center">
-            <h3>Services</h3>
+            <h3>{slug}</h3>
             <ul>
               <li>
                 <Link href="index.html">Home</Link>
@@ -45,7 +47,7 @@ export default function ServicePage() {
               <li>
                 <i class="bx bx-chevron-right"></i>
               </li>
-              <li>Services</li>
+              <li>{slug}</li>
             </ul>
           </div>
         </div>
@@ -75,30 +77,37 @@ export default function ServicePage() {
           <div class="section-title text-center">
             <span class="sp-before sp-after">Services</span>
             <h2 class="h2-color">
-              We’re Flexible to <b>Provide You Best</b>
+              We’re Flexible to <b>Provide You Best</b> {slug}
             </h2>
           </div>
           <div class="row pt-45">
-            <div class="col-lg-4 col-md-6">
-              <div class="service-card">
-                <Link href="service-details.html">
-                  <Image src={ServiceIcon1} alt="Images" />
-                </Link>
-                <h3>
-                  <Link href="service-details.html">App Development</Link>
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
-                  iste natus odit aut fugitsed quia consequuntur alquam quaerat
-                  voluptatem
-                </p>
-                <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
-                </div>
-              </div>
-            </div>
+            {ServiceData.map((data) => (
+              <>
+                {data.slug == slug &&
+                  data.service.map((d) => (
+                    <div class="col-lg-4 col-md-6">
+                      <div class="service-card">
+                        <Link href="service-details.html">
+                          <Image src={ServiceIcon1} alt="Images" />
+                        </Link>
+                        <h3>
+                          <Link href="service-details.html">{d.name}</Link>
+                        </h3>
+                        {/* <p>
+             Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
+             iste natus odit aut fugitsed quia consequuntur alquam quaerat
+             voluptatem
+           </p> */}
+                        <div class="service-card-shape">
+                          <Image src={ServiceShape} alt="Images" />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+              </>
+            ))}
 
-            <div class="col-lg-4 col-md-6">
+            {/* <div class="col-lg-4 col-md-6">
               <div class="service-card">
                 <Link href="service-details.html">
                   <Image src={ServiceIcon2} alt="Images" />
@@ -194,68 +203,66 @@ export default function ServicePage() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-12 col-md-12">
-              <div class="pagination-area text-center">
-                <Link href="/" class="prev page-numbers">
-                  <i class="bx bx-chevron-left"></i>
-                </Link>
 
-                <span class="page-numbers current" aria-current="page">
-                  1
-                </span>
-                <Link href="/" class="page-numbers">
-                  2
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <Link href="service-details.html">
+                  <Image src={ServiceIcon6} alt="Images" />
                 </Link>
-                <Link href="/" class="page-numbers">
-                  3
-                </Link>
-                <Link href="/" class="page-numbers">
-                  4
-                </Link>
-
-                <Link href="/" class="next page-numbers">
-                  <i class="bx bx-chevron-right"></i>
-                </Link>
+                <h3>
+                  <Link href="service-details.html">PPC Advertising</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
+                  iste natus odit aut fugitsed quia consequuntur alquam quaerat
+                  voluptatem
+                </p>
+                <div class="service-card-shape">
+                  <Image src={ServiceShape} alt="Images" />
+                </div>
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <Link href="service-details.html">
+                  <Image src={ServiceIcon6} alt="Images" />
+                </Link>
+                <h3>
+                  <Link href="service-details.html">PPC Advertising</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
+                  iste natus odit aut fugitsed quia consequuntur alquam quaerat
+                  voluptatem
+                </p>
+                <div class="service-card-shape">
+                  <Image src={ServiceShape} alt="Images" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <Link href="service-details.html">
+                  <Image src={ServiceIcon6} alt="Images" />
+                </Link>
+                <h3>
+                  <Link href="service-details.html">PPC Advertising</Link>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
+                  iste natus odit aut fugitsed quia consequuntur alquam quaerat
+                  voluptatem
+                </p>
+                <div class="service-card-shape">
+                  <Image src={ServiceShape} alt="Images" />
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
-
-      {/* <!-- Brand Logo Area --> */}
-      <div class="brand-logo-area  pt-100">
-        <div class="container-fluid">
-          <div class="container-max">
-            <div class="brand-logo-slider owl-carousel owl-theme">
-              <div class="brand-logo-item">
-                <Image src={BrandLogo1} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle1} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo2} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle2} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo3} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle3} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo4} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle4} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo5} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle5} class="brand-logo2" alt="Images" />
-              </div>
-              <div class="brand-logo-item">
-                <Image src={BrandLogo6} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle6} class="brand-logo2" alt="Images" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Brand Logo Area End --> */}
     </>
   );
 }

@@ -37,18 +37,20 @@ export default function NavbarOuter() {
                 <ul className="navbar-nav m-auto">
                   {NavbarData.map((data, i) => (
                     <>
-                      <li className="nav-item" key={i}>
+                      <li className="nav-item">
                         <Link href={data.url} className="nav-link">
                           <a className="nav-link">
-                            {data.name} {data.icon && data.icon}
+                            {data.name}
+                            {data.icon && data.icon}
                           </a>
                         </Link>
+
                         {data.child.length > 0 ? (
                           <ul className="dropdown-menu">
                             {data.child.length > 0
                               ? data.child.map((d, kk) => (
                                   <li className="nav-item" key={kk}>
-                                    <Link href={data.url} className="nav-link">
+                                    <Link href={d.url} className="nav-link">
                                       {d.name}
                                     </Link>
                                   </li>
@@ -62,6 +64,7 @@ export default function NavbarOuter() {
                     </>
                   ))}
                 </ul>
+
                 <div class="side-nav d-in-line align-items-center">
                   {/* <div class="side-item">
                     <div class="search-box">
