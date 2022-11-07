@@ -34,12 +34,13 @@ import { ServiceData } from "../../StaticData/ServiceData";
 import ServiceDetails from "./ServiceDetails";
 
 export default function ServicePage({ slug }) {
+  debugger;
   return (
     <>
       <div class="inner-banner">
         <div class="container">
           <div class="inner-title text-center">
-            <h3>{slug}</h3>
+            <h3>{slug ? slug : "Services"}</h3>
             <ul>
               <li>
                 <Link href="/">Home</Link>
@@ -47,7 +48,7 @@ export default function ServicePage({ slug }) {
               <li>
                 <i class="bx bx-chevron-right"></i>
               </li>
-              <li>{slug}</li>
+              <li>{slug ? slug : "Services"}</li>
             </ul>
           </div>
         </div>
@@ -76,7 +77,8 @@ export default function ServicePage({ slug }) {
           <div class="section-title text-center">
             <span class="sp-before sp-after">Services</span>
             <h2 class="h2-color">
-              We’re Flexible to <b>Provide You Best</b> {slug}
+              We’re Flexible to <b>Provide You Best</b>{" "}
+              {slug ? slug : "Services"}
             </h2>
           </div>
           <div class="row pt-45">
