@@ -63,7 +63,7 @@ export default function Footer() {
                     <li>
                       <a>
                         WZ-1370, Third Floor
-                        <br /> Nangal Rayal
+                        <br /> Nangal Raya
                         <br /> New Delhi-110046
                       </a>
                     </li>
@@ -140,7 +140,7 @@ export default function Footer() {
                 Copyright @2022 All Rights Reserved by{"  "}
                 <Link
                   rel="noreferrer"
-                  href="https://www.vvintech.com/"
+                  href="https://www.vinktechnology.com/"
                   target="_blank"
                 >
                   Vink Technology Pvt ltd.

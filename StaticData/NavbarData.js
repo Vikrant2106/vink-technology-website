@@ -33,7 +33,6 @@ export const NavbarData = [
         name: "Website Development",
         icon: "",
         id: 2,
-
         url: "/Services/Website-Development",
         child: [],
         isActive: "active",
@@ -42,7 +41,6 @@ export const NavbarData = [
         name: "Designing",
         icon: "",
         id: 3,
-
         url: "/Services/Designing",
         child: [],
         isActive: "active",
@@ -51,7 +49,6 @@ export const NavbarData = [
         name: "Marketing",
         icon: "",
         id: 4,
-
         url: "/Services/Marketing",
         child: [],
         isActive: "active",
@@ -60,7 +57,6 @@ export const NavbarData = [
         name: "SEO",
         icon: "",
         id: 5,
-
         url: "/Services/SEO",
         child: [],
         isActive: "active",

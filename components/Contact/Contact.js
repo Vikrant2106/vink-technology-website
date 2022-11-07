@@ -62,7 +62,7 @@ export default function Contact() {
               <div class="contact-card">
                 <i class="flaticon-planet-earth"></i>
                 <h3>Office Location</h3>
-                <p> WZ-1370, Third Floor, Nangal Rayal </p>
+                <p> WZ-1370, Third Floor, Nangal Raya </p>
                 <p> New Delhi-110046.</p>
 
                 {/* <Link href="/direction" class="contact-card-btn">

@@ -31,15 +31,23 @@ export default function ServiceDetails({ slug }) {
       <div class="inner-banner">
         <div class="container">
           <div class="inner-title text-center">
-            <h3>{slug}</h3>
+            <h3>{slug[1]}</h3>
             <ul>
               <li>
-                <Link href="index.html">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
               </li>
-              <li>Service Details</li>
+              <li>
+                <a href={"/Services/" + slug[0]}> {slug[0]} </a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+              </li>
+              <li>
+                <a href={"/Services/" + slug[0] + "/" + slug[1]}> {slug[1]} </a>
+              </li>
             </ul>
           </div>
         </div>

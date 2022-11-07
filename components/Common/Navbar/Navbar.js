@@ -107,7 +107,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            <div className="container">
+            {/* <div className="container">
               <div className="side-nav-inner">
                 <div className="side-nav justify-content-center align-items-center">
                   <div className="side-item">
@@ -139,7 +139,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

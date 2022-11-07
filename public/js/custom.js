@@ -16,18 +16,17 @@
   });
 
   // Search Overlay JS
-  $(".side-nav .search-box i").on("click", function () {
-    $(".search-overlay").toggleClass("search-overlay-active");
-  });
-  $(".search-close").on("click", function () {
-    $(".search-overlay").removeClass("search-overlay-active");
-  });
+  // $(".side-nav .search-box i").on("click", function () {
+  //   $(".search-overlay").toggleClass("search-overlay-active");
+  // });
+  // $(".search-close").on("click", function () {
+  //   $(".search-overlay").removeClass("search-overlay-active");
+  // });
 
   // Others Option For Responsive JS
-  $(".side-nav-responsive .dot-menu").on("click", function () {
-    debugger;
-    $(".side-nav-responsive .container .container").toggleClass("active");
-  });
+  // $(".side-nav-responsive .dot-menu").on("click", function () {
+  //   $(".side-nav-responsive .container .container").toggleClass("active");
+  // });
 
   // Brand Slider
   $(".brand-slider").owlCarousel({
@@ -315,9 +314,9 @@
   new WOW().init();
 
   // Preloader JS
-  jQuery(window).on("load", function () {
-    jQuery(".preloader").fadeOut(500);
-  });
+  // jQuery(window).on("load", function () {
+  //   jQuery(".preloader").fadeOut(500);
+  // });
 
   // Switch Btn
   // $("body").append(
