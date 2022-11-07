@@ -36,92 +36,89 @@ import ServiceDetails from "./ServiceDetails";
 export default function ServicePage({ slug }) {
   return (
     <>
-      {slug?.length == 2 ? (
-        <ServiceDetails slug={slug} />
-      ) : (
-        <>
-          <div class="inner-banner">
-            <div class="container">
-              <div class="inner-title text-center">
-                <h3>{slug}</h3>
-                <ul>
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>
-                  </li>
-                  <li>{slug}</li>
-                </ul>
-              </div>
-            </div>
+      <div class="inner-banner">
+        <div class="container">
+          <div class="inner-title text-center">
+            <h3>{slug}</h3>
+            <ul>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+              </li>
+              <li>{slug}</li>
+            </ul>
+          </div>
+        </div>
 
-            <div class="inner-banner-shape">
-              <div class="shape-one">
-                <Image src={BannerShape1} alt="Images" />
-              </div>
-
-              <div class="shape-two">
-                <Image src={BannerShape2} alt="Images" />
-              </div>
-
-              <div class="shape-three">
-                <Image src={BannerShape3} alt="Images" />
-              </div>
-
-              <div class="inner-banner-dots-2">
-                <Image src={DotShape} alt="Images" />
-              </div>
-            </div>
+        <div class="inner-banner-shape">
+          <div class="shape-one">
+            <Image src={BannerShape1} alt="Images" />
           </div>
 
-          <div class="service-widget-area pt-50 pb-70">
-            <div class="container">
-              <div class="section-title text-center">
-                <span class="sp-before sp-after">Services</span>
-                <h2 class="h2-color">
-                  We’re Flexible to <b>Provide You Best</b> {slug}
-                </h2>
-              </div>
-              <div class="row pt-45">
-                {slug
-                  ? ServiceData.map((data) => (
-                      <>
-                        {data.slug == slug &&
-                          data.service.map((d) => (
-                            <div class="col-lg-4 col-md-6">
-                              <div class="service-card">
-                                <Link href={d.slugurl}>
-                                  <Image src={ServiceIcon1} alt="Images" />
-                                </Link>
-                                <h3>
-                                  <Link href={d.slugurl}>{d.name}</Link>
-                                </h3>
-                                <div class="service-card-shape">
-                                  <Image src={ServiceShape} alt="Images" />
-                                </div>
-                              </div>
-                            </div>
-                          ))}
-                      </>
-                    ))
-                  : NavbarData[2].child.map((d) => (
-                      <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                          <Link href={d.url}>
+          <div class="shape-two">
+            <Image src={BannerShape2} alt="Images" />
+          </div>
+
+          <div class="shape-three">
+            <Image src={BannerShape3} alt="Images" />
+          </div>
+
+          <div class="inner-banner-dots-2">
+            <Image src={DotShape} alt="Images" />
+          </div>
+        </div>
+      </div>
+
+      <div class="service-widget-area pt-50 pb-70">
+        <div class="container">
+          <div class="section-title text-center">
+            <span class="sp-before sp-after">Services</span>
+            <h2 class="h2-color">
+              We’re Flexible to <b>Provide You Best</b> {slug}
+            </h2>
+          </div>
+          <div class="row pt-45">
+            {slug
+              ? ServiceData.map((data) => (
+                  <>
+                    {data.slug == slug &&
+                      data.service.map((d) => (
+                        <div class="col-lg-4 col-md-6" key={d.slugurl}>
+                          <div class="service-card">
+                            {/* <Link href={d.slugurl}> */}
                             <Image src={ServiceIcon1} alt="Images" />
-                          </Link>
-                          <h3>
-                            <Link href={d.url}>{d.name}</Link>
-                          </h3>
-                          <div class="service-card-shape">
-                            <Image src={ServiceShape} alt="Images" />
+                            {/* </Link> */}
+                            <h3>
+                              {d.name}
+                              {/* <Link href={"/" + d.slugurl}>{d.name}</Link> */}
+                            </h3>
+                            <div class="service-card-shape">
+                              <Image src={ServiceShape} alt="Images" />
+                            </div>
                           </div>
                         </div>
+                      ))}
+                  </>
+                ))
+              : NavbarData[2].child.map((d) => (
+                  <div class="col-lg-4 col-md-6" key={d.id}>
+                    <div class="service-card">
+                      <Link href={d.url}>
+                        <Image src={ServiceIcon1} alt="Images" />
+                      </Link>
+                      <h3>
+                        <Link href={"/" + d.url}>{d.name}</Link>
+                      </h3>
+                      <div class="service-card-shape">
+                        <Image src={ServiceShape} alt="Images" />
                       </div>
-                    ))}
+                    </div>
+                  </div>
+                ))}
 
-                {/* <div class="col-lg-4 col-md-6">
+            {/* <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
                  <Image src={ServiceIcon2} alt="Images" />
@@ -274,11 +271,9 @@ export default function ServicePage({ slug }) {
                </div>
              </div>
            </div> */}
-              </div>
-            </div>
           </div>
-        </>
-      )}
+        </div>
+      </div>
     </>
   );
 }

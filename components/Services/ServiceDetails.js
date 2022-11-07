@@ -24,7 +24,8 @@ import BrandStyle5 from "../../public/img/brand/brand-style5.png";
 import BrandStyle6 from "../../public/img/brand/brand-style6.png";
 import Link from "next/link";
 
-export default function ServiceDetails({ slug }) {
+export default function ServiceDetails() {
+  var slug = ["app", "development"];
   return (
     <>
       {/* <!-- Inner Banner Area --> */}

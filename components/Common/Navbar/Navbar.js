@@ -71,9 +71,9 @@ export default function Navbar() {
                     <div className="search-box">
                       <i className="flaticon-loupe"></i>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="side-item">
+                  {/* <div className="side-item">
                     <div className="user-btn">
                       <Link href="#">
                         <i className="flaticon-contact"></i>
@@ -83,7 +83,7 @@ export default function Navbar() {
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <Link href="contact" className="nav-menu-btn">
+                      <Link href="/contact" className="nav-menu-btn">
                         <a className="nav-menu-btn">
                           Contact us
                           <i className="bx bx-plus"></i>
@@ -107,39 +107,39 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* <div className="container">
+            <div className="container">
               <div className="side-nav-inner">
                 <div className="side-nav justify-content-center align-items-center">
-                  <div className="side-item">
+                  {/* <div className="side-item">
                     <div className="search-box">
                       <i className="flaticon-loupe"></i>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="side-item">
+                  {/* <div className="side-item">
                     <div className="user-btn">
                       <Link href="#">
                         <i className="flaticon-contact"></i>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="side-item">
                     <div className="nav-add-btn">
-                      <Link
-                        href="contact"
-                        className="nav-menu-btn border-radius"
+                      {/* <a href="/contact" className="nav-menu-btn border-radius"> */}
+                      <a
+                        href="/contact"
+                        className="nav-menu-btn border-radius nav-menu-btn border-radius"
                       >
-                        <a className="nav-menu-btn border-radius">
-                          Contact us
-                          <i className="bx bx-plus"></i>
-                        </a>
-                      </Link>
+                        Contact us
+                        <i className="bx bx-plus"></i>
+                      </a>
+                      {/* </a> */}
                     </div>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

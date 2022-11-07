@@ -76,13 +76,13 @@ export default function Footer() {
                   <h3>Useful Links</h3>
                   <ul class="footer-list">
                     <li>
-                      <Link href="/">Home</Link>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <Link href="/about">About</Link>
+                      <a href="/about">About</a>
                     </li>
                     <li>
-                      <Link href="/Services">Services</Link>
+                      <a href="/Services">Services</a>
                     </li>
                   </ul>
                 </div>
@@ -93,13 +93,13 @@ export default function Footer() {
                   <h3>Useful Links</h3>
                   <ul class="footer-list">
                     <li>
-                      <Link href="/blog">Blog</Link>
+                      <a href="/blog">Blog</a>
                     </li>
                     <li>
-                      <Link href="/contact">Contact</Link>
+                      <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <Link href="/contact">Carrier</Link>
+                      <a href="/contact">Carrier</a>
                     </li>
                   </ul>
                 </div>
@@ -121,7 +121,7 @@ export default function Footer() {
                         placeholder="Your Email*"
                         name="EMAIL"
                         required
-                        autocomplete="off"
+                        autoComplete="off"
                       />
                       <button class="default-btn" type="submit">
                         Subscribe

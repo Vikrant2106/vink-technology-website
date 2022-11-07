@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import ServiceDetails from "../../components/Services/ServiceDetails";
 import ServicePage from "../../components/Services/ServicePage";
 
-function ServiceSlug({}) {
+function ServiceSlug() {
   const router = useRouter();
   return (
     <>

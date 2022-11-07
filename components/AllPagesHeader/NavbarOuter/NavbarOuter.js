@@ -82,7 +82,7 @@ export default function NavbarOuter() {
 
                   <div class="side-item">
                     <div class="nav-add-btn">
-                      <Link href="contact" class="nav-menu-btn">
+                      <Link href="/contact" class="nav-menu-btn">
                         <a class="nav-menu-btn">
                           Contact us
                           <i class="bx bx-plus"></i>
@@ -106,36 +106,39 @@ export default function NavbarOuter() {
               </div>
             </div>
 
-            {/* <div class="container">
+            <div class="container">
               <div class="side-nav-inner">
                 <div class="side-nav justify-content-center  align-items-center">
-                  <div class="side-item">
+                  {/* <div class="side-item">
                     <div class="search-box">
                       <i class="flaticon-loupe"></i>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div class="side-item">
+                  {/* <div class="side-item">
                     <div class="user-btn">
                       <Link href="/">
                         <i class="flaticon-contact"></i>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div class="side-item">
                     <div class="nav-add-btn">
-                      <Link href="contact" class="nav-menu-btn border-radius">
-                        <a class="nav-menu-btn border-radius">
-                          Contact us
-                          <i class="bx bx-plus"></i>
-                        </a>
-                      </Link>
+                      {/* <Link href="contact" class="nav-menu-btn border-radius"> */}
+                      <a
+                        href="/contact"
+                        class="nav-menu-btn border-radius nav-menu-btn border-radius"
+                      >
+                        Contact us
+                        <i class="bx bx-plus"></i>
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
