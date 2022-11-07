@@ -53,7 +53,7 @@ export default function SeoScore() {
 
               <div class="col-lg-4">
                 <div class="seo-img">
-                  <Image src={SeoRank} alt="Images" />
+                  <img src={SeoRank} alt="Images" />
                 </div>
               </div>
             </div>

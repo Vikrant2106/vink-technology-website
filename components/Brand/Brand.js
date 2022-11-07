@@ -25,43 +25,43 @@ export default function Brand() {
             <div class="brand-slider owl-carousel owl-theme">
               <div class="brand-item">
                 <Link href="/sdf">
-                  <Image src={Brand1} alt="Images" />
+                  <img src={Brand1} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/ad">
-                  <Image src={Brand2} alt="Images" />
+                  <img src={Brand2} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/23">
-                  <Image src={Brand3} alt="Images" />
+                  <img src={Brand3} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/sde">
-                  <Image src={Brand4} alt="Images" />
+                  <img src={Brand4} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/ds">
-                  <Image src={Brand5} alt="Images" />
+                  <img src={Brand5} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/as">
-                  <Image src={Brand6} alt="Images" />
+                  <img src={Brand6} alt="Images" />
                 </Link>
               </div>
 
               <div class="brand-item">
                 <Link href="/ds">
-                  <Image src={Brand2} alt="Images" />
+                  <img src={Brand2} alt="Images" />
                 </Link>
               </div>
             </div>

@@ -16,8 +16,8 @@ export default function Navbar() {
         {/* <!-- Menu For Mobile Device --> */}
         <div className="mobile-nav">
           <a href="index.html" className="logo">
-            {/* <Image src={Logo1} className="logo-one" alt="Logo" /> */}
-            {/* <Image src={Logo2} className="logo-two" alt="Logo" /> */}
+            {/* <img src={Logo1} className="logo-one" alt="Logo" /> */}
+            {/* <img src={Logo2} className="logo-two" alt="Logo" /> */}
 
             <img src="/img/logo/logo1.png" className="logo-one" alt="Logo" />
             <img src="/img/logo/logo2.png" className="logo-two" alt="Logo" />
@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="container-fluid">
             <nav className="container-max-2 navbar navbar-expand-md navbar-light">
               <Link className="navbar-brand" href="/jh">
-                <Image src={Logo1} className="logo-one" alt="Logo" />
+                <img src={Logo1} className="logo-one" alt="Logo" />
               </Link>
 
               <div

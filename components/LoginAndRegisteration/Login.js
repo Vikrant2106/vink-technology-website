@@ -31,19 +31,19 @@ export default function Login() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={Shape1} alt="Images" />
+            <img src={Shape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={Shape2} alt="Images" />
+            <img src={Shape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={Shape3} alt="Images" />
+            <img src={Shape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Login() {
           <div class="row align-items-center pt-45">
             <div class="col-lg-5">
               <div class="user-all-img">
-                <Image src={FaqImage} alt="Images" />
+                <img src={FaqImage} alt="Images" />
               </div>
             </div>
             <div class="col-lg-7">

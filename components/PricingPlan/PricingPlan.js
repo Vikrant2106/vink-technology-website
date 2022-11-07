@@ -126,22 +126,22 @@ export default function PricingPlan() {
 
         <div class="pricing-shape">
           <div class="shape1">
-            <Image src={Shape7} alt="Images" />
+            <img src={Shape7} alt="Images" />
           </div>
           <div class="shape2">
-            <Image src={Shape4} alt="Images" />
+            <img src={Shape4} alt="Images" />
           </div>
           <div class="shape3">
-            <Image src={Shape5} alt="Images" />
+            <img src={Shape5} alt="Images" />
           </div>
           <div class="shape4">
-            <Image src={Shape6} alt="Images" />
+            <img src={Shape6} alt="Images" />
           </div>
           <div class="shape5">
-            <Image src={Shape4} alt="Images" />
+            <img src={Shape4} alt="Images" />
           </div>
           <div class="shape6">
-            <Image src={Shape8} alt="Images" />
+            <img src={Shape8} alt="Images" />
           </div>
         </div>
       </div>

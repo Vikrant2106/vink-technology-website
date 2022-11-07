@@ -72,19 +72,19 @@ export default function AboutMultiple() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function AboutMultiple() {
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="about-widget-img">
-                <Image src={AboutImage1} alt="" />
+                <img src={AboutImage1} alt="" />
               </div>
             </div>
 
@@ -208,7 +208,7 @@ export default function AboutMultiple() {
         </div>
 
         <div class="counter-shape-top">
-          <Image src={CounterShape} alt="Images" />
+          <img src={CounterShape} alt="Images" />
         </div>
       </div>
       {/* <!-- Counter Area End --> */}
@@ -390,7 +390,7 @@ export default function AboutMultiple() {
 
             <div class="col-lg-6">
               <div class="history-img">
-                <Image src={HistoryImg} alt="Images" />
+                <img src={HistoryImg} alt="Images" />
               </div>
             </div>
           </div>
@@ -411,7 +411,7 @@ export default function AboutMultiple() {
           <div class="team-slider-two owl-carousel owl-theme">
             <div class="team-card active">
               <Link href="/img">
-                <Image src={TeamImg7} alt="Images" />
+                <img src={TeamImg7} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -445,7 +445,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated">
               <Link href="/s">
-                <Image src={TeamImg8} alt="Images" />
+                <img src={TeamImg8} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -479,7 +479,7 @@ export default function AboutMultiple() {
 
             <div class="team-card">
               <Link href="/q">
-                <Image src={TeamImg9} alt="Images" />
+                <img src={TeamImg9} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -513,7 +513,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated-2">
               <Link href="/wert">
-                <Image src={TeamImg10} alt="Images" />
+                <img src={TeamImg10} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -547,7 +547,7 @@ export default function AboutMultiple() {
 
             <div class="team-card active">
               <Link href="/ader">
-                <Image src={TeamImg11} alt="Images" />
+                <img src={TeamImg11} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -581,7 +581,7 @@ export default function AboutMultiple() {
 
             <div class="team-card team-rotated-2">
               <Link href="/ss">
-                <Image src={TeamImg12} alt="Images" />
+                <img src={TeamImg12} alt="Images" />
               </Link>
               <div class="content">
                 <h3>
@@ -617,31 +617,31 @@ export default function AboutMultiple() {
 
         <div class="team-two-shape">
           <div class="shape1">
-            <Image src={Shape13} alt="Images" />
+            <img src={Shape13} alt="Images" />
           </div>
 
           <div class="shape2">
-            <Image src={Shape11} alt="Images" />
+            <img src={Shape11} alt="Images" />
           </div>
 
           <div class="shape3">
-            <Image src={Shape10} alt="Images" />
+            <img src={Shape10} alt="Images" />
           </div>
 
           <div class="shape4">
-            <Image src={Shape9} alt="Images" />
+            <img src={Shape9} alt="Images" />
           </div>
 
           <div class="shape5">
-            <Image src={Shape12} alt="Images" />
+            <img src={Shape12} alt="Images" />
           </div>
 
           <div class="shape6">
-            <Image src={Shape7} alt="Images" />
+            <img src={Shape7} alt="Images" />
           </div>
 
           <div class="shape7">
-            <Image src={Shape14} alt="Images" />
+            <img src={Shape14} alt="Images" />
           </div>
         </div>
       </div> */}
@@ -654,19 +654,19 @@ export default function AboutMultiple() {
             <div class="col-lg-6">
               <div class="testimonial-list">
                 <div class="list-img-1">
-                  <Image src={Testimonial1} alt="Images" />
+                  <img src={Testimonial1} alt="Images" />
                 </div>
                 <div class="list-img-2">
-                  <Image src={Testimonial2} alt="Images" />
+                  <img src={Testimonial2} alt="Images" />
                 </div>
                 <div class="list-img-3">
-                  <Image src={Testimonial3} alt="Images" />
+                  <img src={Testimonial3} alt="Images" />
                 </div>
                 <div class="list-img-4">
-                  <Image src={Testimonial4} alt="Images" />
+                  <img src={Testimonial4} alt="Images" />
                 </div>
                 <div class="list-img-5">
-                  <Image src={Testimonial5} alt="Images" />
+                  <img src={Testimonial5} alt="Images" />
                 </div>
               </div>
             </div>
@@ -682,7 +682,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <Image src={TestimonialImg1} alt="Images" />
+                    <img src={TestimonialImg1} alt="Images" />
                     <div class="content-title">
                       <h3>David McLean</h3>
                       <span>CEO & Manager</span>
@@ -696,7 +696,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <Image src={TestimonialImg2} alt="Images" />
+                    <img src={TestimonialImg2} alt="Images" />
                     <div class="content-title">
                       <h3>Jermin Jekson</h3>
                       <span>Marketing Manager</span>
@@ -710,7 +710,7 @@ export default function AboutMultiple() {
                     customer Service they really awesome treated me like family
                   </p>
                   <div class="content">
-                    <Image src={TestimonialImg3} alt="Images" />
+                    <img src={TestimonialImg3} alt="Images" />
                     <div class="content-title">
                       <h3>Julfiker Jeain</h3>
                       <span>CEO At Ostino</span>

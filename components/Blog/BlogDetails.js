@@ -45,19 +45,19 @@ export default function BlogDetails() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function BlogDetails() {
             <div class="col-lg-8">
               <div class="blog-article">
                 <div class="blog-article-img">
-                  <Image src={BlogDetailsImg} alt="Images" />
+                  <img src={BlogDetailsImg} alt="Images" />
                 </div>
                 <div class="article-content">
                   <h2>SEO Best Practice for Web Traffic</h2>
@@ -120,10 +120,10 @@ export default function BlogDetails() {
                   <div class="content-img">
                     <div class="row">
                       <div class="col-6">
-                        <Image src={BlogDetailsImg2} alt="Images" />
+                        <img src={BlogDetailsImg2} alt="Images" />
                       </div>
                       <div class="col-6">
-                        <Image src={BlogDetailsImg3} alt="Images" />
+                        <img src={BlogDetailsImg3} alt="Images" />
                       </div>
                     </div>
                   </div>
@@ -193,7 +193,7 @@ export default function BlogDetails() {
                 <div class="article-author">
                   <ul>
                     <li>
-                      <Image src={BlogProfile1} alt="Image" />
+                      <img src={BlogProfile1} alt="Image" />
                       <h3>Devit Killer</h3>
                       <span>Author, Writer</span>
                       <p>
@@ -234,13 +234,13 @@ export default function BlogDetails() {
                   </div>
                   <div class="author-shape">
                     <div class="shape1">
-                      <Image src={BlogShape} alt="Images" />
+                      <img src={BlogShape} alt="Images" />
                     </div>
                     <div class="shape2">
-                      <Image src={BlogShape2} alt="Images" />
+                      <img src={BlogShape2} alt="Images" />
                     </div>
                     <div class="shape-dots">
-                      <Image src={BlogDots} alt="Images" />
+                      <img src={BlogDots} alt="Images" />
                     </div>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ export default function BlogDetails() {
                   <h3 class="title">Comments (02)</h3>
                   <ul>
                     <li>
-                      <Image src={BlogProfile1} alt="Image" />
+                      <img src={BlogProfile1} alt="Image" />
                       <h3>Devit Killer</h3>
                       <span>Jnauary 12, 2020</span>
                       <p>
@@ -296,7 +296,7 @@ export default function BlogDetails() {
                     </li>
 
                     <li class="ml-30">
-                      <Image src={BlogProfile2} alt="Image" />
+                      <img src={BlogProfile2} alt="Image" />
                       <h3>Morah Jein </h3>
                       <span>July 12, 2020</span>
                       <p>

@@ -55,7 +55,7 @@ export default function WorkingProcessNew() {
 
             <div class="col-lg-4">
               <div class="work-img-2">
-                <Image src={WorkImg} alt="Images" />
+                <img src={WorkImg} alt="Images" />
               </div>
             </div>
 

@@ -34,7 +34,7 @@ export default function Specilist() {
           <div class="team-slider owl-carousel owl-theme pt-45">
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before">
-                <Image src={TeamImg1} alt="Images" />
+                <img src={TeamImg1} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -68,7 +68,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before-2">
-                <Image src={TeamImg2} alt="Images" />
+                <img src={TeamImg2} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -102,7 +102,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before-3">
-                <Image src={TeamImg3} alt="Images" />
+                <img src={TeamImg3} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -136,7 +136,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before">
-                <Image src={TeamImg4} alt="Images" />
+                <img src={TeamImg4} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -170,7 +170,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before-2">
-                <Image src={TeamImg5} alt="Images" />
+                <img src={TeamImg5} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -204,7 +204,7 @@ export default function Specilist() {
 
             <div class="team-item">
               <Link href="team.html" class="team-img team-bg-before-3">
-                <Image src={TeamImg6} alt="Images" />
+                <img src={TeamImg6} alt="Images" />
               </Link>
               <div class="team-content">
                 <h3>
@@ -240,16 +240,16 @@ export default function Specilist() {
 
         <div class="team-shape">
           <div class="team-shape1">
-            <Image src={TeamShape} alt="Images" />
+            <img src={TeamShape} alt="Images" />
           </div>
           <div class="team-shape2">
-            <Image src={Shape7} alt="Images" />
+            <img src={Shape7} alt="Images" />
           </div>
           <div class="team-shape3">
-            <Image src={Shape6} alt="Images" />
+            <img src={Shape6} alt="Images" />
           </div>
           <div class="team-shape4">
-            <Image src={Shape2} alt="Images" />
+            <img src={Shape2} alt="Images" />
           </div>
         </div>
       </div>
