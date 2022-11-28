@@ -46,7 +46,7 @@ export default function Blog() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog1} alt="Images" />
+                  <img src={Blog1} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -71,7 +71,7 @@ export default function Blog() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog2} alt="Images" />
+                  <img src={Blog2} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -96,7 +96,7 @@ export default function Blog() {
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog3} alt="Images" />
+                  <img src={Blog3} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -122,16 +122,16 @@ export default function Blog() {
 
         <div class="blog-shape">
           <div class="shape1">
-            <Image src={Shape1} alt="Images" />
+            <img src={Shape1} alt="Images" />
           </div>
           <div class="shape2">
-            <Image src={Shape5} alt="Images" />
+            <img src={Shape5} alt="Images" />
           </div>
           <div class="shape3">
-            <Image src={Shape4} alt="Images" />
+            <img src={Shape4} alt="Images" />
           </div>
           <div class="shape4">
-            <Image src={Shape6} alt="Images" />
+            <img src={Shape6} alt="Images" />
           </div>
         </div>
       </div>

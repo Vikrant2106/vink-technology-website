@@ -15,8 +15,8 @@ export default function NavbarOuter() {
         {/* <!-- Menu For Mobile Device --> */}
         <div class="mobile-nav">
           <a href="/" class="logo">
-            {/* <Image src={Logo1} class="logo-one" alt="Logo" />
-              <Image src={Logo2} class="logo-two" alt="Logo" /> */}
+            {/* <img src={Logo1} class="logo-one" alt="Logo" />
+              <img src={Logo2} class="logo-two" alt="Logo" /> */}
             <img src="/img/logo/logo1.png" className="logo-one" alt="Logo" />
             <img src="/img/logo/logo2.png" className="logo-two" alt="Logo" />
           </a>
@@ -27,7 +27,7 @@ export default function NavbarOuter() {
           <div class="container-fluid">
             <nav class="container-max-2 navbar navbar-expand-md navbar-light ">
               <Link class="navbar-brand" href="/">
-                <Image src={Logo2} alt="Logo" />
+                <img src={Logo2} alt="Logo" />
               </Link>
 
               <div

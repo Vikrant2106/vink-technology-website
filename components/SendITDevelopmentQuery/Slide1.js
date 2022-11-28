@@ -11,7 +11,7 @@ export default function Slide1({ slug }) {
         <div className="row">
           <div className="col-md-6">
             <div class="contact-img">
-              <Image src={ContactImg} alt="Images" />
+              <img src={ContactImg} alt="Images" />
             </div>
           </div>
 

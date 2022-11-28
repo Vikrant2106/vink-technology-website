@@ -31,19 +31,19 @@ export default function Contact() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots">
-            <Image src={DotsShape} alt="Images" />
+            <img src={DotsShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ export default function Contact() {
           <div class="row">
             <div class="col-lg-5">
               <div class="contact-img">
-                <Image src={ContactImg} alt="Images" />
+                <img src={ContactImg} alt="Images" />
               </div>
             </div>
 

@@ -55,19 +55,19 @@ export default function ServicePage({ slug }) {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -90,14 +90,14 @@ export default function ServicePage({ slug }) {
                         <div class="col-lg-4 col-md-6" key={d.slugurl}>
                           <div class="service-card">
                             {/* <Link href={d.slugurl}> */}
-                            <Image src={ServiceIcon1} alt="Images" />
+                            <img src={ServiceIcon1} alt="Images" />
                             {/* </Link> */}
                             <h3>
                               {d.name}
                               {/* <Link href={"/" + d.slugurl}>{d.name}</Link> */}
                             </h3>
                             <div class="service-card-shape">
-                              <Image src={ServiceShape} alt="Images" />
+                              <img src={ServiceShape} alt="Images" />
                             </div>
                           </div>
                         </div>
@@ -108,13 +108,13 @@ export default function ServicePage({ slug }) {
                   <div class="col-lg-4 col-md-6" key={d.id}>
                     <div class="service-card">
                       <Link href={d.url}>
-                        <Image src={ServiceIcon1} alt="Images" />
+                        <img src={ServiceIcon1} alt="Images" />
                       </Link>
                       <h3>
                         <Link href={"/" + d.url}>{d.name}</Link>
                       </h3>
                       <div class="service-card-shape">
-                        <Image src={ServiceShape} alt="Images" />
+                        <img src={ServiceShape} alt="Images" />
                       </div>
                     </div>
                   </div>
@@ -123,7 +123,7 @@ export default function ServicePage({ slug }) {
             {/* <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon2} alt="Images" />
+                 <img src={ServiceIcon2} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">
@@ -136,7 +136,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -144,7 +144,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon3} alt="Images" />
+                 <img src={ServiceIcon3} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">Content Marketing</Link>
@@ -155,7 +155,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -163,7 +163,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon4} alt="Images" />
+                 <img src={ServiceIcon4} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">SEO Optimization</Link>
@@ -174,7 +174,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -182,7 +182,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon5} alt="Images" />
+                 <img src={ServiceIcon5} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">Web Development</Link>
@@ -193,7 +193,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -201,7 +201,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon6} alt="Images" />
+                 <img src={ServiceIcon6} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">PPC Advertising</Link>
@@ -212,7 +212,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -220,7 +220,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon6} alt="Images" />
+                 <img src={ServiceIcon6} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">PPC Advertising</Link>
@@ -231,7 +231,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -239,7 +239,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon6} alt="Images" />
+                 <img src={ServiceIcon6} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">PPC Advertising</Link>
@@ -250,7 +250,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div>
@@ -258,7 +258,7 @@ export default function ServicePage({ slug }) {
            <div class="col-lg-4 col-md-6">
              <div class="service-card">
                <Link href="service-details.html">
-                 <Image src={ServiceIcon6} alt="Images" />
+                 <img src={ServiceIcon6} alt="Images" />
                </Link>
                <h3>
                  <Link href="service-details.html">PPC Advertising</Link>
@@ -269,7 +269,7 @@ export default function ServicePage({ slug }) {
                  voluptatem
                </p>
                <div class="service-card-shape">
-                 <Image src={ServiceShape} alt="Images" />
+                 <img src={ServiceShape} alt="Images" />
                </div>
              </div>
            </div> */}

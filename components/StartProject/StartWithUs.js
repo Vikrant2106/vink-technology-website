@@ -24,7 +24,7 @@ export default function StartWithUs() {
 
             <div class="col-lg-6">
               <div class="data-table-img">
-                <Image src={DataTable} alt="Images" />
+                <img src={DataTable} alt="Images" />
               </div>
             </div>
           </div>

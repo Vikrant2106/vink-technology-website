@@ -31,19 +31,19 @@ export default function Faq() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -226,7 +226,7 @@ export default function Faq() {
           <div class="row pt-45 align-items-center">
             <div class="col-lg-5">
               <div class="faq-img">
-                <Image src={FaqImg} alt="Images" />
+                <img src={FaqImg} alt="Images" />
               </div>
             </div>
 

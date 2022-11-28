@@ -31,7 +31,7 @@ function Service() {
               <div class="service-card-into">
                 <div class="service-card">
                   <Link href="service-details.html">
-                    <Image src={ServiceIcon1} alt="Images" />
+                    <img src={ServiceIcon1} alt="Images" />
                   </Link>
                   <h3>
                     <Link href="service-details.html">
@@ -43,11 +43,11 @@ function Service() {
                     range of customers in market globally and internationally.
                   </p> */}
                   <div class="service-card-shape">
-                    <Image src={ServiceShape} alt="Images" />
+                    <img src={ServiceShape} alt="Images" />
                   </div>
                 </div>
                 <div class="service-dots">
-                  <Image src={Dots} alt="Images" />
+                  <img src={Dots} alt="Images" />
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ function Service() {
             <div class="col-lg-4">
               <div class="service-card">
                 <Link href="service-details.html">
-                  <Image src={ServiceIcon2} alt="Images" />
+                  <img src={ServiceIcon2} alt="Images" />
                 </Link>
                 <h3>
                   <Link href="service-details.html">
@@ -68,13 +68,13 @@ function Service() {
                   voluptatem
                 </p> */}
                 <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
+                  <img src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <Link href="service-details.html">
-                  <Image src={ServiceIcon3} alt="Images" />
+                  <img src={ServiceIcon3} alt="Images" />
                 </Link>
                 <h3>
                   <Link href="service-details.html">Reporting Services</Link>
@@ -85,7 +85,7 @@ function Service() {
                   voluptatem
                 </p> */}
                 <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
+                  <img src={ServiceShape} alt="Images" />
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ function Service() {
             <div class="col-lg-4">
               <div class="service-card">
                 <Link href="service-details.html">
-                  <Image src={ServiceIcon4} alt="Images" />
+                  <img src={ServiceIcon4} alt="Images" />
                 </Link>
                 <h3>
                   <Link href="service-details.html">
@@ -106,13 +106,13 @@ function Service() {
                   voluptatem
                 </p> */}
                 <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
+                  <img src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <Link href="service-details.html">
-                  <Image src={ServiceIcon5} alt="Images" />
+                  <img src={ServiceIcon5} alt="Images" />
                 </Link>
                 <h3>
                   <Link href="service-details.html">
@@ -125,13 +125,13 @@ function Service() {
                   voluptatem
                 </p> */}
                 <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
+                  <img src={ServiceShape} alt="Images" />
                 </div>
               </div>
 
               <div class="service-card">
                 <Link href="service-details.html">
-                  <Image src={ServiceIcon6} alt="Images" />
+                  <img src={ServiceIcon6} alt="Images" />
                 </Link>
                 <h3>
                   <Link href="service-details.html">
@@ -144,7 +144,7 @@ function Service() {
                   voluptatem
                 </p> */}
                 <div class="service-card-shape">
-                  <Image src={ServiceShape} alt="Images" />
+                  <img src={ServiceShape} alt="Images" />
                 </div>
               </div>
             </div>
@@ -153,13 +153,13 @@ function Service() {
 
         <div class="service-shape">
           <div class="service-bg">
-            <Image src={ServiceBg} alt="Images" />
+            <img src={ServiceBg} alt="Images" />
           </div>
           <div class="shape1">
-            <Image src={Shape4} alt="Images" />
+            <img src={Shape4} alt="Images" />
           </div>
           <div class="shape2">
-            <Image src={Shape2} alt="Images" />
+            <img src={Shape2} alt="Images" />
           </div>
         </div>
       </div>

@@ -83,23 +83,23 @@ export default function Mission() {
 
             <div class="col-lg-6">
               <div class="mission-img">
-                <Image src={MissionImg} alt="Images" />
+                <img src={MissionImg} alt="Images" />
               </div>
             </div>
           </div>
         </div>
         <div class="mission-shape">
           <div class="shape1">
-            <Image src={Shape13} alt="Images" />
+            <img src={Shape13} alt="Images" />
           </div>
           <div class="shape2">
-            <Image src={Shape11} alt="Images" />
+            <img src={Shape11} alt="Images" />
           </div>
           <div class="shape3">
-            <Image src={Shape12} alt="Images" />
+            <img src={Shape12} alt="Images" />
           </div>
           <div class="shape4">
-            <Image src={Shape9} alt="Images" />
+            <img src={Shape9} alt="Images" />
           </div>
         </div>
       </div>

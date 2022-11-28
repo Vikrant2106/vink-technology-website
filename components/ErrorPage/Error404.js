@@ -8,7 +8,7 @@ function Error404() {
         <div class="d-table">
           <div class="d-table-cell">
             <div class="error-content">
-              <Image src={Img404} alt="Image" />
+              <img src={Img404} alt="Image" />
               <h3>Oops! Page Not Found</h3>
               <p>
                 The page you are looking for might have been removed had its

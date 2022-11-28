@@ -44,19 +44,19 @@ export default function PrivacyPolicy() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={Shape1} alt="Images" />
+            <img src={Shape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={Shape2} alt="Images" />
+            <img src={Shape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={Shape3} alt="Images" />
+            <img src={Shape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -162,28 +162,28 @@ export default function PrivacyPolicy() {
           <div class="container-max">
             <div class="brand-logo-slider owl-carousel owl-theme">
               <div class="brand-logo-item">
-                <Image src={BrandLogo1} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle1} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo1} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle1} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <Image src={BrandLogo2} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle2} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo2} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle2} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <Image src={BrandLogo3} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle3} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo3} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle3} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <Image src={BrandLogo4} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle4} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo4} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle4} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <Image src={BrandLogo5} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle5} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo5} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle5} class="brand-logo2" alt="Images" />
               </div>
               <div class="brand-logo-item">
-                <Image src={BrandLogo6} class="brand-logo1" alt="Images" />
-                <Image src={BrandStyle6} class="brand-logo2" alt="Images" />
+                <img src={BrandLogo6} class="brand-logo1" alt="Images" />
+                <img src={BrandStyle6} class="brand-logo2" alt="Images" />
               </div>
             </div>
           </div>

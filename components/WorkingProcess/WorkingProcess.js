@@ -52,7 +52,7 @@ export default function WorkingProcess() {
         </div>
 
         <div class="work-shape">
-          <Image src={WorkShape} alt="Images" />
+          <img src={WorkShape} alt="Images" />
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ export default function Footer() {
             <div class="row align-items-center">
               <div class="col-lg- col-sm-6">
                 <div class="footer-img">
-                  <Image src={Logo1} class="footer-img1" alt="Images" />
+                  <img src={Logo1} class="footer-img1" alt="Images" />
                 </div>
               </div>
 

@@ -55,19 +55,19 @@ export default function BlogMultiple() {
 
         <div class="inner-banner-shape">
           <div class="shape-one">
-            <Image src={BannerShape1} alt="Images" />
+            <img src={BannerShape1} alt="Images" />
           </div>
 
           <div class="shape-two">
-            <Image src={BannerShape2} alt="Images" />
+            <img src={BannerShape2} alt="Images" />
           </div>
 
           <div class="shape-three">
-            <Image src={BannerShape3} alt="Images" />
+            <img src={BannerShape3} alt="Images" />
           </div>
 
           <div class="inner-banner-dots-2">
-            <Image src={DotShape} alt="Images" />
+            <img src={DotShape} alt="Images" />
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog1} alt="Images" />
+                  <img src={Blog1} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -114,7 +114,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog2} alt="Images" />
+                  <img src={Blog2} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -139,7 +139,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog3} alt="Images" />
+                  <img src={Blog3} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -164,7 +164,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog7} alt="Images" />
+                  <img src={Blog7} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -189,7 +189,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog8} alt="Images" />
+                  <img src={Blog8} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -214,7 +214,7 @@ export default function BlogMultiple() {
             <div class="col-lg-4 col-md-6">
               <div class="blog-card">
                 <Link href="blog-details.html">
-                  <Image src={Blog9} alt="Images" />
+                  <img src={Blog9} alt="Images" />
                 </Link>
                 <div class="content">
                   <ul>
@@ -265,16 +265,16 @@ export default function BlogMultiple() {
 
         <div class="blog-shape">
           <div class="shape1">
-            <Image src={Shape1} alt="Images" />
+            <img src={Shape1} alt="Images" />
           </div>
           <div class="shape2">
-            <Image src={Shape5} alt="Images" />
+            <img src={Shape5} alt="Images" />
           </div>
           <div class="shape3">
-            <Image src={Shape4} alt="Images" />
+            <img src={Shape4} alt="Images" />
           </div>
           <div class="shape4">
-            <Image src={Shape6} alt="Images" />
+            <img src={Shape6} alt="Images" />
           </div>
         </div>
       </div>

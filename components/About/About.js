@@ -17,7 +17,7 @@ export default function About() {
             <div class="row">
               <div class="col-lg-6">
                 <div class="about-img">
-                  {/* <Image src={AboutImage} layout="fill" alt="Images" /> */}
+                  {/* <img src={AboutImage} layout="fill" alt="Images" /> */}
                   <img
                     src="/img/about/about-img1.png"
                     layout="fill"
@@ -74,19 +74,19 @@ export default function About() {
         </div>
         <div class="about-shape">
           <div class="shape-1">
-            <Image src={AboutShape1} layout="fill" alt="Images" />
+            <img src={AboutShape1} layout="fill" alt="Images" />
           </div>
           <div class="shape-2">
-            <Image src={Shape1} layout="fill" alt="Images" />
+            <img src={Shape1} layout="fill" alt="Images" />
           </div>
           <div class="shape-3">
-            <Image src={Shape2} layout="fill" alt="Images" />
+            <img src={Shape2} layout="fill" alt="Images" />
           </div>
           <div class="shape-4">
-            <Image src={Shape3} layout="fill" alt="Images" />
+            <img src={Shape3} layout="fill" alt="Images" />
           </div>
           <div class="shape-5">
-            <Image src={Shape4} layout="fill" alt="Images" />
+            <img src={Shape4} layout="fill" alt="Images" />
           </div>
         </div>
       </div>
