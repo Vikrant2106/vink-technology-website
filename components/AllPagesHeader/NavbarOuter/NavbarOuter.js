@@ -66,20 +66,6 @@ export default function NavbarOuter() {
                 </ul>
 
                 <div class="side-nav d-in-line align-items-center">
-                  {/* <div class="side-item">
-                    <div class="search-box">
-                      <i class="flaticon-loupe"></i>
-                    </div>
-                  </div>
-
-                  <div class="side-item">
-                    <div class="user-btn">
-                      <Link href="#">
-                        <i class="flaticon-contact"></i>
-                      </Link>
-                    </div>
-                  </div> */}
-
                   <div class="side-item">
                     <div class="nav-add-btn">
                       <Link href="/contact" class="nav-menu-btn">
