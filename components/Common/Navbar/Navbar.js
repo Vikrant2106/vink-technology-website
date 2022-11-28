@@ -19,16 +19,8 @@ export default function Navbar() {
             {/* <img src={Logo1} className="logo-one" alt="Logo" /> */}
             {/* <img src={Logo2} className="logo-two" alt="Logo" /> */}
 
-            <img
-              src="../../../public/img/logo/logo1.png"
-              className="logo-one"
-              alt="Logo"
-            />
-            <img
-              src="../../../public/img/logo/logo2.png"
-              className="logo-two"
-              alt="Logo"
-            />
+            <img src="./img/logo/logo1.png" className="logo-one" alt="Logo" />
+            <img src="./img/logo/logo2.png" className="logo-two" alt="Logo" />
           </a>
         </div>
 

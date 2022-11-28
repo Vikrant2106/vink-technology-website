@@ -17,8 +17,8 @@ export default function NavbarOuter() {
           <a href="/" class="logo">
             {/* <img src={Logo1} class="logo-one" alt="Logo" />
               <img src={Logo2} class="logo-two" alt="Logo" /> */}
-            <img src="/img/logo/logo1.png" className="logo-one" alt="Logo" />
-            <img src="/img/logo/logo2.png" className="logo-two" alt="Logo" />
+            <img src="./img/logo/logo1.png" className="logo-one" alt="Logo" />
+            <img src="./img/logo/logo2.png" className="logo-two" alt="Logo" />
           </a>
         </div>
 
