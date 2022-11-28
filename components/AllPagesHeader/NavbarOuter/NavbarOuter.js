@@ -27,7 +27,7 @@ export default function NavbarOuter() {
           <div class="container-fluid">
             <nav class="container-max-2 navbar navbar-expand-md navbar-light ">
               <Link class="navbar-brand" href="/">
-                <img src={Logo2} alt="Logo" />
+                <img src="./img/logo/logo2.png" alt="Logo" />
               </Link>
 
               <div
