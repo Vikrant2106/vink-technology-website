@@ -30,11 +30,11 @@ function Service() {
             <div class="col-lg-4">
               <div class="service-card-into">
                 <div class="service-card">
-                  <Link href="service-details.html">
+                  <Link href="/Services/Mobile-Application">
                     <Image src={ServiceIcon1} alt="Images" />
                   </Link>
                   <h3>
-                    <Link href="service-details.html">
+                    <Link href="/Services/Mobile-Application">
                       Mobile and Web App Development
                     </Link>
                   </h3>
@@ -54,11 +54,11 @@ function Service() {
 
             <div class="col-lg-4">
               <div class="service-card">
-                <Link href="service-details.html">
+                <Link href="/Services/Website-Development">
                   <Image src={ServiceIcon2} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">
+                  <Link href="/Services/Website-Development">
                     Custom Software Development
                   </Link>
                 </h3>
@@ -73,11 +73,13 @@ function Service() {
               </div>
 
               <div class="service-card">
-                <Link href="service-details.html">
+                <Link href="/Services/Website-Development">
                   <Image src={ServiceIcon3} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">Reporting Services</Link>
+                  <Link href="/Services/Website-Development">
+                    Reporting Services
+                  </Link>
                 </h3>
                 {/* <p>
                   Lorem ipsum dolor sit amet, aut odiut perspiciatis unde omnis
@@ -92,11 +94,11 @@ function Service() {
 
             <div class="col-lg-4">
               <div class="service-card">
-                <Link href="service-details.html">
+                <Link href="/Services/Designing">
                   <Image src={ServiceIcon4} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">
+                  <Link href="/Services/Designing">
                     User Interface & User Experience Design
                   </Link>
                 </h3>
@@ -111,11 +113,11 @@ function Service() {
               </div>
 
               <div class="service-card">
-                <Link href="service-details.html">
+                <Link href="/Services/Website-Development">
                   <Image src={ServiceIcon5} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">
+                  <Link href="/Services/Website-Development">
                     IT Technology Consulting
                   </Link>
                 </h3>
@@ -130,11 +132,11 @@ function Service() {
               </div>
 
               <div class="service-card">
-                <Link href="service-details.html">
+                <Link href="/Services/Website-Development">
                   <Image src={ServiceIcon6} alt="Images" />
                 </Link>
                 <h3>
-                  <Link href="service-details.html">
+                  <Link href="/Services/Website-Development">
                     Software as a Service (SaaS)
                   </Link>
                 </h3>
